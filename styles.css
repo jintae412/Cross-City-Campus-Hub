@@ -138,6 +138,61 @@ button {
   color: var(--muted);
 }
 
+.cap-label {
+  font-variant-caps: small-caps;
+  letter-spacing: 0.05em;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ox);
+  margin: 0 0 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cap-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+
+.card {
+  background: #fff9ea;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 1.2rem 1.35rem;
+}
+
+.wx-row {
+  display: flex;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+}
+
+.wx-day {
+  font-style: italic;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.wx-temp {
+  font-size: 1.15rem;
+  margin-top: 0.2rem;
+}
+
+.wx-lo {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.wx-cond {
+  font-size: 0.76rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+
 @media (max-width: 900px) {
   .app {
     flex-direction: column;
