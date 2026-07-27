@@ -59,10 +59,37 @@
       </div>
       <div class="map-section">
         <p class="cap-label">Campus Map</p>
+        <div class="map-filters">
+          <label for="col-map-category">Category
+            <select id="col-map-category">
+              <option value="all">All categories</option>
+              <option value="dorm">Dorm</option>
+              <option value="library">Library</option>
+              <option value="dining">Dining Hall</option>
+              <option value="subway">Subway</option>
+              <option value="parking">Parking</option>
+              <option value="gym">Gym / Athletic</option>
+              <option value="restroom">Restroom</option>
+              <option value="meet">Meeting Spot</option>
+              <option value="rain-backup">Indoor Rain Backup</option>
+              <option value="quiet">Quiet Spot</option>
+              <option value="group-food">Group Food (5&ndash;20)</option>
+              <option value="church">Nearby Church</option>
+              <option value="sit-no-id">Sit Without ID</option>
+              <option value="wifi">Good Wi-Fi</option>
+              <option value="power">Power Outlets</option>
+            </select>
+          </label>
+          <label for="col-map-size">Fits at least
+            <input type="number" id="col-map-size" min="1" max="500" value="1"> people
+          </label>
+        </div>
         <div id="columbia-map" class="leaflet-map"></div>
         <div class="map-legend-simple">
-          <span><span class="swatch" style="background:#B9922F"></span>Library</span>
-          <span><span class="swatch" style="background:#8A3230"></span>Dorm</span>
+          <span><span class="swatch" style="background:#2E3F58"></span>Lodging &amp; Study</span>
+          <span><span class="swatch" style="background:#B9922F"></span>Food</span>
+          <span><span class="swatch" style="background:#5B564A"></span>Transit &amp; Parking</span>
+          <span><span class="swatch" style="background:#8A3230"></span>Social &amp; Faith</span>
         </div>
       </div>
     </section>

@@ -111,11 +111,15 @@ Separate from the deployed app entirely (per spec's security boundary).
 
 - **Campus boundary outline (Columbia, and later NYU).** Attempted in Slice 5 using hand-derived
   corner coordinates (from one confirmed street-corner lookup + known building coordinates); the
-  result was noticeably too small/inaccurate once rendered on the real map and was removed. Retry
-  with a real surveyed boundary instead of derived corners — most likely path is querying
-  OpenStreetMap's Overpass API for the campus way/relation (public Overpass mirrors were timing out
-  when this was attempted; retry later or try a different mirror), or sourcing an official campus
-  GeoJSON/KML if the university publishes one. Not blocking — pins and filtering can proceed without it.
+  result was noticeably too small/inaccurate once rendered on the real map and was removed.
+  **Update:** the Overpass timeouts encountered then were actually a missing `User-Agent` header
+  (fixed in `scripts/find_nearby_pins.py` during the Slice 6 pin-expansion work) — this is now
+  unblocked and worth retrying with a real queried boundary rather than derived corners.
+- **Columbia map pin depth (in progress).** Mid-expansion using `scripts/find_nearby_pins.py` (an
+  early, map-pins-only implementation of the Slice 8 offline-authoring tool, pulled forward because
+  the need showed up here first). See
+  [map-expansion-status.md](./map-expansion-status.md) for exact state and resume steps — do not
+  re-derive this from scratch, read that file first.
 
 ## Working Agreement
 

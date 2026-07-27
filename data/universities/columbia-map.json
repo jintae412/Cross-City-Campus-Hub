@@ -1,20 +1,529 @@
 [
   {
+    "id": "john-jay-hall",
+    "name": "John Jay Hall",
+    "categories": ["dorm"],
+    "lat": 40.8059,
+    "lng": -73.9624,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/johnjay"
+  },
+  {
+    "id": "hartley-hall",
+    "name": "Hartley Hall",
+    "categories": ["dorm"],
+    "lat": 40.806466,
+    "lng": -73.961785,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/hartley"
+  },
+  {
+    "id": "mcbain-hall",
+    "name": "McBain Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/mcbain"
+  },
+  {
+    "id": "wallach-hall",
+    "name": "Wallach Hall",
+    "categories": ["dorm"],
+    "lat": 40.8054,
+    "lng": -73.9640,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/wallach"
+  },
+  {
+    "id": "wien-hall",
+    "name": "Wien Hall",
+    "categories": ["dorm"],
+    "lat": 40.8054,
+    "lng": -73.9638,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/wien"
+  },
+  {
+    "id": "carman-hall",
+    "name": "Carman Hall",
+    "categories": ["dorm"],
+    "lat": 40.8063,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/carman"
+  },
+  {
+    "id": "furnald-hall",
+    "name": "Furnald Hall",
+    "categories": ["dorm"],
+    "lat": 40.8070,
+    "lng": -73.9640,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/furnald"
+  },
+  {
+    "id": "broadway-hall",
+    "name": "Broadway Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9642,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/broadway"
+  },
+  {
+    "id": "hogan-hall",
+    "name": "Hogan Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9642,
+    "hours": "Residential building — access restricted to residents (shares entrance with Broadway Hall)",
+    "contactUrl": "https://www.housing.columbia.edu/hogan"
+  },
+  {
+    "id": "east-campus",
+    "name": "East Campus",
+    "categories": ["dorm"],
+    "lat": 40.8087,
+    "lng": -73.9595,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/eastcampus"
+  },
+  {
+    "id": "47-claremont",
+    "name": "47 Claremont Avenue",
+    "categories": ["dorm"],
+    "lat": 40.8100,
+    "lng": -73.9660,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/47claremont"
+  },
+  {
+    "id": "schapiro-hall",
+    "name": "Schapiro Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9645,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/schapiro"
+  },
+  {
+    "id": "ruggles-hall",
+    "name": "Ruggles Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/ruggles"
+  },
+  {
+    "id": "watt-hall",
+    "name": "Watt Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/watt"
+  },
+  {
+    "id": "harmony-hall",
+    "name": "Harmony Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/harmony"
+  },
+  {
+    "id": "river-hall",
+    "name": "River Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9635,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/river"
+  },
+  {
+    "id": "woodbridge-hall",
+    "name": "Woodbridge Hall",
+    "categories": ["dorm"],
+    "lat": 40.8065,
+    "lng": -73.9690,
+    "hours": "Residential building — access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/woodbridge"
+  },
+  {
     "id": "butler-library",
     "name": "Butler Library",
-    "category": "library",
+    "categories": ["library", "wifi", "quiet"],
     "lat": 40.8064,
     "lng": -73.9630,
     "hours": "Hours vary by semester and during finals — check library.columbia.edu/libraries/butler",
     "contactUrl": "https://library.columbia.edu/libraries/butler.html"
   },
   {
-    "id": "john-jay-hall",
-    "name": "John Jay Hall",
-    "category": "dorm",
+    "id": "avery-library",
+    "name": "Avery Architectural & Fine Arts Library",
+    "categories": ["library", "quiet", "wifi", "power", "restroom", "rain-backup"],
+    "lat": 40.8082,
+    "lng": -73.9610,
+    "hours": "Hours vary by semester — check library.columbia.edu/libraries/avery",
+    "contactUrl": "https://library.columbia.edu/libraries/avery.html"
+  },
+  {
+    "id": "starr-east-asian-library",
+    "name": "C.V. Starr East Asian Library",
+    "categories": ["library", "quiet", "wifi"],
+    "lat": 40.8072,
+    "lng": -73.9617,
+    "hours": "Hours vary by semester — check library.columbia.edu/libraries/eastasian",
+    "contactUrl": "https://library.columbia.edu/libraries/eastasian.html"
+  },
+  {
+    "id": "lehman-library",
+    "name": "Lehman Social Sciences Library",
+    "categories": ["library", "wifi", "power", "restroom", "rain-backup"],
+    "lat": 40.8082,
+    "lng": -73.9585,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "burke-library",
+    "name": "The Burke Library (Union Theological Seminary)",
+    "categories": ["library", "quiet"],
+    "lat": 40.8100,
+    "lng": -73.9615,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "uris-business-library",
+    "name": "Business & Economics Library (Uris Hall)",
+    "categories": ["library", "wifi", "power"],
+    "lat": 40.8080,
+    "lng": -73.9588,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "journalism-library",
+    "name": "Journalism Library",
+    "categories": ["library", "quiet"],
+    "lat": 40.8078,
+    "lng": -73.9613,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "law-library",
+    "name": "Li Lu Law Library",
+    "categories": ["library", "wifi", "power"],
+    "lat": 40.8075,
+    "lng": -73.9600,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "math-library",
+    "name": "Mathematics Library",
+    "categories": ["library", "quiet"],
+    "lat": 40.8080,
+    "lng": -73.9622,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "music-arts-library",
+    "name": "Gabe M. Wiener Music & Arts Library",
+    "categories": ["library", "quiet"],
+    "lat": 40.8078,
+    "lng": -73.9625,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "science-engineering-library",
+    "name": "Science & Engineering Library",
+    "categories": ["library", "wifi", "power"],
+    "lat": 40.8090,
+    "lng": -73.9615,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "social-work-library",
+    "name": "Social Work Library",
+    "categories": ["library", "quiet"],
+    "lat": 40.8095,
+    "lng": -73.9600,
+    "hours": "Hours vary by semester — check library.columbia.edu",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "barnard-library",
+    "name": "Barnard Library",
+    "categories": ["library", "quiet", "wifi"],
+    "lat": 40.8085,
+    "lng": -73.9648,
+    "hours": "Hours vary by semester — separate institution, check its own listing before assuming Columbia access rules apply",
+    "contactUrl": "https://barnard.edu/library"
+  },
+  {
+    "id": "jts-library",
+    "name": "Jewish Theological Seminary Library",
+    "categories": ["library", "quiet"],
+    "lat": 40.8105,
+    "lng": -73.9618,
+    "hours": "Hours vary by semester — separate institution, check its own listing before assuming Columbia access rules apply",
+    "contactUrl": "https://library.columbia.edu/libraries.html"
+  },
+  {
+    "id": "tc-library",
+    "name": "Teachers College Library (Gottesman Libraries)",
+    "categories": ["library", "quiet", "wifi"],
+    "lat": 40.8093,
+    "lng": -73.9605,
+    "hours": "Hours vary by semester — separate institution, check its own listing before assuming Columbia access rules apply",
+    "contactUrl": "https://library.tc.columbia.edu/"
+  },
+  {
+    "id": "chef-mikes",
+    "name": "Chef Mike's Sub Shop",
+    "categories": ["dining", "group-food"],
+    "capacity": 10,
+    "lat": 40.8080,
+    "lng": -73.9590,
+    "hours": "Hours vary by semester — check dining.columbia.edu/chef-mikes",
+    "contactUrl": "https://dining.columbia.edu/chef-mikes"
+  },
+  {
+    "id": "john-jay-dining",
+    "name": "John Jay Dining Hall",
+    "categories": ["dining", "group-food"],
+    "capacity": 30,
     "lat": 40.8059,
     "lng": -73.9624,
-    "hours": "Residential building — first-year dorm, access restricted to residents",
-    "contactUrl": "https://www.housing.columbia.edu/johnjay"
+    "hours": "Sun–Thu 9:30am–9pm (Spring 2026 posted hours) — check dining.columbia.edu for current schedule",
+    "contactUrl": "https://dining.columbia.edu/"
+  },
+  {
+    "id": "jjs-place",
+    "name": "JJ's Place",
+    "categories": ["dining", "group-food"],
+    "capacity": 15,
+    "lat": 40.8059,
+    "lng": -73.9624,
+    "hours": "Open late, 7 days/week — check dining.columbia.edu for current hours",
+    "contactUrl": "https://dining.columbia.edu/"
+  },
+  {
+    "id": "ferris-booth-commons",
+    "name": "Ferris Booth Commons",
+    "categories": ["dining", "group-food"],
+    "capacity": 30,
+    "lat": 40.80685,
+    "lng": -73.96394,
+    "hours": "Mon–Fri 7:30am–8pm, Sat 9am–8pm, Sun 10am–2pm & 4–8pm (Spring 2026 posted hours)",
+    "contactUrl": "https://dining.columbia.edu/"
+  },
+  {
+    "id": "faculty-house",
+    "name": "Faculty House",
+    "categories": ["dining", "group-food"],
+    "capacity": 20,
+    "lat": 40.8085,
+    "lng": -73.9595,
+    "hours": "Mon–Thu 11am–2:30pm (Spring 2026 posted hours) — check facultyhouse.columbia.edu",
+    "contactUrl": "https://facultyhouse.columbia.edu/"
+  },
+  {
+    "id": "subway-116th",
+    "name": "116th St – Columbia University Station (1 train)",
+    "categories": ["subway"],
+    "lat": 40.8081,
+    "lng": -73.9639,
+    "schedule": { "type": "always" },
+    "hours": "Subway service runs 24/7"
+  },
+  {
+    "id": "iab-garage",
+    "name": "International Affairs Building Garage",
+    "categories": ["parking"],
+    "lat": 40.8082,
+    "lng": -73.9585,
+    "hours": "Visitor spots are very limited — primarily reserved for faculty; call ahead to confirm availability",
+    "contactUrl": "https://transportation.columbia.edu/parking"
+  },
+  {
+    "id": "champion-parking",
+    "name": "Champion Parking",
+    "categories": ["parking"],
+    "lat": 40.8054,
+    "lng": -73.9648,
+    "hours": "Commercial garage, open 24 hours",
+    "contactUrl": "tel:+12126630113"
+  },
+  {
+    "id": "claremont-parking",
+    "name": "Claremont Parking Corp.",
+    "categories": ["parking"],
+    "lat": 40.8100,
+    "lng": -73.9700,
+    "hours": "Commercial garage, open 6am–midnight",
+    "contactUrl": "tel:+12128706736"
+  },
+  {
+    "id": "dodge-fitness",
+    "name": "Dodge Fitness Center",
+    "categories": ["gym"],
+    "lat": 40.8098,
+    "lng": -73.9642,
+    "hours": "Open gym hours vary by semester — check perec.columbia.edu",
+    "contactUrl": "https://perec.columbia.edu/"
+  },
+  {
+    "id": "lerner-hall",
+    "name": "Alfred Lerner Hall",
+    "categories": ["restroom", "rain-backup", "power", "meet"],
+    "capacity": 40,
+    "lat": 40.80685,
+    "lng": -73.96394,
+    "hours": "Generally open daily; specific hours vary — check lernerhall.columbia.edu",
+    "contactUrl": "https://lernerhall.columbia.edu/"
+  },
+  {
+    "id": "low-library-sundial",
+    "name": "Low Library Steps / Sundial",
+    "categories": ["meet", "sit-no-id"],
+    "capacity": 50,
+    "lat": 40.80833,
+    "lng": -73.96194,
+    "hours": "Open-air plaza — but Columbia's campus has had periods of restricted public/visitor access in recent years; confirm current entry policy at visit.columbia.edu before planning to meet here",
+    "contactUrl": "https://visit.columbia.edu/"
+  },
+  {
+    "id": "college-walk",
+    "name": "College Walk",
+    "categories": ["meet", "sit-no-id"],
+    "capacity": 50,
+    "lat": 40.8075,
+    "lng": -73.9615,
+    "hours": "Open-air central promenade — same visitor-access caveat as Low Library applies",
+    "contactUrl": "https://visit.columbia.edu/"
+  },
+  {
+    "id": "st-pauls-chapel",
+    "name": "St. Paul's Chapel",
+    "categories": ["quiet"],
+    "lat": 40.80783,
+    "lng": -73.96094,
+    "hours": "Hours vary, generally open during the day when no events are scheduled — check religiouslife.columbia.edu",
+    "contactUrl": "https://religiouslife.columbia.edu/content/st-pauls-chapel"
+  },
+  {
+    "id": "sakura-park",
+    "name": "Sakura Park",
+    "categories": ["quiet", "meet"],
+    "capacity": 30,
+    "lat": 40.81306,
+    "lng": -73.96222,
+    "hours": "Public NYC park — open dawn to dusk generally, no ID needed",
+    "contactUrl": "https://riversideparknyc.org/parks/sakura-park/"
+  },
+  {
+    "id": "riverside-park",
+    "name": "Riverside Park (near W116 St)",
+    "categories": ["quiet", "meet", "sit-no-id"],
+    "capacity": 50,
+    "lat": 40.8081,
+    "lng": -73.9695,
+    "hours": "Public NYC park along the Hudson — open dawn to dusk generally, no ID needed",
+    "contactUrl": "https://riversideparknyc.org/"
+  },
+  {
+    "id": "morningside-park",
+    "name": "Morningside Park",
+    "categories": ["meet", "sit-no-id"],
+    "capacity": 40,
+    "lat": 40.8081,
+    "lng": -73.9585,
+    "hours": "Public NYC park on campus's east side — open dawn to dusk generally, no ID needed",
+    "contactUrl": "https://www.nycgovparks.org/parks/morningside-park"
+  },
+  {
+    "id": "riverside-church",
+    "name": "Riverside Church",
+    "categories": ["church"],
+    "lat": 40.8116,
+    "lng": -73.9629,
+    "hours": "Service times and visiting hours vary — check trcnyc.org",
+    "contactUrl": "https://www.trcnyc.org/"
+  },
+  {
+    "id": "st-john-divine",
+    "name": "Cathedral of St. John the Divine",
+    "categories": ["church"],
+    "lat": 40.80384,
+    "lng": -73.96296,
+    "hours": "Service times and visiting hours vary — check stjohndivine.org",
+    "contactUrl": "https://www.stjohndivine.org/"
+  },
+  {
+    "id": "broadway-presbyterian",
+    "name": "Broadway Presbyterian Church",
+    "categories": ["church"],
+    "lat": 40.8069,
+    "lng": -73.9642,
+    "hours": "Service times and visiting hours vary — check bpcnyc.org",
+    "contactUrl": "https://www.bpcnyc.org/"
+  },
+  {
+    "id": "corpus-christi",
+    "name": "Corpus Christi Church",
+    "categories": ["church"],
+    "lat": 40.81111,
+    "lng": -73.96077,
+    "hours": "Mass times and visiting hours vary — check corpus-christi-nyc.org",
+    "contactUrl": "https://www.corpus-christi-nyc.org/"
+  },
+  {
+    "id": "toms-restaurant",
+    "name": "Tom's Restaurant",
+    "categories": ["group-food"],
+    "capacity": 15,
+    "lat": 40.8053,
+    "lng": -73.9645,
+    "hours": "Regular diner hours — no reservations needed"
+  },
+  {
+    "id": "koronet-pizza",
+    "name": "Koronet Pizza",
+    "categories": ["group-food"],
+    "capacity": 15,
+    "lat": 40.8055,
+    "lng": -73.9648,
+    "hours": "Mon–Thu, Sun 10am–2am; Fri–Sat 10am–4am",
+    "contactUrl": "https://www.koronetpizzany.com/"
+  },
+  {
+    "id": "community-food-juice",
+    "name": "Community Food & Juice",
+    "categories": ["group-food"],
+    "capacity": 20,
+    "lat": 40.8059,
+    "lng": -73.9648,
+    "hours": "Hours vary — check communityfoodandjuice.com",
+    "contactUrl": "https://www.communityfoodandjuice.com/"
+  },
+  {
+    "id": "max-soha",
+    "name": "Max Soha",
+    "categories": ["group-food"],
+    "capacity": 20,
+    "lat": 40.8110,
+    "lng": -73.9578,
+    "hours": "Breakfast/Lunch daily 9am–4pm, Dinner daily 4–10:30pm",
+    "contactUrl": "https://www.maxsoha.com/"
   }
 ]

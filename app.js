@@ -218,15 +218,34 @@ loadUniversity('columbia', 'columbia-content');
 loadUniversity('nyu', 'nyu-content');
 
 var columbiaMapInitialized = false;
+var columbiaMarkers = []; // { marker, categories, capacity }
 
-var MAP_CATEGORY_COLORS = {
-  library: '#B9922F',
-  dorm: '#8A3230'
-};
 var MAP_CATEGORY_LABELS = {
-  library: 'Library',
-  dorm: 'Dorm'
+  dorm: 'Dorm', library: 'Library', dining: 'Dining Hall', subway: 'Subway',
+  parking: 'Parking', gym: 'Gym / Athletic', restroom: 'Restroom', meet: 'Meeting Spot',
+  'rain-backup': 'Indoor Rain Backup', quiet: 'Quiet Spot', 'group-food': 'Group Food',
+  church: 'Nearby Church', 'sit-no-id': 'Sit Without ID', wifi: 'Good Wi-Fi', power: 'Power Outlets'
 };
+
+// Marker color reflects a broad group, not every individual category — with up to four
+// categories on a single pin (e.g. Lerner Hall), per-category marker colors would be ambiguous
+// anyway. Fine-grained filtering still works off the full category list via the dropdown.
+var MAP_CATEGORY_GROUP = {
+  dorm: 'lodging', library: 'lodging', quiet: 'lodging', wifi: 'lodging', power: 'lodging',
+  restroom: 'lodging', 'rain-backup': 'lodging',
+  dining: 'food', 'group-food': 'food',
+  subway: 'transit', parking: 'transit',
+  meet: 'social', 'sit-no-id': 'social', church: 'social', gym: 'social'
+};
+var MAP_GROUP_COLORS = {
+  lodging: '#2E3F58', food: '#B9922F', transit: '#5B564A', social: '#8A3230'
+};
+
+function isOpenNow(schedule) {
+  if (!schedule) { return null; }
+  if (schedule.type === 'always') { return true; }
+  return null;
+}
 
 function initColumbiaMap() {
   if (columbiaMapInitialized) { return; }
@@ -242,22 +261,58 @@ function initColumbiaMap() {
     .then(function (res) { return res.json(); })
     .then(function (pins) {
       pins.forEach(function (pin) {
-        var color = MAP_CATEGORY_COLORS[pin.category] || '#5B564A';
-        var label = MAP_CATEGORY_LABELS[pin.category] || pin.category;
-        var popup = '<strong>' + pin.name + '</strong> &mdash; ' + label
+        var primaryCategory = pin.categories[0];
+        var color = MAP_GROUP_COLORS[MAP_CATEGORY_GROUP[primaryCategory]] || '#5B564A';
+        var categoryLabels = pin.categories.map(function (c) { return MAP_CATEGORY_LABELS[c] || c; }).join(', ');
+
+        var openStatus = isOpenNow(pin.schedule);
+        var statusHtml = openStatus === true
+          ? '<br><strong style="color:#3F6B3E">Open now</strong>'
+          : '';
+
+        var popup = '<strong>' + pin.name + '</strong><br><em>' + categoryLabels + '</em>'
+          + statusHtml
           + '<br>' + pin.hours
+          + (pin.capacity ? '<br>Fits up to ' + pin.capacity : '')
           + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
-        L.circleMarker([pin.lat, pin.lng], {
+
+        var marker = L.circleMarker([pin.lat, pin.lng], {
           radius: 9,
           color: '#F1ECDD',
           weight: 2,
           fillColor: color,
           fillOpacity: 1
-        }).addTo(map).bindPopup(popup);
+        }).bindPopup(popup);
+
+        columbiaMarkers.push({ marker: marker, categories: pin.categories, capacity: pin.capacity });
       });
+
+      applyColumbiaMapFilters(map);
     });
 
+  var categorySelect = document.getElementById('col-map-category');
+  var sizeInput = document.getElementById('col-map-size');
+  categorySelect.addEventListener('change', function () { applyColumbiaMapFilters(map); });
+  sizeInput.addEventListener('input', function () { applyColumbiaMapFilters(map); });
+
   setTimeout(function () { map.invalidateSize(); }, 100);
+}
+
+function applyColumbiaMapFilters(map) {
+  var category = document.getElementById('col-map-category').value;
+  var size = parseInt(document.getElementById('col-map-size').value, 10) || 1;
+
+  columbiaMarkers.forEach(function (entry) {
+    var matchesCategory = category === 'all' || entry.categories.indexOf(category) !== -1;
+    var matchesSize = !entry.capacity || entry.capacity >= size;
+    var shouldShow = matchesCategory && matchesSize;
+
+    if (shouldShow && !map.hasLayer(entry.marker)) {
+      entry.marker.addTo(map);
+    } else if (!shouldShow && map.hasLayer(entry.marker)) {
+      map.removeLayer(entry.marker);
+    }
+  });
 }
 
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
