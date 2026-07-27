@@ -129,6 +129,40 @@ function renderHourly(panel, dateStr) {
 
 loadWeather();
 
+function loadEvents() {
+  var list = document.getElementById('events-list');
+
+  fetch('data/nyc-events.json')
+    .then(function (res) {
+      if (!res.ok) { throw new Error('Events request failed'); }
+      return res.json();
+    })
+    .then(function (events) { renderEvents(list, events); })
+    .catch(function () {
+      list.innerHTML = '<p class="placeholder">Events are temporarily unavailable.</p>';
+    });
+}
+
+function renderEvents(list, events) {
+  if (!events.length) {
+    list.innerHTML = '<p class="placeholder">No events added yet &mdash; edit data/nyc-events.json to add one.</p>';
+    return;
+  }
+
+  list.innerHTML = events.map(function (ev) {
+    var titleHtml = ev.url
+      ? '<a href="' + ev.url + '" target="_blank" rel="noopener">' + ev.title + '</a>'
+      : ev.title;
+    var meta = [ev.date, ev.location].filter(Boolean).join(' &middot; ');
+    return '<div class="event-item">'
+      + '<div class="event-title">' + titleHtml + '</div>'
+      + (meta ? '<div class="event-meta">' + meta + '</div>' : '')
+      + '</div>';
+  }).join('');
+}
+
+loadEvents();
+
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
   btn.addEventListener('click', function () {
     var target = btn.getAttribute('data-target');

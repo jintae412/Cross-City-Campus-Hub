@@ -165,6 +165,65 @@ button {
   padding: 1.2rem 1.35rem;
 }
 
+.row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .row-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.blurb {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  margin: 0 0 0.8rem;
+}
+
+.link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link-list li + li {
+  margin-top: 0.5rem;
+}
+
+.link-list a {
+  font-size: 0.94rem;
+  color: var(--ox);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.event-item + .event-item {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+.event-title {
+  font-size: 0.95rem;
+}
+
+.event-title a {
+  color: var(--ox);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.event-meta {
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
+
 .wx-row {
   display: flex;
   gap: 0.9rem;
