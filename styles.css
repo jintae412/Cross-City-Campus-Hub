@@ -167,8 +167,29 @@ button {
 
 .wx-row {
   display: flex;
-  gap: 1.4rem;
+  gap: 0.9rem;
   flex-wrap: wrap;
+}
+
+.wx-day-col {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+}
+
+.wx-day-col:hover,
+.wx-day-col[aria-pressed="true"] {
+  background: rgba(138, 50, 48, 0.08);
+}
+
+.wx-day-col:focus-visible {
+  outline: 2px solid var(--ox);
+  outline-offset: 2px;
 }
 
 .wx-day {
@@ -177,20 +198,94 @@ button {
   color: var(--muted);
 }
 
+.wx-icon {
+  width: 26px;
+  height: 26px;
+  margin: 0.35rem auto 0.15rem;
+  color: var(--ox);
+}
+
+.wx-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
 .wx-temp {
-  font-size: 1.15rem;
-  margin-top: 0.2rem;
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.wx-hi {
+  font-weight: 600;
+}
+
+.wx-hi::before {
+  content: "H ";
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--muted);
 }
 
 .wx-lo {
   color: var(--muted);
-  font-size: 0.85rem;
+  margin-left: 0.35rem;
+}
+
+.wx-lo::before {
+  content: "L ";
+  font-size: 0.68rem;
 }
 
 .wx-cond {
-  font-size: 0.76rem;
+  font-size: 0.74rem;
   color: var(--muted);
   margin-top: 0.15rem;
+}
+
+.wx-hourly[hidden] {
+  display: none;
+}
+
+.wx-hourly {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dotted rgba(0, 0, 0, 0.22);
+}
+
+.wx-hourly-title {
+  font-size: 0.84rem;
+  font-style: italic;
+  color: var(--muted);
+  margin: 0 0 0.7rem;
+}
+
+.wx-hourly-row {
+  display: flex;
+  gap: 1.1rem;
+  overflow-x: auto;
+  padding-bottom: 0.35rem;
+}
+
+.wx-hour {
+  flex: none;
+  text-align: center;
+  min-width: 2.8rem;
+}
+
+.wx-hour-time {
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.wx-hour .wx-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.wx-hour-temp {
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
 }
 
 @media (max-width: 900px) {
