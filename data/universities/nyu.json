@@ -4,10 +4,10 @@
   "culture": "NYU keeps no walled campus — Washington Square Park serves as its true quad, and student life is woven into Greenwich Village itself, so knowing the neighborhood matters as much as knowing any building.",
   "demographics": {
     "undergrad": 28663,
-    "graduate": 27772,
+    "graduate": 27768,
     "womenPct": 59.3,
     "internationalPct": 26.1,
-    "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count (~27,772, Fall 2024): from aggregator sites reporting IPEDS data, not confirmed directly against NYU's own institutional research page — treat as approximate pending direct confirmation."
+    "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count: NYU Common Data Set 2024-2025 (NYU Office of Institutional Research), confirmed directly."
   },
   "majors": [
     { "label": "Visual & Performing Arts", "pct": 16.1 },

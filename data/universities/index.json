@@ -1,3 +1,4 @@
 [
-  { "id": "columbia", "name": "Columbia University", "dataFile": "data/universities/columbia.json" }
+  { "id": "columbia", "name": "Columbia University", "dataFile": "data/universities/columbia.json" },
+  { "id": "nyu", "name": "New York University", "dataFile": "data/universities/nyu.json" }
 ]

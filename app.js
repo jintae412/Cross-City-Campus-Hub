@@ -215,6 +215,7 @@ function renderUniversity(container, uni) {
 }
 
 loadUniversity('columbia', 'columbia-content');
+loadUniversity('nyu', 'nyu-content');
 
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
   btn.addEventListener('click', function () {
