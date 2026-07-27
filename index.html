@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Campus Hub</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <p class="eyebrow">Field Guide</p>
+    <h1 class="wordmark">NYC Campus Hub</h1>
+    <nav class="toc">
+      <button type="button" data-role="nav" data-target="nyc" aria-pressed="true">NYC Overview</button>
+      <button type="button" data-role="nav" data-target="columbia" aria-pressed="false">Columbia</button>
+      <button type="button" data-role="nav" data-target="nyu" aria-pressed="false">NYU</button>
+    </nav>
+    <p class="sidebar-note">Built for the ministry's NYC &amp; campus outreach trips.</p>
+  </aside>
+
+  <main class="content">
+    <section class="page-section" data-section="nyc">
+      <h2 class="page-title">New York City</h2>
+      <p class="placeholder">Weather, traffic, and city-wide events land here in the next build step.</p>
+    </section>
+
+    <section class="page-section" data-section="columbia" hidden>
+      <h2 class="page-title">Columbia University</h2>
+      <p class="placeholder">Culture, majors, calendar, and campus map land here soon.</p>
+    </section>
+
+    <section class="page-section" data-section="nyu" hidden>
+      <h2 class="page-title">New York University</h2>
+      <p class="placeholder">Culture, majors, calendar, and campus map land here soon.</p>
+    </section>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
