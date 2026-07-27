@@ -1,0 +1,35 @@
+{
+  "id": "nyu",
+  "name": "New York University",
+  "culture": "NYU keeps no walled campus — Washington Square Park serves as its true quad, and student life is woven into Greenwich Village itself, so knowing the neighborhood matters as much as knowing any building.",
+  "demographics": {
+    "undergrad": 28663,
+    "graduate": 27772,
+    "womenPct": 59.3,
+    "internationalPct": 26.1,
+    "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count (~27,772, Fall 2024): from aggregator sites reporting IPEDS data, not confirmed directly against NYU's own institutional research page — treat as approximate pending direct confirmation."
+  },
+  "majors": [
+    { "label": "Visual & Performing Arts", "pct": 16.1 },
+    { "label": "Social Sciences", "pct": 12.2 },
+    { "label": "Business, Management & Marketing", "pct": 12.2 },
+    { "label": "Computer & Information Sciences", "pct": 10.1 },
+    { "label": "Humanities", "pct": 8.5 },
+    { "label": "Health Professions", "pct": 7.6 },
+    { "label": "Psychology", "pct": 6.6 },
+    { "label": "Communication", "pct": 4.7 },
+    { "label": "Biological Sciences", "pct": 4.4 },
+    { "label": "Mathematics & Statistics", "pct": 3.9 }
+  ],
+  "majorsNote": "Categories are broad federal program classifications (College Scorecard / CIP 2-digit), not individual major names.",
+  "traditions": ["Under the Arch (graduation portrait tradition)", "Strawberry Festival"],
+  "calendar": [
+    { "date": "2026-09-02", "label": "Fall Classes Begin", "verified": true },
+    { "date": "2026-10-12", "label": "Fall Break", "verified": true },
+    { "date": "2026-11-26", "label": "Thanksgiving Recess Begins", "verified": true },
+    { "date": "2026-11-27", "label": "Thanksgiving Recess (cont.)", "verified": true },
+    { "date": "2026-12-14", "label": "Fall Classes End", "verified": true },
+    { "date": "2026-12-16", "label": "Final Exams Begin", "verified": true },
+    { "date": null, "label": "Move-In (exact date not yet confirmed — check NYU Housing)", "verified": false }
+  ]
+}

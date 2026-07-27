@@ -224,6 +224,97 @@ button {
   margin-top: 0.15rem;
 }
 
+.row-top {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .row-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+.demo-line {
+  font-size: 0.86rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.source-note {
+  font-size: 0.74rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.major {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.major:not(:first-of-type) {
+  margin-top: 0.6rem;
+}
+
+.major-name {
+  flex: 1;
+  font-size: 0.92rem;
+}
+
+.major-pct {
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar-track {
+  height: 3px;
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  margin-top: 0.25rem;
+}
+
+.bar-fill {
+  height: 100%;
+  background: var(--ox);
+  border-radius: 2px;
+}
+
+.trad-prose {
+  font-size: 0.94rem;
+  line-height: 1.65;
+  font-style: italic;
+  margin: 0;
+}
+
+.cal-item {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+  font-size: 0.88rem;
+}
+
+.cal-item:first-of-type {
+  border-top: none;
+}
+
+.cal-item-date {
+  flex: none;
+  width: 6.5rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ox);
+}
+
+.unverified {
+  font-size: 0.76rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
 .wx-row {
   display: flex;
   gap: 0.9rem;

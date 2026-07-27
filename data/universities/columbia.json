@@ -1,0 +1,31 @@
+{
+  "id": "columbia",
+  "name": "Columbia University",
+  "culture": "Columbia blends Ivy League rigor with the density of Morningside Heights — expect serious academic culture and a campus that spills naturally into the surrounding neighborhood rather than sitting apart from it.",
+  "demographics": {
+    "undergrad": 8973,
+    "graduate": 26009,
+    "womenPct": 49.8,
+    "internationalPct": 19.7,
+    "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count: Columbia University Office of Planning & Institutional Research, Fall 2024."
+  },
+  "majors": [
+    { "label": "Social Sciences", "pct": 26.9 },
+    { "label": "Computer & Information Sciences", "pct": 16.0 },
+    { "label": "Engineering", "pct": 12.1 },
+    { "label": "Biological Sciences", "pct": 7.2 },
+    { "label": "English Language & Literature", "pct": 5.1 },
+    { "label": "Visual & Performing Arts", "pct": 5.1 },
+    { "label": "Multi/Interdisciplinary Studies", "pct": 4.9 },
+    { "label": "Psychology", "pct": 4.7 },
+    { "label": "Mathematics & Statistics", "pct": 4.5 },
+    { "label": "History", "pct": 3.8 }
+  ],
+  "majorsNote": "Categories are broad federal program classifications (College Scorecard / CIP 2-digit), not individual major names — \"Social Sciences\" combines economics, political science, sociology, and similar fields.",
+  "traditions": ["Orgo Night", "Primal Scream", "Yule Log Ceremony"],
+  "calendar": [
+    { "date": "2026-11-26", "label": "Thanksgiving Recess Begins", "verified": true },
+    { "date": "2026-11-27", "label": "Thanksgiving Recess (cont.)", "verified": true },
+    { "date": null, "label": "Move-In (exact date not yet confirmed — check Columbia Housing)", "verified": false }
+  ]
+}

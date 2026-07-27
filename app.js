@@ -163,6 +163,59 @@ function renderEvents(list, events) {
 
 loadEvents();
 
+function loadUniversity(id, containerId) {
+  var container = document.getElementById(containerId);
+
+  fetch('data/universities/' + id + '.json')
+    .then(function (res) {
+      if (!res.ok) { throw new Error('University data request failed'); }
+      return res.json();
+    })
+    .then(function (uni) { renderUniversity(container, uni); })
+    .catch(function () {
+      container.innerHTML = '<p class="placeholder">This university\'s data is temporarily unavailable.</p>';
+    });
+}
+
+function renderUniversity(container, uni) {
+  var majorsHtml = uni.majors.map(function (m) {
+    return '<div class="major"><span class="major-name">' + m.label + '</span>'
+      + '<span class="major-pct">' + m.pct + '%</span></div>'
+      + '<div class="bar-track"><div class="bar-fill" style="width:' + Math.min(m.pct * 3, 100) + '%"></div></div>';
+  }).join('');
+
+  var calendarHtml = uni.calendar.map(function (ev) {
+    var dateLabel = ev.date
+      ? new Date(ev.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+      : 'TBD';
+    var flag = ev.verified === false ? ' <span class="unverified">(unconfirmed)</span>' : '';
+    return '<div class="cal-item"><span class="cal-item-date">' + dateLabel + '</span>'
+      + '<span class="cal-item-label">' + ev.label + flag + '</span></div>';
+  }).join('');
+
+  container.innerHTML = '<div class="row-top">'
+    + '<div>'
+    + '<p class="cap-label">Campus &amp; Culture</p>'
+    + '<p class="blurb">' + uni.culture + '</p>'
+    + '<p class="demo-line">' + uni.demographics.undergrad.toLocaleString() + ' undergraduates &middot; '
+    + uni.demographics.graduate.toLocaleString() + ' graduate students &middot; '
+    + uni.demographics.womenPct + '% women &middot; ' + uni.demographics.internationalPct + '% international</p>'
+    + '<p class="source-note">Source: ' + uni.demographics.source + '</p>'
+    + '<p class="cap-label" style="margin-top:1.6rem">Top Majors</p>'
+    + majorsHtml
+    + '<p class="source-note">' + uni.majorsNote + '</p>'
+    + '<p class="cap-label" style="margin-top:1.6rem">Traditions</p>'
+    + '<p class="trad-prose">' + uni.traditions.join(', ') + '</p>'
+    + '</div>'
+    + '<div class="card">'
+    + '<p class="cap-label">Calendar</p>'
+    + calendarHtml
+    + '</div>'
+    + '</div>';
+}
+
+loadUniversity('columbia', 'columbia-content');
+
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
   btn.addEventListener('click', function () {
     var target = btn.getAttribute('data-target');
