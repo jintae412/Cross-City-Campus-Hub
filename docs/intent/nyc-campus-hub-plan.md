@@ -107,6 +107,16 @@ Separate from the deployed app entirely (per spec's security boundary).
 - Short README section: "how to add a new university" and "how to review/merge an AI-suggested entry"
   — written so a non-technical teammate could eventually follow it
 
+## Follow-ups / Backlog
+
+- **Campus boundary outline (Columbia, and later NYU).** Attempted in Slice 5 using hand-derived
+  corner coordinates (from one confirmed street-corner lookup + known building coordinates); the
+  result was noticeably too small/inaccurate once rendered on the real map and was removed. Retry
+  with a real surveyed boundary instead of derived corners — most likely path is querying
+  OpenStreetMap's Overpass API for the campus way/relation (public Overpass mirrors were timing out
+  when this was attempted; retry later or try a different mirror), or sourcing an official campus
+  GeoJSON/KML if the university publishes one. Not blocking — pins and filtering can proceed without it.
+
 ## Working Agreement
 
 - Build and check off one slice at a time; don't start the next until the current one is actually

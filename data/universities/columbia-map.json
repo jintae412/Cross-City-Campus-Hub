@@ -1,0 +1,20 @@
+[
+  {
+    "id": "butler-library",
+    "name": "Butler Library",
+    "category": "library",
+    "lat": 40.8064,
+    "lng": -73.9630,
+    "hours": "Hours vary by semester and during finals — check library.columbia.edu/libraries/butler",
+    "contactUrl": "https://library.columbia.edu/libraries/butler.html"
+  },
+  {
+    "id": "john-jay-hall",
+    "name": "John Jay Hall",
+    "category": "dorm",
+    "lat": 40.8059,
+    "lng": -73.9624,
+    "hours": "Residential building — first-year dorm, access restricted to residents",
+    "contactUrl": "https://www.housing.columbia.edu/johnjay"
+  }
+]

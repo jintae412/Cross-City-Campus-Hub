@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NYC Campus Hub</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
 <body>
 <div class="app">
@@ -56,6 +57,14 @@
       <div id="columbia-content" data-university-content>
         <p class="placeholder">Loading&hellip;</p>
       </div>
+      <div class="map-section">
+        <p class="cap-label">Campus Map</p>
+        <div id="columbia-map" class="leaflet-map"></div>
+        <div class="map-legend-simple">
+          <span><span class="swatch" style="background:#B9922F"></span>Library</span>
+          <span><span class="swatch" style="background:#8A3230"></span>Dorm</span>
+        </div>
+      </div>
     </section>
 
     <section class="page-section" data-section="nyu" hidden>
@@ -66,6 +75,7 @@
     </section>
   </main>
 </div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin=""></script>
 <script src="app.js"></script>
 </body>
 </html>

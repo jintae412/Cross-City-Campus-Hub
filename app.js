@@ -217,6 +217,49 @@ function renderUniversity(container, uni) {
 loadUniversity('columbia', 'columbia-content');
 loadUniversity('nyu', 'nyu-content');
 
+var columbiaMapInitialized = false;
+
+var MAP_CATEGORY_COLORS = {
+  library: '#B9922F',
+  dorm: '#8A3230'
+};
+var MAP_CATEGORY_LABELS = {
+  library: 'Library',
+  dorm: 'Dorm'
+};
+
+function initColumbiaMap() {
+  if (columbiaMapInitialized) { return; }
+  columbiaMapInitialized = true;
+
+  var map = L.map('columbia-map').setView([40.8070, -73.9627], 16);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  fetch('data/universities/columbia-map.json')
+    .then(function (res) { return res.json(); })
+    .then(function (pins) {
+      pins.forEach(function (pin) {
+        var color = MAP_CATEGORY_COLORS[pin.category] || '#5B564A';
+        var label = MAP_CATEGORY_LABELS[pin.category] || pin.category;
+        var popup = '<strong>' + pin.name + '</strong> &mdash; ' + label
+          + '<br>' + pin.hours
+          + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
+        L.circleMarker([pin.lat, pin.lng], {
+          radius: 9,
+          color: '#F1ECDD',
+          weight: 2,
+          fillColor: color,
+          fillOpacity: 1
+        }).addTo(map).bindPopup(popup);
+      });
+    });
+
+  setTimeout(function () { map.invalidateSize(); }, 100);
+}
+
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
   btn.addEventListener('click', function () {
     var target = btn.getAttribute('data-target');
@@ -228,5 +271,7 @@ document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
     document.querySelectorAll('.page-section').forEach(function (section) {
       section.hidden = section.getAttribute('data-section') !== target;
     });
+
+    if (target === 'columbia') { initColumbiaMap(); }
   });
 });

@@ -315,6 +315,34 @@ button {
   color: var(--muted);
 }
 
+.map-section {
+  margin-top: 2rem;
+}
+
+.leaflet-map {
+  height: 420px;
+  border-radius: 6px;
+  margin-top: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.map-legend-simple {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.map-legend-simple .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
 .wx-row {
   display: flex;
   gap: 0.9rem;
