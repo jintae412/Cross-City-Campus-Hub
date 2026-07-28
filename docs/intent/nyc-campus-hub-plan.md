@@ -93,13 +93,29 @@ fix it here before building more on top of it.
 ### Slice 7 — Campus Map for NYU
 Apply Slice 5+6's pattern to NYU. Same extensibility check as Slice 4 — should be data-only.
 
-### Slice 8 — Offline AI-Authoring Tool
+### Slice 8 — Offline AI-Authoring Tool — BUILT 2026-07-28
 Separate from the deployed app entirely (per spec's security boundary).
 - A script/prompt workflow the maintainer runs manually to draft: culture blurbs, calendar events,
   traditions, map spot suggestions — from public sources
 - Output goes into a review queue file/format, clearly tagged "AI-suggested"
 - Manual review step required before anything moves into the live JSON data
 - Not wired into the deployed site in any way
+
+**What was actually built, and why it's a prompt rather than a program:** drafting prose can't be
+automated at $0 — calling an LLM API needs a key and a bill, which is the exact thing the spec's
+security boundary exists to avoid. So the tool is split:
+- `scripts/authoring-prompt.md` — the drafting prompt, run by hand in whatever AI tool the
+  maintainer already has. Its rules are the substance: every item needs a `source`, never invent a
+  date (use `"date": null` + `"verified": false`), name the academic year, prefer official pages.
+- `scripts/review_content.py` — validates the queue and merges only entries marked
+  `"reviewed": true`. Rejects any accepted entry with no source, and any malformed or impossible
+  date (`2026-02-30`). Reports by default; writes only with `--merge`; refuses to merge at all
+  while anything is rejected. This is where the "human review before live" boundary is *enforced*
+  rather than just documented. Self-check: `python3 scripts/review_content.py --self-check`.
+- `scripts/find_nearby_pins.py` (built earlier) already covers the map-spot half.
+
+Merges splice into the live file rather than round-tripping it through `json.dump`, so the diff
+shows only the added entries and hand-written formatting survives.
 
 ### Slice 9 — Polish & Handoff
 - Responsiveness pass across all pages (laptop is primary; confirm the phone fallback breakpoint holds up)
