@@ -34,8 +34,11 @@ import sys
 import urllib.parse
 import urllib.request
 
+# Tried in order. The first two are the fastest when healthy but both return 504s /
+# hang under load; the third is slower (~25s) but has stayed up when the others didn't.
 OVERPASS_ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
 ]
 
@@ -60,7 +63,7 @@ out center tags;
                 data=data,
                 headers={"User-Agent": "nyc-campus-hub-research-script/1.0 (offline content authoring tool)"}
             )
-            with urllib.request.urlopen(req, timeout=40) as resp:
+            with urllib.request.urlopen(req, timeout=90) as resp:
                 return json.loads(resp.read())
         except Exception as e:
             last_error = e

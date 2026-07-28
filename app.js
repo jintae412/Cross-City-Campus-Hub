@@ -237,8 +237,12 @@ var MAP_CATEGORY_GROUP = {
   subway: 'transit', parking: 'transit',
   meet: 'social', 'sit-no-id': 'social', church: 'social', gym: 'social'
 };
+// Muted against the greyscale basemap — the old saturated set fought the tiles for attention.
+// Kept to four hues that separate by lightness as well as hue, so they stay tellable apart
+// in greyscale and for the common red/green colour-vision deficiencies.
+// Mirrored by the legend swatches in index.html — update both together.
 var MAP_GROUP_COLORS = {
-  lodging: '#2E3F58', food: '#B9922F', transit: '#5B564A', social: '#8A3230'
+  lodging: '#33587D', food: '#C08A3E', transit: '#8C8878', social: '#9C4038'
 };
 
 function isOpenNow(schedule) {
@@ -252,9 +256,16 @@ function initColumbiaMap() {
   columbiaMapInitialized = true;
 
   var map = L.map('columbia-map').setView([40.8070, -73.9627], 16);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+  // CARTO Positron rather than OSM's standard tiles. The standard style draws every
+  // footpath as a dashed salmon line and labels every shop — on a campus that's almost
+  // entirely pedestrian paths, that reads as visual noise under our own markers.
+  // Positron is a muted greyscale basemap, so the pins are the only thing competing for attention.
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    subdomains: 'abcd',
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, '
+      + '&copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
 
   fetch('data/universities/columbia-map.json')
@@ -276,12 +287,14 @@ function initColumbiaMap() {
           + (pin.capacity ? '<br>Fits up to ' + pin.capacity : '')
           + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
 
+        // Small dots: the map carries 230+ pins, and at the old radius 9 they merged into
+        // blobs wherever the density is high (the Broadway restaurant strip especially).
         var marker = L.circleMarker([pin.lat, pin.lng], {
-          radius: 9,
-          color: '#F1ECDD',
-          weight: 2,
+          radius: 5,
+          color: '#FFFFFF',
+          weight: 1.5,
           fillColor: color,
-          fillOpacity: 1
+          fillOpacity: 0.95
         }).bindPopup(popup);
 
         columbiaMarkers.push({ marker: marker, categories: pin.categories, capacity: pin.capacity });
@@ -298,13 +311,32 @@ function initColumbiaMap() {
   setTimeout(function () { map.invalidateSize(); }, 100);
 }
 
+// Categories where "will my group fit?" is a real question. For a dorm, a subway stop or a
+// restroom the answer is meaningless, so those pins ignore the size control entirely rather
+// than being filtered out by a number that was never going to apply to them.
+var SIZEABLE_CATEGORIES = ['group-food', 'dining', 'meet', 'sit-no-id'];
+
+// Unknown capacity FAILS the filter once a size is set. The old rule was
+// `!entry.capacity || entry.capacity >= size`, which exempted anything without a capacity —
+// so raising the size hid the venues we had checked and kept every venue we hadn't. Most pins
+// have no capacity (OpenStreetMap doesn't publish it), so "show it anyway" amounts to claiming
+// a fit we can't back up.
+function pinMatchesSize(entry, size) {
+  if (size <= 1) { return true; }
+  var sizeable = entry.categories.some(function (c) {
+    return SIZEABLE_CATEGORIES.indexOf(c) !== -1;
+  });
+  if (!sizeable) { return true; }
+  return entry.capacity >= size;
+}
+
 function applyColumbiaMapFilters(map) {
   var category = document.getElementById('col-map-category').value;
   var size = parseInt(document.getElementById('col-map-size').value, 10) || 1;
 
   columbiaMarkers.forEach(function (entry) {
     var matchesCategory = category === 'all' || entry.categories.indexOf(category) !== -1;
-    var matchesSize = !entry.capacity || entry.capacity >= size;
+    var matchesSize = pinMatchesSize(entry, size);
     var shouldShow = matchesCategory && matchesSize;
 
     if (shouldShow && !map.hasLayer(entry.marker)) {

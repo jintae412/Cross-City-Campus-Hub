@@ -366,10 +366,10 @@
   },
   {
     "id": "claremont-parking",
-    "name": "Claremont Parking Corp.",
+    "name": "Rapid Park at Riverside Church (621 W 120th St)",
     "categories": ["parking"],
-    "lat": 40.8100,
-    "lng": -73.9700,
+    "lat": 40.81117,
+    "lng": -73.96317,
     "hours": "Commercial garage, open 6am–midnight",
     "contactUrl": "tel:+12128706736"
   },
@@ -424,7 +424,7 @@
   {
     "id": "sakura-park",
     "name": "Sakura Park",
-    "categories": ["quiet", "meet"],
+    "categories": ["meet"],
     "capacity": 30,
     "lat": 40.81306,
     "lng": -73.96222,
@@ -434,7 +434,7 @@
   {
     "id": "riverside-park",
     "name": "Riverside Park (near W116 St)",
-    "categories": ["quiet", "meet", "sit-no-id"],
+    "categories": ["meet", "sit-no-id"],
     "capacity": 50,
     "lat": 40.8081,
     "lng": -73.9695,
@@ -525,5 +525,1701 @@
     "lng": -73.9578,
     "hours": "Breakfast/Lunch daily 9am–4pm, Dinner daily 4–10:30pm",
     "contactUrl": "https://www.maxsoha.com/"
+  },
+  {
+    "id": "trudy-s-ice-cream",
+    "name": "Trudy's Ice Cream",
+    "categories": ["group-food"],
+    "lat": 40.80038,
+    "lng": -73.96181,
+    "hours": "Mo-Fr 12:00-21:00; Sa-Su 11:00-21:00",
+    "contactUrl": "https://trudysicecream.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "le-monde",
+    "name": "Le Monde",
+    "categories": ["group-food"],
+    "lat": 40.80578,
+    "lng": -73.96587,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://lemondenyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "chocolat-restaurant-lounge",
+    "name": "Chocolat Restaurant Lounge",
+    "categories": ["group-food"],
+    "lat": 40.80695,
+    "lng": -73.95375,
+    "hours": "Mo-Th 11:00-23:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+    "contactUrl": "https://chocolatharlem.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-fox",
+    "name": "The Fox",
+    "categories": ["group-food"],
+    "lat": 40.8068,
+    "lng": -73.95341,
+    "hours": "Mo-Th 12:00-24:00; Fr 12:00-02:00; Sa 10:30-02:00; Su 10:30-24:00",
+    "contactUrl": "https://thefoxharlem.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "melba-s",
+    "name": "Melba's",
+    "categories": ["group-food"],
+    "lat": 40.80309,
+    "lng": -73.95657,
+    "hours": "Mo-We 11:00-22:00; Th-Su 11:00-23:00",
+    "contactUrl": "https://www.melbasrestaurant.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cedric",
+    "name": "Cedric",
+    "categories": ["group-food"],
+    "lat": 40.80614,
+    "lng": -73.95303,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "billie-s-black-bar-lounge",
+    "name": "Billie's Black Bar & Lounge",
+    "categories": ["group-food"],
+    "lat": 40.80623,
+    "lng": -73.95323,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "bosino",
+    "name": "Bosino",
+    "categories": ["group-food"],
+    "lat": 40.79874,
+    "lng": -73.96733,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://bosinonyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "fumo",
+    "name": "Fumo",
+    "categories": ["group-food"],
+    "lat": 40.80281,
+    "lng": -73.96805,
+    "hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "contactUrl": "https://www.fumorestaurant.com/location/fumo-upper-west-side/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "smoke-jazz-supper-club",
+    "name": "Smoke Jazz & Supper Club",
+    "categories": ["group-food"],
+    "lat": 40.80112,
+    "lng": -73.96821,
+    "hours": "We-Su 17:00-24:00",
+    "contactUrl": "https://www.smokejazz.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-ellington",
+    "name": "The Ellington",
+    "categories": ["group-food"],
+    "lat": 40.80086,
+    "lng": -73.96826,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.theellingtonny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "serafina",
+    "name": "Serafina",
+    "categories": ["group-food"],
+    "lat": 40.80049,
+    "lng": -73.96828,
+    "hours": "Mo-Fr 11:30-23:00; Sa 10:30-23:00; Su 10:30-22:00",
+    "contactUrl": "https://serafinawest105.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "harlem-maison",
+    "name": "Harlem Maison",
+    "categories": ["group-food"],
+    "lat": 40.8122,
+    "lng": -73.95167,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-tang",
+    "name": "The Tang",
+    "categories": ["group-food"],
+    "lat": 40.79996,
+    "lng": -73.9663,
+    "hours": "Mo-Th 11:00-15:30,17:00-21:30; Fr 11:00-15:30,17:00-21:45; Sa 11:00-21:45; Su 11:00-21:30",
+    "contactUrl": "https://www.thetangnyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "new-kam-lai",
+    "name": "New Kam Lai",
+    "categories": ["group-food"],
+    "lat": 40.7988,
+    "lng": -73.96717,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "http://www.newkamlai.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "noche-mexicana",
+    "name": "Noche Mexicana",
+    "categories": ["group-food"],
+    "lat": 40.79742,
+    "lng": -73.96813,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.noche-mexicana.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "calaveras-corner",
+    "name": "Calaveras Corner",
+    "categories": ["group-food"],
+    "lat": 40.80066,
+    "lng": -73.96578,
+    "hours": "Su-We 10:00-24:00, Th-Sa 10:00-02:00",
+    "contactUrl": "https://calaverascorner.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "ortomare-ristorante-pizzeria",
+    "name": "Ortomare Ristorante Pizzeria",
+    "categories": ["group-food"],
+    "lat": 40.80115,
+    "lng": -73.96172,
+    "hours": "Tu-Fr 16:00-22:00; Sa-Su 15:00-22:00",
+    "contactUrl": "https://ortomare.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "miss-mamie-s-spoonbread-too",
+    "name": "Miss Mamie's Spoonbread Too",
+    "categories": ["group-food"],
+    "lat": 40.80145,
+    "lng": -73.9609,
+    "hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 11:00-21:30",
+    "contactUrl": "https://spoonbreadinc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "koo-thai",
+    "name": "Koo Thai",
+    "categories": ["group-food"],
+    "lat": 40.79839,
+    "lng": -73.96324,
+    "hours": "11:30-22:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "v-t-pizzeria",
+    "name": "V&T Pizzeria",
+    "categories": ["group-food"],
+    "lat": 40.80335,
+    "lng": -73.96383,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://vtrestaurantpizzeria.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "ollie-s",
+    "name": "Ollie's",
+    "categories": ["group-food"],
+    "lat": 40.79943,
+    "lng": -73.9687,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://ollieseats.com/ollies-noodle-shop-grille",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "zurna",
+    "name": "Zurna",
+    "categories": ["group-food"],
+    "lat": 40.79975,
+    "lng": -73.96854,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://zurnanyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cafe-du-soleil",
+    "name": "Café du Soleil",
+    "categories": ["group-food"],
+    "lat": 40.8001,
+    "lng": -73.9684,
+    "hours": "Mo-We 16:00-22:00; Th-Fr 11:00-23:00; Sa 09:00-23:00; Su 09:00-22:00",
+    "contactUrl": "https://www.cafedusoleilny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "bennys-chao-king",
+    "name": "Benny’s Chao King",
+    "categories": ["group-food"],
+    "lat": 40.7983,
+    "lng": -73.9638,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "longwood-fish-market",
+    "name": "Longwood Fish Market",
+    "categories": ["group-food"],
+    "lat": 40.79801,
+    "lng": -73.96353,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "saiguette",
+    "name": "Saiguette",
+    "categories": ["group-food"],
+    "lat": 40.79903,
+    "lng": -73.96279,
+    "hours": "Mo-Su 12:00-20:30",
+    "contactUrl": "https://www.saiguette.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "hinds-hall",
+    "name": "Hinds Hall",
+    "categories": ["group-food"],
+    "lat": 40.80051,
+    "lng": -73.96541,
+    "hours": "Mo-Th, Su 11:00-22:00; Fr-Sa 11:00-23:00",
+    "contactUrl": "https://www.ayatnyc.com/location/hinds-hall/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "halal-chicks",
+    "name": "Halal Chicks",
+    "categories": ["group-food"],
+    "lat": 40.79994,
+    "lng": -73.96212,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "super-nice-pizza",
+    "name": "Super Nice Pizza",
+    "categories": ["group-food"],
+    "lat": 40.80157,
+    "lng": -73.96466,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://supernicepizza.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mizu-hibachi",
+    "name": "Mizu Hibachi",
+    "categories": ["group-food"],
+    "lat": 40.80079,
+    "lng": -73.96569,
+    "hours": "Mo-Th 11:30-22:00; Fr 11:30-22:30; Sa 12:00-22:30; Su 12:00-22:00",
+    "contactUrl": "https://www.mizu940.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "amity-hall-uptown",
+    "name": "Amity Hall Uptown",
+    "categories": ["group-food"],
+    "lat": 40.80226,
+    "lng": -73.96464,
+    "hours": "Mo-We 11:30-01:00, Th,Fr 11:30-02:00, Sa 10:30-02:00, Su 10:30-01:00",
+    "contactUrl": "https://amityhalluptown.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "roti-roll-bombay-frankie",
+    "name": "Roti Roll (Bombay Frankie)",
+    "categories": ["group-food"],
+    "lat": 40.80259,
+    "lng": -73.96437,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://rotirollny.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "safari",
+    "name": "Safari",
+    "categories": ["group-food"],
+    "lat": 40.80059,
+    "lng": -73.95271,
+    "hours": "Tu-Su 10:00-22:00",
+    "contactUrl": "https://safariharlem.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "lalibela",
+    "name": "Lalibela",
+    "categories": ["group-food"],
+    "lat": 40.80231,
+    "lng": -73.95667,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "bixi-harlem",
+    "name": "BIXI Harlem",
+    "categories": ["group-food"],
+    "lat": 40.80482,
+    "lng": -73.95483,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://bixiharlem.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "sapps",
+    "name": "Sapps",
+    "categories": ["group-food"],
+    "lat": 40.8056,
+    "lng": -73.96531,
+    "hours": "Mo-Th 11:30-20:00; Fr 11:30-23:00; Sa 12:30-23:00; Su 16:30-20:00",
+    "contactUrl": "https://www.sappsuws.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "nikko-hibachi-asian-fusion",
+    "name": "Nikko Hibachi Asian Fusion",
+    "categories": ["group-food"],
+    "lat": 40.81148,
+    "lng": -73.95792,
+    "hours": "Su-Th 12:00-22:00; Fr,Sa 12:00-23:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "bar-314",
+    "name": "Bar 314",
+    "categories": ["group-food"],
+    "lat": 40.81417,
+    "lng": -73.95975,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.bar314nyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "south-of-the-clouds",
+    "name": "South of the Clouds",
+    "categories": ["group-food"],
+    "lat": 40.80825,
+    "lng": -73.95977,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "pisticci",
+    "name": "Pisticci",
+    "categories": ["group-food"],
+    "lat": 40.81417,
+    "lng": -73.96035,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.pisticcinyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "la-salle-dumpling-room",
+    "name": "La Salle Dumpling Room",
+    "categories": ["group-food"],
+    "lat": 40.81403,
+    "lng": -73.95983,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.lasalledumplingroom.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "jin-ramen",
+    "name": "Jin Ramen",
+    "categories": ["group-food"],
+    "lat": 40.81539,
+    "lng": -73.95885,
+    "hours": "Mo-Su 11:30-15:30,17:00-23:00",
+    "contactUrl": "https://125.jinramen.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "osteria-106",
+    "name": "Osteria 106",
+    "categories": ["group-food"],
+    "lat": 40.79893,
+    "lng": -73.96169,
+    "hours": "Mo-Fr 16:00-23:00; Sa-Su 12:00-23:00",
+    "contactUrl": "http://osteria106.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "sushi-w",
+    "name": "Sushi W",
+    "categories": ["group-food"],
+    "lat": 40.79837,
+    "lng": -73.96941,
+    "hours": "Mo-Su 12:00-14:00, 17:00-22:00",
+    "contactUrl": "https://www.sushiwny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "amy-ruth-s",
+    "name": "Amy Ruth's",
+    "categories": ["group-food"],
+    "lat": 40.80246,
+    "lng": -73.95023,
+    "hours": "Mo-Th 11:30-21:30; Fr, Sa 11:00-22:30; Su 11:00-21:30",
+    "contactUrl": "http://amyruths.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "chez-alain",
+    "name": "Chez Alain",
+    "categories": ["group-food"],
+    "lat": 40.80736,
+    "lng": -73.94983,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "paris-blues",
+    "name": "Paris Blues",
+    "categories": ["group-food"],
+    "lat": 40.8064,
+    "lng": -73.94988,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "strokos-deli",
+    "name": "Strokos Deli",
+    "categories": ["group-food"],
+    "lat": 40.80547,
+    "lng": -73.96228,
+    "hours": "Mo-Fr 05:30-19:30; Sa,Su 05:30-17:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "himalayan-curry-house",
+    "name": "Himalayan Curry House",
+    "categories": ["group-food"],
+    "lat": 40.80264,
+    "lng": -73.96713,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "picnic-by-the-black-parrot",
+    "name": "Picnic by The Black Parrot",
+    "categories": ["group-food"],
+    "lat": 40.80043,
+    "lng": -73.96526,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-heights-bar-grill",
+    "name": "The Heights Bar & Grill",
+    "categories": ["group-food"],
+    "lat": 40.80518,
+    "lng": -73.9664,
+    "hours": "Sa-Su 11:00-16:00; Mo-Fr 11:00-16:00",
+    "contactUrl": "https://theheightsnyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "dragon-one",
+    "name": "Dragon One",
+    "categories": ["group-food"],
+    "lat": 40.80208,
+    "lng": -73.95684,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.dragononeny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "massawa",
+    "name": "Massawa",
+    "categories": ["group-food"],
+    "lat": 40.80979,
+    "lng": -73.95861,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.massawanyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "symposium",
+    "name": "Symposium",
+    "categories": ["group-food"],
+    "lat": 40.80552,
+    "lng": -73.96427,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.symposiumnyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "haji-s-famous-deli",
+    "name": "Haji's Famous Deli",
+    "categories": ["group-food"],
+    "lat": 40.80642,
+    "lng": -73.96111,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "wu-nussbaum",
+    "name": "Wu + Nussbaum",
+    "categories": ["group-food"],
+    "lat": 40.8061,
+    "lng": -73.96564,
+    "hours": "Mo-Su 07:00-21:30",
+    "contactUrl": "https://www.wunussbaum.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "anar",
+    "name": "Anar",
+    "categories": ["group-food"],
+    "lat": 40.80021,
+    "lng": -73.96563,
+    "hours": "Mo-Su 11:30-14:45,17:00-21:45",
+    "contactUrl": "https://www.anaronline.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "vinateria",
+    "name": "Vinateria",
+    "categories": ["group-food"],
+    "lat": 40.80654,
+    "lng": -73.95406,
+    "hours": "Mo-We 16:00-22:00; Th-Fr 16:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+    "contactUrl": "https://www.vinaterianyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "moca-bar-lounge",
+    "name": "Moca Bar & Lounge",
+    "categories": ["group-food"],
+    "lat": 40.80637,
+    "lng": -73.95368,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "tropical-sensation",
+    "name": "Tropical Sensation",
+    "categories": ["group-food"],
+    "lat": 40.80087,
+    "lng": -73.96515,
+    "hours": "Su-Th 10:00-23:00; Fr-Sa 10:00-00:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "awash",
+    "name": "Awash",
+    "categories": ["group-food"],
+    "lat": 40.80069,
+    "lng": -73.96528,
+    "hours": "12:45-22:30",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "categories": ["group-food"],
+    "lat": 40.80944,
+    "lng": -73.95376,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "angel-of-harlem",
+    "name": "Angel of Harlem",
+    "categories": ["group-food"],
+    "lat": 40.80806,
+    "lng": -73.95248,
+    "hours": "We-Th 16:00-24:00; Fr 16:00-01:00; Sa 11:00-01:00; Su 11:00-12:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "crab-du-jour",
+    "name": "Crab du Jour",
+    "categories": ["group-food"],
+    "lat": 40.81082,
+    "lng": -73.95097,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://crabdujour.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "new-york-gourmet-deli",
+    "name": "New York Gourmet Deli",
+    "categories": ["group-food"],
+    "lat": 40.8085,
+    "lng": -73.94898,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "savanna-raes",
+    "name": "Savanna Raes",
+    "categories": ["group-food"],
+    "lat": 40.8083,
+    "lng": -73.94927,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "red-star",
+    "name": "Red Star",
+    "categories": ["group-food"],
+    "lat": 40.80769,
+    "lng": -73.94968,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "dun-huang",
+    "name": "Dun Huang",
+    "categories": ["group-food"],
+    "lat": 40.81104,
+    "lng": -73.9582,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.dunhuangfood.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "west-place",
+    "name": "West Place",
+    "categories": ["group-food"],
+    "lat": 40.8116,
+    "lng": -73.95781,
+    "hours": "Mo-Su 11:00-22:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "red-lobster",
+    "name": "Red Lobster",
+    "categories": ["group-food"],
+    "lat": 40.81006,
+    "lng": -73.95044,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "consuelo",
+    "name": "Consuelo",
+    "categories": ["group-food"],
+    "lat": 40.79946,
+    "lng": -73.96771,
+    "hours": "We-Fr 17:00-22:00; Sa-Su 10:00-14:00",
+    "contactUrl": "https://www.cocinaconsuelonyc.com/consuelouws",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "harlem-pizza-co",
+    "name": "Harlem Pizza Co.",
+    "categories": ["group-food"],
+    "lat": 40.80282,
+    "lng": -73.95114,
+    "hours": "Mo-Su 12:00-22:00",
+    "contactUrl": "http://www.harlempizzaco.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "freda-s-caribbean-and-soul-cuisine",
+    "name": "Freda's Caribbean and Soul Cuisine",
+    "categories": ["group-food"],
+    "lat": 40.80093,
+    "lng": -73.96139,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "curry-king",
+    "name": "Curry King",
+    "categories": ["group-food"],
+    "lat": 40.79953,
+    "lng": -73.96289,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://currykinginc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "los-3-charros",
+    "name": "Los 3 Charros",
+    "categories": ["group-food"],
+    "lat": 40.80011,
+    "lng": -73.9514,
+    "hours": "Mo-Su 10:00-22:00",
+    "contactUrl": "https://los3charros.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "zaad",
+    "name": "Zaad",
+    "categories": ["group-food"],
+    "lat": 40.80121,
+    "lng": -73.96492,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://zaadrestaurants.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "minton-s-playhouse",
+    "name": "Minton's Playhouse",
+    "categories": ["group-food"],
+    "lat": 40.80474,
+    "lng": -73.95238,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://mintonsharlem.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mamas-too",
+    "name": "Mama’s TOO!",
+    "categories": ["group-food"],
+    "lat": 40.8008,
+    "lng": -73.96765,
+    "hours": "Mo-Su 12:00-23:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "oasis-jimma-juice-bar",
+    "name": "Oasis Jimma Juice Bar",
+    "categories": ["group-food"],
+    "lat": 40.81498,
+    "lng": -73.95916,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "frozen-love",
+    "name": "Frozen Love",
+    "categories": ["group-food"],
+    "lat": 40.81383,
+    "lng": -73.9602,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "le-baobab-gouygui",
+    "name": "Le Baobab Gouygui",
+    "categories": ["group-food"],
+    "lat": 40.80235,
+    "lng": -73.95093,
+    "hours": "13:00-01:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "keur-coumba",
+    "name": "Keur Coumba",
+    "categories": ["group-food"],
+    "lat": 40.80266,
+    "lng": -73.95073,
+    "hours": "Sa-Th 08:30-03:00; Fr 08:30-03:30",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "blvd-bistro",
+    "name": "BLVD Bistro",
+    "categories": ["group-food"],
+    "lat": 40.80437,
+    "lng": -73.95567,
+    "hours": "We, Th 12:00-21:00; Fr 12:00-22:00; Sa 10:00-22:00; Su 10:00-19:00",
+    "contactUrl": "https://www.boulevardbistrony.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "tropilyz",
+    "name": "Tropilyz",
+    "categories": ["group-food"],
+    "lat": 40.80287,
+    "lng": -73.95213,
+    "hours": "Mo-Sa 08:00-21:00",
+    "contactUrl": "https://tropilyz.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "la-savane",
+    "name": "La Savane",
+    "categories": ["group-food"],
+    "lat": 40.80413,
+    "lng": -73.95425,
+    "hours": "12:00-01:00",
+    "contactUrl": "https://www.lasavanerestaurant.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "olivia-spanish-tapas",
+    "name": "Olivia - Spanish Tapas",
+    "categories": ["group-food"],
+    "lat": 40.81696,
+    "lng": -73.95786,
+    "hours": "Mo-Sa 08:00-22:00",
+    "contactUrl": "https://www.olivatapas.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "spice-lamb",
+    "name": "Spice Lamb",
+    "categories": ["group-food"],
+    "lat": 40.80018,
+    "lng": -73.96613,
+    "hours": "Mo,We-Fr 15:00-24:00; Sa-Su 12:30-24:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "dragon-105",
+    "name": "Dragon 105",
+    "categories": ["group-food"],
+    "lat": 40.79825,
+    "lng": -73.96336,
+    "hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:30-22:30",
+    "contactUrl": "https://www.dragon105ny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "elis-wine-bar",
+    "name": "Elis Wine Bar",
+    "categories": ["group-food"],
+    "lat": 40.80282,
+    "lng": -73.9642,
+    "hours": "Tu-Su 16:00-23:00",
+    "contactUrl": "https://www.eliswinebar.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "homemade-taqueria",
+    "name": "Homemade Taqueria",
+    "categories": ["group-food"],
+    "lat": 40.80117,
+    "lng": -73.9612,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.homemadetaqueria.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-calaveras",
+    "name": "The Calaveras",
+    "categories": ["group-food"],
+    "lat": 40.79953,
+    "lng": -73.9624,
+    "hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
+    "contactUrl": "https://thecalaverasnyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "ellington-in-the-park",
+    "name": "Ellington in the park",
+    "categories": ["group-food"],
+    "lat": 40.80258,
+    "lng": -73.97188,
+    "hours": "Mo-Su 11:00-23:00",
+    "contactUrl": "https://www.ellingtoninthepark.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "vegan-hood",
+    "name": "Vegan Hood",
+    "categories": ["group-food"],
+    "lat": 40.80284,
+    "lng": -73.95629,
+    "hours": "Su 11:30-20:00; Mo-Th 11:30-22:00; Fr, Sa 11:30-23:00",
+    "contactUrl": "https://veganhood.net/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "tartina",
+    "name": "Tartina",
+    "categories": ["group-food"],
+    "lat": 40.80362,
+    "lng": -73.96364,
+    "hours": "Mo-Fr 15:00-20:00; Sa 12:00-15:00, 17:00-23:00; Su 12:00-15:00, 17:00-20:00",
+    "contactUrl": "https://www.tartina-restaurant.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "koko-wings",
+    "name": "Koko Wings",
+    "categories": ["group-food"],
+    "lat": 40.80096,
+    "lng": -73.96735,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.kokowingsnyc.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "happy-hot-hunan-restaurant",
+    "name": "Happy Hot Hunan Restaurant",
+    "categories": ["group-food"],
+    "lat": 40.80139,
+    "lng": -73.96478,
+    "hours": "Mo,Tu 11:00-22:00, We-Su 11:00-24:00",
+    "contactUrl": "https://www.happyhothunanny.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "pancho-s-antojitos-mexicano",
+    "name": "Pancho's Antojitos Mexicano",
+    "categories": ["group-food"],
+    "lat": 40.80139,
+    "lng": -73.96523,
+    "hours": "Mo-Su 08:00-20:00",
+    "contactUrl": "https://panchos-mexicano.edan.io",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mala-town",
+    "name": "Mala Town",
+    "categories": ["group-food"],
+    "lat": 40.80002,
+    "lng": -73.96578,
+    "hours": "Mo-Su 11:30-21:30",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "atlas-kitchen",
+    "name": "Atlas Kitchen",
+    "categories": ["group-food"],
+    "lat": 40.80329,
+    "lng": -73.96676,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.atlaskitchennyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "the-grand-feast",
+    "name": "The Grand Feast",
+    "categories": ["group-food"],
+    "lat": 40.79779,
+    "lng": -73.96787,
+    "hours": "Mo 15:00-23:00; Tu-Fr 11:00-23:00; Sa-Su 09:00-23:00",
+    "contactUrl": "https://www.thegrandfeast.nyc",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "kikoo-sushi",
+    "name": "Kikoo Sushi",
+    "categories": ["group-food"],
+    "lat": 40.80139,
+    "lng": -73.96155,
+    "hours": "Mo 15:00-22:00; We-Su 15:00-22:00",
+    "contactUrl": "https://www.kikoowest.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "telio",
+    "name": "Telio",
+    "categories": ["group-food"],
+    "lat": 40.79821,
+    "lng": -73.96885,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.nycteliorestaurant.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "island-grill",
+    "name": "Island Grill",
+    "categories": ["group-food"],
+    "lat": 40.81519,
+    "lng": -73.95812,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "ghemo",
+    "name": "Ghemo",
+    "categories": ["group-food"],
+    "lat": 40.80074,
+    "lng": -73.96602,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cantina-taqueria",
+    "name": "Cantina Taqueria",
+    "categories": ["group-food"],
+    "lat": 40.80275,
+    "lng": -73.95682,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cafe-massawa",
+    "name": "Cafe Massawa",
+    "categories": ["group-food"],
+    "lat": 40.81458,
+    "lng": -73.95945,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.cafemassawa.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "pho-amsterdam",
+    "name": "Pho Amsterdam",
+    "categories": ["group-food"],
+    "lat": 40.81091,
+    "lng": -73.95829,
+    "hours": "Mo-Su,PH 11:00-21:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "alke-cafe",
+    "name": "Alke Café",
+    "categories": ["group-food"],
+    "lat": 40.80034,
+    "lng": -73.95498,
+    "hours": "Mo,Th 15:00-24:30; Tu 15:00-22:00; We 15:00-23:00; Fr-Sa 15:00-01:30; Su 09:00-22:00",
+    "contactUrl": "https://www.alkecafe.co/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "nai-brother-sauerkraut-fish",
+    "name": "Nai Brother Sauerkraut Fish",
+    "categories": ["group-food"],
+    "lat": 40.80346,
+    "lng": -73.96757,
+    "hours": "Mo-Su 11:00-01:30",
+    "contactUrl": "https://www.naibrothersauerkrautfish.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "columbia-deli-cafe",
+    "name": "Columbia Deli & Cafe",
+    "categories": ["group-food"],
+    "lat": 40.81533,
+    "lng": -73.95826,
+    "hours": "Mo-Sa 06:00-24:00; Su 06:00-22:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "double-dutch-espresso",
+    "name": "Double Dutch Espresso",
+    "categories": ["group-food"],
+    "lat": 40.80584,
+    "lng": -73.95399,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "patisserie-des-ambassades",
+    "name": "Patisserie Des Ambassades",
+    "categories": ["group-food"],
+    "lat": 40.80608,
+    "lng": -73.95382,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "silvana",
+    "name": "Silvana",
+    "categories": ["group-food"],
+    "lat": 40.80443,
+    "lng": -73.9559,
+    "hours": "08:00-22:00 open \"Cafe\" || 16:00-04:00 open \"Bar\"",
+    "contactUrl": "silvana-nyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "corpus-christi-catholic-church",
+    "name": "Corpus Christi Catholic Church",
+    "categories": ["church"],
+    "lat": 40.81102,
+    "lng": -73.96083,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://ccnd-nyc.org/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mount-nebo-baptist-church",
+    "name": "Mount Nebo Baptist Church",
+    "categories": ["church"],
+    "lat": 40.80194,
+    "lng": -73.95306,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "memorial-canaan-baptist-church",
+    "name": "Memorial Canaan Baptist Church",
+    "categories": ["church"],
+    "lat": 40.80243,
+    "lng": -73.95208,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "first-corinthian-baptist-church",
+    "name": "First Corinthian Baptist Church",
+    "categories": ["church"],
+    "lat": 40.8032,
+    "lng": -73.95312,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://fcbcnyc.org",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "morningside-avenue-presbyterian-church",
+    "name": "Morningside Avenue Presbyterian Church",
+    "categories": ["church"],
+    "lat": 40.80917,
+    "lng": -73.95528,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "greater-metropolitan-baptist-church",
+    "name": "Greater Metropolitan Baptist Church",
+    "categories": ["church"],
+    "lat": 40.8075,
+    "lng": -73.94833,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "seventh-church-of-christ-scientist",
+    "name": "Seventh Church of Christ Scientist",
+    "categories": ["church"],
+    "lat": 40.80467,
+    "lng": -73.96429,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "arca-de-refugio-iglesia-de-dios-pentecostal",
+    "name": "Arca de Refugio, Iglesia de Dios Pentecostal",
+    "categories": ["church"],
+    "lat": 40.80055,
+    "lng": -73.96028,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "saint-mary-magdalen-orthodox-church",
+    "name": "Saint Mary Magdalen Orthodox Church",
+    "categories": ["church"],
+    "lat": 40.79965,
+    "lng": -73.96204,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://saintmarymagdalen.nyc/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "grace-united-methodist-church",
+    "name": "Grace United Methodist Church",
+    "categories": ["church"],
+    "lat": 40.79862,
+    "lng": -73.9651,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.nyac.com/churchdetail/270600",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "iglesia-enmanuel-iglesia-de-dios-pentecostal",
+    "name": "Iglesia Enmanuel - Iglesia De Dios Pentecostal",
+    "categories": ["church"],
+    "lat": 40.79988,
+    "lng": -73.96266,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "southern-baptist-church",
+    "name": "Southern Baptist Church",
+    "categories": ["church"],
+    "lat": 40.79954,
+    "lng": -73.96012,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "saint-gerasimos-greek-orthodox-church",
+    "name": "Saint Gerasimos Greek Orthodox Church",
+    "categories": ["church"],
+    "lat": 40.79959,
+    "lng": -73.9652,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.stgnyc.org/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "west-end-presbyterian-church",
+    "name": "West End Presbyterian Church",
+    "categories": ["church"],
+    "lat": 40.79983,
+    "lng": -73.96575,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://westendchurchny.org",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "kingdom-hall-of-jehovah-s-witnesses",
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "categories": ["church"],
+    "lat": 40.80101,
+    "lng": -73.96436,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "iglesia-pentecostal-juan-8-32",
+    "name": "Iglesia Pentecostal Juan 8:32",
+    "categories": ["church"],
+    "lat": 40.80299,
+    "lng": -73.96524,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mount-olivet-baptist-church",
+    "name": "Mount Olivet Baptist Church",
+    "categories": ["church"],
+    "lat": 40.80495,
+    "lng": -73.94807,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "greater-refuge-temple",
+    "name": "Greater Refuge Temple",
+    "categories": ["church"],
+    "lat": 40.80831,
+    "lng": -73.94825,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.greaterrefugetemple.org/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "church-of-the-master",
+    "name": "Church of the Master",
+    "categories": ["church"],
+    "lat": 40.80899,
+    "lng": -73.95535,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "eglise-adventiste-du-7eme-jour",
+    "name": "Eglise Adventiste du 7eme jour",
+    "categories": ["church"],
+    "lat": 40.80719,
+    "lng": -73.9546,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "greater-zion-hill-baptist-church",
+    "name": "Greater Zion Hill Baptist Church",
+    "categories": ["church"],
+    "lat": 40.81144,
+    "lng": -73.95057,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "saint-joseph-of-the-holy-family-catholic-church",
+    "name": "Saint Joseph of the Holy Family Catholic Church",
+    "categories": ["church"],
+    "lat": 40.81176,
+    "lng": -73.95405,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.stjosephsharlem.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "templo-biblico",
+    "name": "Templo Biblico",
+    "categories": ["church"],
+    "lat": 40.81453,
+    "lng": -73.95572,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://templobiblico126.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "antioch-baptist-church",
+    "name": "Antioch Baptist Church",
+    "categories": ["church"],
+    "lat": 40.81417,
+    "lng": -73.95653,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "Antioch Baptist Church",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "st-mary-s-episcopal-church-harlem",
+    "name": "St. Mary's Episcopal Church Harlem",
+    "categories": ["church"],
+    "lat": 40.81489,
+    "lng": -73.95608,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://stmarysharlem.org",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "saint-paul-s-chapel",
+    "name": "Saint Paul's Chapel",
+    "categories": ["church"],
+    "lat": 40.80786,
+    "lng": -73.96095,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "church-of-notre-dame",
+    "name": "Church of Notre Dame",
+    "categories": ["church"],
+    "lat": 40.80511,
+    "lng": -73.96037,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://ndparish.org/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "church-of-the-ascension",
+    "name": "Church of the Ascension",
+    "categories": ["church"],
+    "lat": 40.80187,
+    "lng": -73.96633,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "niko-coffee",
+    "name": "Niko Coffee",
+    "categories": ["wifi"],
+    "lat": 40.80528,
+    "lng": -73.96243,
+    "hours": "Mo-Fr 06:00-19:00; Sa,Su 07:00-18:00",
+    "contactUrl": "https://nikocoffeenyc.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks",
+    "categories": ["wifi"],
+    "lat": 40.80593,
+    "lng": -73.95453,
+    "hours": "Mo-Su 05:30-20:30",
+    "contactUrl": "https://www.starbucks.com/store-locator/store/10763/118th-frederick-douglas-blvd-2195-frederick-douglas-boulevard-new-york-ny-10026",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cafe-amrita",
+    "name": "Cafe Amrita",
+    "categories": ["wifi"],
+    "lat": 40.80102,
+    "lng": -73.95876,
+    "hours": "Mo-Su 08:00-23:00",
+    "contactUrl": "https://amritacafe.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "luckin-coffee",
+    "name": "Luckin Coffee",
+    "categories": ["wifi"],
+    "lat": 40.80295,
+    "lng": -73.96795,
+    "hours": "07:00-21:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "joe-coffee-company",
+    "name": "Joe Coffee Company",
+    "categories": ["wifi"],
+    "lat": 40.8102,
+    "lng": -73.9619,
+    "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-18:00",
+    "contactUrl": "http://www.joenewyork.com/locations/columbia-university/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "blue-java",
+    "name": "Blue Java",
+    "categories": ["wifi"],
+    "lat": 40.8095,
+    "lng": -73.96029,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "tea-magic",
+    "name": "Tea Magic",
+    "categories": ["wifi"],
+    "lat": 40.8052,
+    "lng": -73.96561,
+    "hours": "Mo-Su 11:00-23:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "boba-whale",
+    "name": "Boba Whale",
+    "categories": ["wifi"],
+    "lat": 40.79824,
+    "lng": -73.9695,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "city-coffee-bar",
+    "name": "City Coffee Bar",
+    "categories": ["wifi"],
+    "lat": 40.79847,
+    "lng": -73.96368,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "park-cafe",
+    "name": "Park Cafe",
+    "categories": ["wifi"],
+    "lat": 40.79949,
+    "lng": -73.96107,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "gong-cha",
+    "name": "Gong Cha",
+    "categories": ["wifi"],
+    "lat": 40.80317,
+    "lng": -73.96709,
+    "hours": "Mo-Su 10:30-22:30",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "claire-s-kitchen-cafe",
+    "name": "Claire's Kitchen Cafe",
+    "categories": ["wifi"],
+    "lat": 40.79976,
+    "lng": -73.95266,
+    "hours": "Mo-Su 07:00-17:00",
+    "contactUrl": "https://www.claireskitchencafe.com/harlem",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "broadway-au-lait",
+    "name": "Broadway Au Lait",
+    "categories": ["wifi"],
+    "lat": 40.81137,
+    "lng": -73.96112,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "molly-tea",
+    "name": "Molly Tea",
+    "categories": ["wifi"],
+    "lat": 40.80479,
+    "lng": -73.96659,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://mollyteany.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "blue-bottle-coffee",
+    "name": "Blue Bottle Coffee",
+    "categories": ["wifi"],
+    "lat": 40.8063,
+    "lng": -73.96549,
+    "hours": "Mo-Fr 06:30-19:00; Sa,Su 07:00-19:00",
+    "contactUrl": "https://bluebottlecoffee.com/cafes/morningside-heights",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "nous-espresso",
+    "name": "Nous Espresso",
+    "categories": ["wifi"],
+    "lat": 40.80752,
+    "lng": -73.96088,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "plowshares-coffee-roasters",
+    "name": "Plowshares Coffee Roasters",
+    "categories": ["wifi"],
+    "lat": 40.80014,
+    "lng": -73.96776,
+    "hours": "Mo-Fr 07:30-17:30; Sa,Su 08:00-17:30",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cafe-east",
+    "name": "Café East",
+    "categories": ["wifi"],
+    "lat": 40.8067,
+    "lng": -73.96383,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "picky-barista",
+    "name": "Picky Barista",
+    "categories": ["wifi"],
+    "lat": 40.7985,
+    "lng": -73.96862,
+    "hours": "Mo-Fr 07:00-19:00; Sa, Su 08:00-19:00",
+    "contactUrl": "https://pickybarista.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "zoe-cafe-and-hookah-lounge",
+    "name": "Zoe Café and Hookah Lounge",
+    "categories": ["wifi"],
+    "lat": 40.80777,
+    "lng": -73.95316,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "publique",
+    "name": "Publique",
+    "categories": ["wifi"],
+    "lat": 40.80723,
+    "lng": -73.95968,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "dear-mama",
+    "name": "Dear Mama",
+    "categories": ["wifi"],
+    "lat": 40.81673,
+    "lng": -73.95851,
+    "hours": "Mo-Su 07:00-22:00",
+    "contactUrl": "https://www.dearmamacoffee.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "ganache-coffee",
+    "name": "Ganache Coffee",
+    "categories": ["wifi"],
+    "lat": 40.80667,
+    "lng": -73.95396,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "cloud-touch",
+    "name": "Cloud Touch",
+    "categories": ["wifi"],
+    "lat": 40.80265,
+    "lng": -73.96816,
+    "hours": "Mo-Sa 07:30-19:00",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "omonia-cafe",
+    "name": "Omonia Cafe",
+    "categories": ["wifi"],
+    "lat": 40.80315,
+    "lng": -73.9678,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "super-nice-coffee-and-bakery",
+    "name": "Super Nice Coffee and Bakery",
+    "categories": ["wifi"],
+    "lat": 40.80151,
+    "lng": -73.96447,
+    "hours": "Mo-Fr 07:00-15:00; Sa-Su 09:00-15:00",
+    "contactUrl": "https://www.supernice.nyc",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "mom-s-food-market",
+    "name": "Mom's Food Market",
+    "categories": ["wifi"],
+    "lat": 40.80126,
+    "lng": -73.95934,
+    "hours": "24/7",
+    "contactUrl": "https://www.momsfoodmarket.getsauce.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "purple-waves",
+    "name": "Purple Waves",
+    "categories": ["wifi"],
+    "lat": 40.80083,
+    "lng": -73.95759,
+    "hours": "Hours not listed — check before you go",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "omega-bakery-cafe",
+    "name": "Omega Bakery & Cafe",
+    "categories": ["wifi"],
+    "lat": 40.81027,
+    "lng": -73.9532,
+    "hours": "Mo-Su 06:00-22:00",
+    "contactUrl": "https://omegabakerycafe.com",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "kaafi",
+    "name": "Kaafi",
+    "categories": ["wifi"],
+    "lat": 40.80386,
+    "lng": -73.94872,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.kaafiny.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "il-caffe-latte",
+    "name": "Il Caffe Latte",
+    "categories": ["wifi"],
+    "lat": 40.8044,
+    "lng": -73.94842,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://ilcaffelatte.com/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "morningside-cafe",
+    "name": "Morningside Cafe",
+    "categories": ["wifi"],
+    "lat": 40.80242,
+    "lng": -73.95907,
+    "hours": "Mo-Su 12:00-20:00",
+    "contactUrl": "https://crabmanmikeatmorningsidecafe.square.site/",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "morningside-heights",
+    "name": "Morningside Heights",
+    "categories": ["quiet"],
+    "lat": 40.80612,
+    "lng": -73.96492,
+    "hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+    "contactUrl": "https://www.nypl.org/locations/morningside-heights",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "harry-belafonte-library",
+    "name": "Harry Belafonte Library",
+    "categories": ["quiet"],
+    "lat": 40.80298,
+    "lng": -73.95353,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.nypl.org/locations/115th-street",
+    "source": "OpenStreetMap"
+  },
+  {
+    "id": "george-bruce-library",
+    "name": "George Bruce Library",
+    "categories": ["quiet"],
+    "lat": 40.81378,
+    "lng": -73.95708,
+    "hours": "Hours not listed — check before you go",
+    "contactUrl": "https://www.nypl.org/locations/george-bruce",
+    "source": "OpenStreetMap"
   }
 ]

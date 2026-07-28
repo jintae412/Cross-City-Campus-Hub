@@ -1,0 +1,2634 @@
+[
+  {
+    "name": "Trudy's Ice Cream",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80038,
+    "lng": -73.96181,
+    "hours": "Mo-Fr 12:00-21:00; Sa-Su 11:00-21:00",
+    "contactUrl": "https://trudysicecream.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Le Monde",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80578,
+    "lng": -73.96587,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://lemondenyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Tom's Restaurant",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80545,
+    "lng": -73.96542,
+    "hours": "Mo-Su 07:00-23:00",
+    "contactUrl": "https://tomsrestaurant.net/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Chocolat Restaurant Lounge",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80695,
+    "lng": -73.95375,
+    "hours": "Mo-Th 11:00-23:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+    "contactUrl": "https://chocolatharlem.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Fox",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8068,
+    "lng": -73.95341,
+    "hours": "Mo-Th 12:00-24:00; Fr 12:00-02:00; Sa 10:30-02:00; Su 10:30-24:00",
+    "contactUrl": "https://thefoxharlem.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Melba's",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80309,
+    "lng": -73.95657,
+    "hours": "Mo-We 11:00-22:00; Th-Su 11:00-23:00",
+    "contactUrl": "https://www.melbasrestaurant.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Cedric",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80614,
+    "lng": -73.95303,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Billie's Black Bar & Lounge",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80623,
+    "lng": -73.95323,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Bosino",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79874,
+    "lng": -73.96733,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://bosinonyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Fumo",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80281,
+    "lng": -73.96805,
+    "hours": "Su-Th 11:00-22:00; Fr-Sa 11:00-23:00",
+    "contactUrl": "https://www.fumorestaurant.com/location/fumo-upper-west-side/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Smoke Jazz & Supper Club",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80112,
+    "lng": -73.96821,
+    "hours": "We-Su 17:00-24:00",
+    "contactUrl": "https://www.smokejazz.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Ellington",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80086,
+    "lng": -73.96826,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.theellingtonny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Serafina",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80049,
+    "lng": -73.96828,
+    "hours": "Mo-Fr 11:30-23:00; Sa 10:30-23:00; Su 10:30-22:00",
+    "contactUrl": "https://serafinawest105.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Harlem Maison",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8122,
+    "lng": -73.95167,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Tang",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79996,
+    "lng": -73.9663,
+    "hours": "Mo-Th 11:00-15:30,17:00-21:30; Fr 11:00-15:30,17:00-21:45; Sa 11:00-21:45; Su 11:00-21:30",
+    "contactUrl": "https://www.thetangnyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "New Kam Lai",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.7988,
+    "lng": -73.96717,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "http://www.newkamlai.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Noche Mexicana",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79742,
+    "lng": -73.96813,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.noche-mexicana.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Calaveras Corner",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80066,
+    "lng": -73.96578,
+    "hours": "Su-We 10:00-24:00, Th-Sa 10:00-02:00",
+    "contactUrl": "https://calaverascorner.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Ortomare Ristorante Pizzeria",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80115,
+    "lng": -73.96172,
+    "hours": "Tu-Fr 16:00-22:00; Sa-Su 15:00-22:00",
+    "contactUrl": "https://ortomare.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Miss Mamie's Spoonbread Too",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80145,
+    "lng": -73.9609,
+    "hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 11:00-21:30",
+    "contactUrl": "https://spoonbreadinc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Koo Thai",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79839,
+    "lng": -73.96324,
+    "hours": "11:30-22:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "V&T Pizzeria",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80335,
+    "lng": -73.96383,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://vtrestaurantpizzeria.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Ollie's",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79943,
+    "lng": -73.9687,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://ollieseats.com/ollies-noodle-shop-grille",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Zurna",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79975,
+    "lng": -73.96854,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://zurnanyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Caf\u00e9 du Soleil",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8001,
+    "lng": -73.9684,
+    "hours": "Mo-We 16:00-22:00; Th-Fr 11:00-23:00; Sa 09:00-23:00; Su 09:00-22:00",
+    "contactUrl": "https://www.cafedusoleilny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Benny\u2019s Chao King",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.7983,
+    "lng": -73.9638,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Longwood Fish Market",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79801,
+    "lng": -73.96353,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saiguette",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79903,
+    "lng": -73.96279,
+    "hours": "Mo-Su 12:00-20:30",
+    "contactUrl": "https://www.saiguette.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Hinds Hall",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80051,
+    "lng": -73.96541,
+    "hours": "Mo-Th, Su 11:00-22:00; Fr-Sa 11:00-23:00",
+    "contactUrl": "https://www.ayatnyc.com/location/hinds-hall/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Halal Chicks",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79994,
+    "lng": -73.96212,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Super Nice Pizza",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80157,
+    "lng": -73.96466,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://supernicepizza.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mizu Hibachi",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80079,
+    "lng": -73.96569,
+    "hours": "Mo-Th 11:30-22:00; Fr 11:30-22:30; Sa 12:00-22:30; Su 12:00-22:00",
+    "contactUrl": "https://www.mizu940.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Amity Hall Uptown",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80226,
+    "lng": -73.96464,
+    "hours": "Mo-We 11:30-01:00, Th,Fr 11:30-02:00, Sa 10:30-02:00, Su 10:30-01:00",
+    "contactUrl": "https://amityhalluptown.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Roti Roll (Bombay Frankie)",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80259,
+    "lng": -73.96437,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://rotirollny.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Safari",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80059,
+    "lng": -73.95271,
+    "hours": "Tu-Su 10:00-22:00",
+    "contactUrl": "https://safariharlem.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Lalibela",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80231,
+    "lng": -73.95667,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "BIXI Harlem",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80482,
+    "lng": -73.95483,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://bixiharlem.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Koronet Pizza",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80444,
+    "lng": -73.96617,
+    "hours": "Su-Th 10:00-02:00, Fr,Sa 10:00-04:00",
+    "contactUrl": "https://www.koronetpizzany.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Sapps",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8056,
+    "lng": -73.96531,
+    "hours": "Mo-Th 11:30-20:00; Fr 11:30-23:00; Sa 12:30-23:00; Su 16:30-20:00",
+    "contactUrl": "https://www.sappsuws.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Nikko Hibachi Asian Fusion",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81148,
+    "lng": -73.95792,
+    "hours": "Su-Th 12:00-22:00; Fr,Sa 12:00-23:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Bar 314",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81417,
+    "lng": -73.95975,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.bar314nyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Max Soha",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81124,
+    "lng": -73.95804,
+    "hours": "Mo-Su 16:00-22:00",
+    "contactUrl": "https://www.maxsoha.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "South of the Clouds",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80825,
+    "lng": -73.95977,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Pisticci",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81417,
+    "lng": -73.96035,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.pisticcinyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "La Salle Dumpling Room",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81403,
+    "lng": -73.95983,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.lasalledumplingroom.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Jin Ramen",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81539,
+    "lng": -73.95885,
+    "hours": "Mo-Su 11:30-15:30,17:00-23:00",
+    "contactUrl": "https://125.jinramen.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Community Food & Juice",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80595,
+    "lng": -73.96574,
+    "hours": "Mo-Su 09:00-21:00",
+    "contactUrl": "http://communityrestaurant.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Osteria 106",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79893,
+    "lng": -73.96169,
+    "hours": "Mo-Fr 16:00-23:00; Sa-Su 12:00-23:00",
+    "contactUrl": "http://osteria106.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Sushi W",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79837,
+    "lng": -73.96941,
+    "hours": "Mo-Su 12:00-14:00, 17:00-22:00",
+    "contactUrl": "https://www.sushiwny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Amy Ruth's",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80246,
+    "lng": -73.95023,
+    "hours": "Mo-Th 11:30-21:30; Fr, Sa 11:00-22:30; Su 11:00-21:30",
+    "contactUrl": "http://amyruths.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Chez Alain",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80736,
+    "lng": -73.94983,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Paris Blues",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8064,
+    "lng": -73.94988,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Strokos Deli",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80547,
+    "lng": -73.96228,
+    "hours": "Mo-Fr 05:30-19:30; Sa,Su 05:30-17:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Himalayan Curry House",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80264,
+    "lng": -73.96713,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Picnic by The Black Parrot",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80043,
+    "lng": -73.96526,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Heights Bar & Grill",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80518,
+    "lng": -73.9664,
+    "hours": "Sa-Su 11:00-16:00; Mo-Fr 11:00-16:00",
+    "contactUrl": "https://theheightsnyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Dragon One",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80208,
+    "lng": -73.95684,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.dragononeny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Massawa",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80979,
+    "lng": -73.95861,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.massawanyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Symposium",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80552,
+    "lng": -73.96427,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.symposiumnyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Haji's Famous Deli",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80642,
+    "lng": -73.96111,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Wu + Nussbaum",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8061,
+    "lng": -73.96564,
+    "hours": "Mo-Su 07:00-21:30",
+    "contactUrl": "https://www.wunussbaum.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Anar",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80021,
+    "lng": -73.96563,
+    "hours": "Mo-Su 11:30-14:45,17:00-21:45",
+    "contactUrl": "https://www.anaronline.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Vinateria",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80654,
+    "lng": -73.95406,
+    "hours": "Mo-We 16:00-22:00; Th-Fr 16:00-23:00; Sa 11:00-23:00; Su 11:00-22:00",
+    "contactUrl": "https://www.vinaterianyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Moca Bar & Lounge",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80637,
+    "lng": -73.95368,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Tropical Sensation",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80087,
+    "lng": -73.96515,
+    "hours": "Su-Th 10:00-23:00; Fr-Sa 10:00-00:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Awash",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80069,
+    "lng": -73.96528,
+    "hours": "12:45-22:30",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Clay",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80944,
+    "lng": -73.95376,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Angel of Harlem",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80806,
+    "lng": -73.95248,
+    "hours": "We-Th 16:00-24:00; Fr 16:00-01:00; Sa 11:00-01:00; Su 11:00-12:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Crab du Jour",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81082,
+    "lng": -73.95097,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://crabdujour.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "New York Gourmet Deli",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8085,
+    "lng": -73.94898,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Savanna Raes",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8083,
+    "lng": -73.94927,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Red Star",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80769,
+    "lng": -73.94968,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Dun Huang",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81104,
+    "lng": -73.9582,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.dunhuangfood.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "West Place",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8116,
+    "lng": -73.95781,
+    "hours": "Mo-Su 11:00-22:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Red Lobster",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81006,
+    "lng": -73.95044,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Consuelo",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79946,
+    "lng": -73.96771,
+    "hours": "We-Fr 17:00-22:00; Sa-Su 10:00-14:00",
+    "contactUrl": "https://www.cocinaconsuelonyc.com/consuelouws",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Harlem Pizza Co.",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80282,
+    "lng": -73.95114,
+    "hours": "Mo-Su 12:00-22:00",
+    "contactUrl": "http://www.harlempizzaco.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Freda's Caribbean and Soul Cuisine",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80093,
+    "lng": -73.96139,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Curry King",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79953,
+    "lng": -73.96289,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://currykinginc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Los 3 Charros",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80011,
+    "lng": -73.9514,
+    "hours": "Mo-Su 10:00-22:00",
+    "contactUrl": "https://los3charros.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Zaad",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80121,
+    "lng": -73.96492,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://zaadrestaurants.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Minton's Playhouse",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80474,
+    "lng": -73.95238,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://mintonsharlem.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mama\u2019s TOO!",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.8008,
+    "lng": -73.96765,
+    "hours": "Mo-Su 12:00-23:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Oasis Jimma Juice Bar",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81498,
+    "lng": -73.95916,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Frozen Love",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81383,
+    "lng": -73.9602,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Le Baobab Gouygui",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80235,
+    "lng": -73.95093,
+    "hours": "13:00-01:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Keur Coumba",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80266,
+    "lng": -73.95073,
+    "hours": "Sa-Th 08:30-03:00; Fr 08:30-03:30",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "BLVD Bistro",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80437,
+    "lng": -73.95567,
+    "hours": "We, Th 12:00-21:00; Fr 12:00-22:00; Sa 10:00-22:00; Su 10:00-19:00",
+    "contactUrl": "https://www.boulevardbistrony.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Tropilyz",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80287,
+    "lng": -73.95213,
+    "hours": "Mo-Sa 08:00-21:00",
+    "contactUrl": "https://tropilyz.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "La Savane",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80413,
+    "lng": -73.95425,
+    "hours": "12:00-01:00",
+    "contactUrl": "https://www.lasavanerestaurant.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Olivia - Spanish Tapas",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81696,
+    "lng": -73.95786,
+    "hours": "Mo-Sa 08:00-22:00",
+    "contactUrl": "https://www.olivatapas.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Spice Lamb",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80018,
+    "lng": -73.96613,
+    "hours": "Mo,We-Fr 15:00-24:00; Sa-Su 12:30-24:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Dragon 105",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79825,
+    "lng": -73.96336,
+    "hours": "Mo-Th,Su 11:00-22:00; Fr-Sa 11:30-22:30",
+    "contactUrl": "https://www.dragon105ny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Elis Wine Bar",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80282,
+    "lng": -73.9642,
+    "hours": "Tu-Su 16:00-23:00",
+    "contactUrl": "https://www.eliswinebar.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Homemade Taqueria",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80117,
+    "lng": -73.9612,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.homemadetaqueria.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Chef Mike's Sub Shop",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80885,
+    "lng": -73.961,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Calaveras",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79953,
+    "lng": -73.9624,
+    "hours": "Mo-Th 12:00-22:00; Fr-Sa 12:00-23:00; Su 12:00-22:00",
+    "contactUrl": "https://thecalaverasnyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Ellington in the park",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80258,
+    "lng": -73.97188,
+    "hours": "Mo-Su 11:00-23:00",
+    "contactUrl": "https://www.ellingtoninthepark.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Vegan Hood",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80284,
+    "lng": -73.95629,
+    "hours": "Su 11:30-20:00; Mo-Th 11:30-22:00; Fr, Sa 11:30-23:00",
+    "contactUrl": "https://veganhood.net/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Tartina",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80362,
+    "lng": -73.96364,
+    "hours": "Mo-Fr 15:00-20:00; Sa 12:00-15:00, 17:00-23:00; Su 12:00-15:00, 17:00-20:00",
+    "contactUrl": "https://www.tartina-restaurant.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Koko Wings",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80096,
+    "lng": -73.96735,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.kokowingsnyc.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Happy Hot Hunan Restaurant",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80139,
+    "lng": -73.96478,
+    "hours": "Mo,Tu 11:00-22:00, We-Su 11:00-24:00",
+    "contactUrl": "https://www.happyhothunanny.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Pancho's Antojitos Mexicano",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80139,
+    "lng": -73.96523,
+    "hours": "Mo-Su 08:00-20:00",
+    "contactUrl": "https://panchos-mexicano.edan.io",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mala Town",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80002,
+    "lng": -73.96578,
+    "hours": "Mo-Su 11:30-21:30",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Atlas Kitchen",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80329,
+    "lng": -73.96676,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.atlaskitchennyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "The Grand Feast",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79779,
+    "lng": -73.96787,
+    "hours": "Mo 15:00-23:00; Tu-Fr 11:00-23:00; Sa-Su 09:00-23:00",
+    "contactUrl": "https://www.thegrandfeast.nyc",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Kikoo Sushi",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80139,
+    "lng": -73.96155,
+    "hours": "Mo 15:00-22:00; We-Su 15:00-22:00",
+    "contactUrl": "https://www.kikoowest.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Telio",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.79821,
+    "lng": -73.96885,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.nycteliorestaurant.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Island Grill",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81519,
+    "lng": -73.95812,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Ghemo",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80074,
+    "lng": -73.96602,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Cantina Taqueria",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80275,
+    "lng": -73.95682,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Cafe Massawa",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81458,
+    "lng": -73.95945,
+    "hours": "Mo-Su 11:30-22:00",
+    "contactUrl": "https://www.cafemassawa.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Pho Amsterdam",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81091,
+    "lng": -73.95829,
+    "hours": "Mo-Su,PH 11:00-21:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Alke Caf\u00e9",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80034,
+    "lng": -73.95498,
+    "hours": "Mo,Th 15:00-24:30; Tu 15:00-22:00; We 15:00-23:00; Fr-Sa 15:00-01:30; Su 09:00-22:00",
+    "contactUrl": "https://www.alkecafe.co/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Nai Brother Sauerkraut Fish",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80346,
+    "lng": -73.96757,
+    "hours": "Mo-Su 11:00-01:30",
+    "contactUrl": "https://www.naibrothersauerkrautfish.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Columbia Deli & Cafe",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.81533,
+    "lng": -73.95826,
+    "hours": "Mo-Sa 06:00-24:00; Su 06:00-22:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Double Dutch Espresso",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80584,
+    "lng": -73.95399,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Patisserie Des Ambassades",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80608,
+    "lng": -73.95382,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Silvana",
+    "categories": [
+      "group-food"
+    ],
+    "lat": 40.80443,
+    "lng": -73.9559,
+    "hours": "08:00-22:00 open \"Cafe\" || 16:00-04:00 open \"Bar\"",
+    "contactUrl": "silvana-nyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Corpus Christi Catholic Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81102,
+    "lng": -73.96083,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://ccnd-nyc.org/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mount Nebo Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80194,
+    "lng": -73.95306,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Memorial Canaan Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80243,
+    "lng": -73.95208,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "First Corinthian Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.8032,
+    "lng": -73.95312,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://fcbcnyc.org",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Morningside Avenue Presbyterian Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80917,
+    "lng": -73.95528,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Greater Metropolitan Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.8075,
+    "lng": -73.94833,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Seventh Church of Christ Scientist",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80467,
+    "lng": -73.96429,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Arca de Refugio, Iglesia de Dios Pentecostal",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80055,
+    "lng": -73.96028,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "St. Mary's Center",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81442,
+    "lng": -73.95632,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saint Mary Magdalen Orthodox Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79965,
+    "lng": -73.96204,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://saintmarymagdalen.nyc/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Grace United Methodist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79862,
+    "lng": -73.9651,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.nyac.com/churchdetail/270600",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Iglesia Enmanuel - Iglesia De Dios Pentecostal",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79988,
+    "lng": -73.96266,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Riverside Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.8118,
+    "lng": -73.96301,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Southern Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79954,
+    "lng": -73.96012,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saint Gerasimos Greek Orthodox Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79959,
+    "lng": -73.9652,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.stgnyc.org/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "West End Presbyterian Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.79983,
+    "lng": -73.96575,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://westendchurchny.org",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Kingdom Hall of Jehovah's Witnesses",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80101,
+    "lng": -73.96436,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Iglesia Pentecostal Juan 8:32",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80299,
+    "lng": -73.96524,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saint Thomas the Apostle Roman Catholic Church (historical)",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80492,
+    "lng": -73.95329,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mount Olivet Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80495,
+    "lng": -73.94807,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Greater Refuge Temple",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80831,
+    "lng": -73.94825,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.greaterrefugetemple.org/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Church of the Master",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80899,
+    "lng": -73.95535,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Eglise Adventiste du 7eme jour",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80719,
+    "lng": -73.9546,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Greater Zion Hill Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81144,
+    "lng": -73.95057,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saint Joseph of the Holy Family Catholic Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81176,
+    "lng": -73.95405,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.stjosephsharlem.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Templo Biblico",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81453,
+    "lng": -73.95572,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://templobiblico126.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Antioch Baptist Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81417,
+    "lng": -73.95653,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "Antioch Baptist Church",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "St. Mary's Episcopal Church Harlem",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.81489,
+    "lng": -73.95608,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://stmarysharlem.org",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Broadway Presbyterian Church",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80709,
+    "lng": -73.96517,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "http://www.bpcnyc.org/#/directions-contact",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Saint Paul's Chapel",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80786,
+    "lng": -73.96095,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Church of Notre Dame",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80511,
+    "lng": -73.96037,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://ndparish.org/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Church of the Ascension",
+    "categories": [
+      "church"
+    ],
+    "lat": 40.80187,
+    "lng": -73.96633,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Niko Coffee",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80528,
+    "lng": -73.96243,
+    "hours": "Mo-Fr 06:00-19:00; Sa,Su 07:00-18:00",
+    "contactUrl": "https://nikocoffeenyc.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Starbucks",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80593,
+    "lng": -73.95453,
+    "hours": "Mo-Su 05:30-20:30",
+    "contactUrl": "https://www.starbucks.com/store-locator/store/10763/118th-frederick-douglas-blvd-2195-frederick-douglas-boulevard-new-york-ny-10026",
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Cafe Amrita",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80102,
+    "lng": -73.95876,
+    "hours": "Mo-Su 08:00-23:00",
+    "contactUrl": "https://amritacafe.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Luckin Coffee",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80295,
+    "lng": -73.96795,
+    "hours": "07:00-21:00",
+    "contactUrl": null,
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Joe Coffee Company",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8102,
+    "lng": -73.9619,
+    "hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-18:00",
+    "contactUrl": "http://www.joenewyork.com/locations/columbia-university/",
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Blue Java",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8095,
+    "lng": -73.96029,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Tea Magic",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8052,
+    "lng": -73.96561,
+    "hours": "Mo-Su 11:00-23:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Boba Whale",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.79824,
+    "lng": -73.9695,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "City Coffee Bar",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.79847,
+    "lng": -73.96368,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Park Cafe",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.79949,
+    "lng": -73.96107,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Gong Cha",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80317,
+    "lng": -73.96709,
+    "hours": "Mo-Su 10:30-22:30",
+    "contactUrl": null,
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Claire's Kitchen Cafe",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.79976,
+    "lng": -73.95266,
+    "hours": "Mo-Su 07:00-17:00",
+    "contactUrl": "https://www.claireskitchencafe.com/harlem",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Broadway Au Lait",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.81137,
+    "lng": -73.96112,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Molly Tea",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80479,
+    "lng": -73.96659,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://mollyteany.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Blue Bottle Coffee",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8063,
+    "lng": -73.96549,
+    "hours": "Mo-Fr 06:30-19:00; Sa,Su 07:00-19:00",
+    "contactUrl": "https://bluebottlecoffee.com/cafes/morningside-heights",
+    "chain": true,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Nous Espresso",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80752,
+    "lng": -73.96088,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Plowshares Coffee Roasters",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80014,
+    "lng": -73.96776,
+    "hours": "Mo-Fr 07:30-17:30; Sa,Su 08:00-17:30",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Caf\u00e9 East",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8067,
+    "lng": -73.96383,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Picky Barista",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.7985,
+    "lng": -73.96862,
+    "hours": "Mo-Fr 07:00-19:00; Sa, Su 08:00-19:00",
+    "contactUrl": "https://pickybarista.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Zoe Caf\u00e9 and Hookah Lounge",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80777,
+    "lng": -73.95316,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Publique",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80723,
+    "lng": -73.95968,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Dear Mama",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.81673,
+    "lng": -73.95851,
+    "hours": "Mo-Su 07:00-22:00",
+    "contactUrl": "https://www.dearmamacoffee.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Ganache Coffee",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80667,
+    "lng": -73.95396,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Cloud Touch",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80265,
+    "lng": -73.96816,
+    "hours": "Mo-Sa 07:30-19:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Omonia Cafe",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80315,
+    "lng": -73.9678,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Super Nice Coffee and Bakery",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80151,
+    "lng": -73.96447,
+    "hours": "Mo-Fr 07:00-15:00; Sa-Su 09:00-15:00",
+    "contactUrl": "https://www.supernice.nyc",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Mom's Food Market",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80126,
+    "lng": -73.95934,
+    "hours": "24/7",
+    "contactUrl": "https://www.momsfoodmarket.getsauce.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Purple Waves",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80083,
+    "lng": -73.95759,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Omega Bakery & Cafe",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.81027,
+    "lng": -73.9532,
+    "hours": "Mo-Su 06:00-22:00",
+    "contactUrl": "https://omegabakerycafe.com",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Kaafi",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80386,
+    "lng": -73.94872,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.kaafiny.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Il Caffe Latte",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.8044,
+    "lng": -73.94842,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://ilcaffelatte.com/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Morningside Cafe",
+    "categories": [
+      "wifi"
+    ],
+    "lat": 40.80242,
+    "lng": -73.95907,
+    "hours": "Mo-Su 12:00-20:00",
+    "contactUrl": "https://crabmanmikeatmorningsidecafe.square.site/",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Morningside Heights",
+    "categories": [
+      "quiet"
+    ],
+    "lat": 40.80612,
+    "lng": -73.96492,
+    "hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+    "contactUrl": "https://www.nypl.org/locations/morningside-heights",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Harry Belafonte Library",
+    "categories": [
+      "quiet"
+    ],
+    "lat": 40.80298,
+    "lng": -73.95353,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.nypl.org/locations/115th-street",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "George Bruce Library",
+    "categories": [
+      "quiet"
+    ],
+    "lat": 40.81378,
+    "lng": -73.95708,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": "https://www.nypl.org/locations/george-bruce",
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Milstein Center for Teaching and Learning",
+    "categories": [
+      "quiet"
+    ],
+    "lat": 40.80969,
+    "lng": -73.96365,
+    "hours": "NEEDS REVIEW \u2014 hours not available from OpenStreetMap, verify manually",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  },
+  {
+    "name": "Butler Library",
+    "categories": [
+      "quiet"
+    ],
+    "lat": 40.80637,
+    "lng": -73.96319,
+    "hours": "Mo-Th 09:00-23:00",
+    "contactUrl": null,
+    "chain": false,
+    "source": "OpenStreetMap via Overpass API",
+    "aiSuggested": true,
+    "reviewed": false
+  }
+]
