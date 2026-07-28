@@ -173,7 +173,11 @@ function loadUniversity(id, containerId) {
     })
     .then(function (uni) { renderUniversity(container, uni); })
     .catch(function () {
-      container.innerHTML = '<p class="placeholder">This university\'s data is temporarily unavailable.</p>';
+      // Also catches a render that threw on missing fields, which is the likelier failure once
+      // someone hand-adds a university — so the message names the file rather than blaming the network.
+      container.innerHTML = '<p class="placeholder">This university\'s data couldn\'t be loaded. '
+        + 'It may be temporarily unavailable, or data/universities/' + id + '.json may be '
+        + 'missing a required field — see the README.</p>';
     });
 }
 
@@ -214,8 +218,11 @@ function renderUniversity(container, uni) {
     + '</div>';
 }
 
-loadUniversity('columbia', 'columbia-content');
-loadUniversity('nyu', 'nyu-content');
+// Driven off the markup rather than a hardcoded list, so adding a campus stays a matter of
+// copying a section in index.html and dropping in a JSON file — no edit here.
+document.querySelectorAll('[data-university-content]').forEach(function (el) {
+  loadUniversity(el.getAttribute('data-university-content'), el.id);
+});
 
 // id -> { map, markers }. Presence doubles as the "already built" flag.
 var universityMaps = {};
@@ -286,11 +293,20 @@ function mapSectionHtml(id) {
 // those the registry gives no mapCenter (i.e. no map yet — that's a data state, not an error).
 function initUniversityMap(id) {
   if (universityMaps[id]) { return; }
-  universityRegistry.then(function (list) {
-    var entry = list.filter(function (u) { return u.id === id; })[0];
-    if (!entry || !entry.mapCenter) { return; }
-    buildUniversityMap(id, entry.mapCenter);
-  });
+  var host = document.querySelector('[data-map="' + id + '"]');
+  if (!host) { return; } // a page with no map section at all (NYC overview)
+
+  universityRegistry
+    .then(function (list) {
+      var entry = list.filter(function (u) { return u.id === id; })[0];
+      if (!entry || !entry.mapCenter) { return; }
+      buildUniversityMap(id, entry.mapCenter);
+    })
+    .catch(function () {
+      host.innerHTML = '<p class="cap-label">Campus Map</p><p class="placeholder">The map '
+        + 'couldn\'t be loaded. If this keeps happening, check that '
+        + 'data/universities/index.json is valid and lists a mapCenter for this campus.</p>';
+    });
 }
 
 function buildUniversityMap(id, center) {
@@ -360,8 +376,14 @@ function buildUniversityMap(id, center) {
       applyMapFilters(id);
     })
     .catch(function () {
-      document.getElementById(id + '-map').innerHTML =
-        '<p class="placeholder">Map data for this campus isn\'t available yet.</p>';
+      // Tear the map down before replacing the section — Leaflet has already built its panes
+      // inside the container by now, and blowing them away underneath a live map instance
+      // leaves it half-alive. Dropping the state entry also lets a later nav click retry.
+      map.remove();
+      delete universityMaps[id];
+      host.innerHTML = '<p class="cap-label">Campus Map</p><p class="placeholder">The pins for '
+        + 'this campus couldn\'t be loaded. Check that data/universities/' + id
+        + '-map.json exists and is valid JSON.</p>';
     });
 
   document.getElementById(id + '-map-category')
@@ -377,8 +399,14 @@ function buildUniversityMap(id, center) {
 // Counted from the loaded pins rather than written into the copy, because the number moves
 // every time hours get backfilled and a hard-coded one goes stale silently.
 function describeHoursCoverage(id, markers) {
+  var note = document.getElementById(id + '-map-note');
+  if (!markers.length) {
+    note.textContent = 'No map pins for this campus yet — add them to data/universities/'
+      + id + '-map.json.';
+    return;
+  }
   var readable = markers.filter(function (entry) { return entry.openRules; }).length;
-  document.getElementById(id + '-map-note').innerHTML +=
+  note.innerHTML +=
     ' &ldquo;Open now&rdquo; uses New York time and covers the ' + readable + ' of '
     + markers.length + ' pins here with posted hours we can read; the rest are hidden while '
     + 'it&rsquo;s on rather than guessed at. Call ahead for anything that matters.';

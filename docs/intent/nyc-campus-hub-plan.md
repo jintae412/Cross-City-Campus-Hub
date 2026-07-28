@@ -117,11 +117,47 @@ security boundary exists to avoid. So the tool is split:
 Merges splice into the live file rather than round-tripping it through `json.dump`, so the diff
 shows only the added entries and hand-written formatting survives.
 
-### Slice 9 — Polish & Handoff
+### Slice 9 — Polish & Handoff — BUILT 2026-07-28
 - Responsiveness pass across all pages (laptop is primary; confirm the phone fallback breakpoint holds up)
 - Basic error/empty states for the live data fetches (e.g. API temporarily down)
 - Short README section: "how to add a new university" and "how to review/merge an AI-suggested entry"
   — written so a non-technical teammate could eventually follow it
+
+**Error and empty states filled in.** Weather, events and university content already had them. Added:
+the registry fetch (`index.json`) had no `.catch` at all, so a broken registry meant a silently
+missing map; the map-data failure now calls `map.remove()` before replacing the section, since
+Leaflet has already built its panes in that container by then and overwriting `innerHTML` under a
+live map leaves it half-alive; a campus whose pin file loads but is empty now says so. Every message
+names the file to fix rather than blaming the network — the likelier failure is a hand-edited JSON
+file, not an outage.
+
+**Adding a university is now genuinely code-free.** `loadUniversity` was still hardcoded to
+`columbia` and `nyu`; it now walks `[data-university-content]` in the markup. `app.js` contains no
+campus name anywhere. Adding a campus = one JSON file + a registry line + a copied `<section>`.
+
+**README rewritten as the handoff doc** — running it locally, where everything lives, adding a
+university (with the full required-field shape), adding map pins, and the AI-review workflow.
+Written for someone non-technical: it explains *why* coordinates must be looked up rather than
+estimated, and why unknown capacity and unreadable hours are hidden rather than guessed.
+
+**Responsiveness: one real fix, and a caveat.** The legend was a non-wrapping flex row, the one
+element that would have forced horizontal scrolling on a narrow phone. The rest of the breakpoint
+work (900px sidebar collapse, both grids, the scrolling hourly strip, wrapping filters) was already
+in place from earlier slices. **This was reviewed as CSS, not in a browser** — see below.
+
+## Not yet verified in a browser
+
+Nothing since Slice 6 has been checked in a real browser; the environment has no browser tooling.
+What *has* been checked, and what it does and doesn't prove:
+
+- `node --check` on the JS, `python3 -m json.tool` on every data file — catches syntax, not behaviour.
+- A script cross-checking every `getElementById(id + '...')` in `app.js` against the ids
+  `mapSectionHtml()` actually emits — catches the stale-id class of bug the Slice 7 refactor risked.
+- `node scripts/test-hours.js` and `python3 scripts/review_content.py --self-check` — real logic tests.
+
+None of that proves a tile rendered, a marker drew, or the phone layout holds. Before this is called
+done, someone should open it (`python3 -m http.server 8000`) and click through both campus maps on a
+laptop and a phone.
 
 ## Follow-ups / Backlog
 
