@@ -343,7 +343,6 @@
     "categories": ["subway"],
     "lat": 40.8081,
     "lng": -73.9639,
-    "schedule": { "type": "always" },
     "hours": "Subway service runs 24/7"
   },
   {

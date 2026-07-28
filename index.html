@@ -83,10 +83,16 @@
           <label for="col-map-size">Fits at least
             <input type="number" id="col-map-size" min="1" max="500" value="1"> people
           </label>
+          <label for="col-map-open-now">
+            <input type="checkbox" id="col-map-open-now"> Open now only
+          </label>
         </div>
         <p class="source-note">Group size applies to food and meeting spots only. Above 1, it hides
           places whose capacity we haven&rsquo;t confirmed &mdash; so the map shows only spots
-          actually checked to fit that many, not everything we simply don&rsquo;t know about.</p>
+          actually checked to fit that many, not everything we simply don&rsquo;t know about.
+          &ldquo;Open now&rdquo; works the same way: it uses New York time and shows only pins with
+          posted hours we can read &mdash; 83 of the 234 pins. The rest, whose hours are unlisted or
+          written as prose, drop out rather than being guessed at. Always call ahead for anything that matters.</p>
         <div id="columbia-map" class="leaflet-map"></div>
         <div class="map-legend-simple">
           <span><span class="swatch" style="background:#33587D"></span>Lodging &amp; Study</span>
@@ -106,6 +112,7 @@
   </main>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha512-BwHfrr4c9kmRkLw6iXFdzcdWV/PGkVgiIyIWLLlTSXzWQzxuSg4DiQUCpauz/EWjgk5TYQqX/kvn9pG1NpYfqg==" crossorigin=""></script>
+<script src="hours.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

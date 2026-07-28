@@ -18,6 +18,14 @@ hand-researched originals. Entries whose hours OSM didn't have read
 `"Hours not listed — check before you go"` — **~55% of merged pins still need real hours**,
 which is the biggest remaining data-quality gap.
 
+**This gap is now visible in the UI.** The Slice 6 "Open now only" filter parses hours via
+`hours.js`, which reads OSM's `opening_hours` syntax and nothing else — so only **83 of 234**
+pins can ever report open/closed. The other 151 are either hours-less OSM merges or the
+hand-written prose hours ("Hours vary by semester — check library.columbia.edu"), and they're
+hidden while the filter is on rather than guessed at. Rewriting the hand-written ones into
+`Mo-Fr 09:00-17:00` form is the cheapest way to raise that number; backfilling the 95 missing
+ones is the bigger job.
+
 **Editing these files from a script: splice text, don't `json.dump` the whole file.** A round-trip
 silently rewrites existing entries (drops trailing zeros on coords, reflows inline objects like
 `schedule`) and buries the real change in hundreds of lines of cosmetic diff. Merge script kept at

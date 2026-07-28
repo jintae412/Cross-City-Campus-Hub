@@ -245,12 +245,6 @@ var MAP_GROUP_COLORS = {
   lodging: '#33587D', food: '#C08A3E', transit: '#8C8878', social: '#9C4038'
 };
 
-function isOpenNow(schedule) {
-  if (!schedule) { return null; }
-  if (schedule.type === 'always') { return true; }
-  return null;
-}
-
 function initColumbiaMap() {
   if (columbiaMapInitialized) { return; }
   columbiaMapInitialized = true;
@@ -275,17 +269,7 @@ function initColumbiaMap() {
         var primaryCategory = pin.categories[0];
         var color = MAP_GROUP_COLORS[MAP_CATEGORY_GROUP[primaryCategory]] || '#5B564A';
         var categoryLabels = pin.categories.map(function (c) { return MAP_CATEGORY_LABELS[c] || c; }).join(', ');
-
-        var openStatus = isOpenNow(pin.schedule);
-        var statusHtml = openStatus === true
-          ? '<br><strong style="color:#3F6B3E">Open now</strong>'
-          : '';
-
-        var popup = '<strong>' + pin.name + '</strong><br><em>' + categoryLabels + '</em>'
-          + statusHtml
-          + '<br>' + pin.hours
-          + (pin.capacity ? '<br>Fits up to ' + pin.capacity : '')
-          + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
+        var openRules = parseHours(pin.hours);
 
         // Small dots: the map carries 230+ pins, and at the old radius 9 they merged into
         // blobs wherever the density is high (the Broadway restaurant strip especially).
@@ -295,18 +279,37 @@ function initColumbiaMap() {
           weight: 1.5,
           fillColor: color,
           fillOpacity: 0.95
-        }).bindPopup(popup);
+        });
 
-        columbiaMarkers.push({ marker: marker, categories: pin.categories, capacity: pin.capacity });
+        // Built on open rather than bound once, so the open/closed line is right for when
+        // you actually clicked the pin, not for when the page happened to load.
+        marker.bindPopup(function () {
+          var openStatus = isOpenNow(openRules, nycNow());
+          var statusHtml = openStatus === null ? ''
+            : openStatus
+              ? '<br><strong style="color:#3F6B3E">Open now</strong>'
+              : '<br><strong style="color:#9C4038">Closed now</strong>';
+          return '<strong>' + pin.name + '</strong><br><em>' + categoryLabels + '</em>'
+            + statusHtml
+            + '<br>' + pin.hours
+            + (pin.capacity ? '<br>Fits up to ' + pin.capacity : '')
+            + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
+        });
+
+        columbiaMarkers.push({
+          marker: marker, categories: pin.categories, capacity: pin.capacity, openRules: openRules
+        });
       });
 
       applyColumbiaMapFilters(map);
     });
 
-  var categorySelect = document.getElementById('col-map-category');
-  var sizeInput = document.getElementById('col-map-size');
-  categorySelect.addEventListener('change', function () { applyColumbiaMapFilters(map); });
-  sizeInput.addEventListener('input', function () { applyColumbiaMapFilters(map); });
+  document.getElementById('col-map-category')
+    .addEventListener('change', function () { applyColumbiaMapFilters(map); });
+  document.getElementById('col-map-size')
+    .addEventListener('input', function () { applyColumbiaMapFilters(map); });
+  document.getElementById('col-map-open-now')
+    .addEventListener('change', function () { applyColumbiaMapFilters(map); });
 
   setTimeout(function () { map.invalidateSize(); }, 100);
 }
@@ -333,11 +336,17 @@ function pinMatchesSize(entry, size) {
 function applyColumbiaMapFilters(map) {
   var category = document.getElementById('col-map-category').value;
   var size = parseInt(document.getElementById('col-map-size').value, 10) || 1;
+  var openOnly = document.getElementById('col-map-open-now').checked;
+  // One clock reading for the whole pass, so pins can't disagree about what time it is.
+  var now = nycNow();
 
   columbiaMarkers.forEach(function (entry) {
     var matchesCategory = category === 'all' || entry.categories.indexOf(category) !== -1;
     var matchesSize = pinMatchesSize(entry, size);
-    var shouldShow = matchesCategory && matchesSize;
+    // Unknown hours fail when the filter is on — same call as the size filter: showing a pin
+    // we can't confirm is open is a claim the data doesn't support.
+    var matchesOpen = !openOnly || isOpenNow(entry.openRules, now) === true;
+    var shouldShow = matchesCategory && matchesSize && matchesOpen;
 
     if (shouldShow && !map.hasLayer(entry.marker)) {
       entry.marker.addTo(map);
