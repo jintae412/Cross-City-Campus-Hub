@@ -57,50 +57,9 @@
       <div id="columbia-content" data-university-content>
         <p class="placeholder">Loading&hellip;</p>
       </div>
-      <div class="map-section">
-        <p class="cap-label">Campus Map</p>
-        <div class="map-filters">
-          <label for="col-map-category">Category
-            <select id="col-map-category">
-              <option value="all">All categories</option>
-              <option value="dorm">Dorm</option>
-              <option value="library">Library</option>
-              <option value="dining">Dining Hall</option>
-              <option value="subway">Subway</option>
-              <option value="parking">Parking</option>
-              <option value="gym">Gym / Athletic</option>
-              <option value="restroom">Restroom</option>
-              <option value="meet">Meeting Spot</option>
-              <option value="rain-backup">Indoor Rain Backup</option>
-              <option value="quiet">Quiet Spot</option>
-              <option value="group-food">Group Food (5&ndash;20)</option>
-              <option value="church">Nearby Church</option>
-              <option value="sit-no-id">Sit Without ID</option>
-              <option value="wifi">Good Wi-Fi</option>
-              <option value="power">Power Outlets</option>
-            </select>
-          </label>
-          <label for="col-map-size">Fits at least
-            <input type="number" id="col-map-size" min="1" max="500" value="1"> people
-          </label>
-          <label for="col-map-open-now">
-            <input type="checkbox" id="col-map-open-now"> Open now only
-          </label>
-        </div>
-        <p class="source-note">Group size applies to food and meeting spots only. Above 1, it hides
-          places whose capacity we haven&rsquo;t confirmed &mdash; so the map shows only spots
-          actually checked to fit that many, not everything we simply don&rsquo;t know about.
-          &ldquo;Open now&rdquo; works the same way: it uses New York time and shows only pins with
-          posted hours we can read &mdash; 83 of the 234 pins. The rest, whose hours are unlisted or
-          written as prose, drop out rather than being guessed at. Always call ahead for anything that matters.</p>
-        <div id="columbia-map" class="leaflet-map"></div>
-        <div class="map-legend-simple">
-          <span><span class="swatch" style="background:#33587D"></span>Lodging &amp; Study</span>
-          <span><span class="swatch" style="background:#C08A3E"></span>Food</span>
-          <span><span class="swatch" style="background:#8C8878"></span>Transit &amp; Parking</span>
-          <span><span class="swatch" style="background:#9C4038"></span>Social &amp; Faith</span>
-        </div>
-      </div>
+      <!-- Filters, legend and map are generated in app.js from the shared category list,
+           so a new campus needs a registry entry and a -map.json file, not more markup. -->
+      <div class="map-section" data-map="columbia"></div>
     </section>
 
     <section class="page-section" data-section="nyu" hidden>
@@ -108,6 +67,7 @@
       <div id="nyu-content" data-university-content>
         <p class="placeholder">Loading&hellip;</p>
       </div>
+      <div class="map-section" data-map="nyu"></div>
     </section>
   </main>
 </div>

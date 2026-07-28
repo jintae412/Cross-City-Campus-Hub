@@ -1,4 +1,4 @@
 [
-  { "id": "columbia", "name": "Columbia University", "dataFile": "data/universities/columbia.json" },
-  { "id": "nyu", "name": "New York University", "dataFile": "data/universities/nyu.json" }
+  { "id": "columbia", "name": "Columbia University", "dataFile": "data/universities/columbia.json", "mapCenter": [40.807, -73.9627] },
+  { "id": "nyu", "name": "New York University", "dataFile": "data/universities/nyu.json", "mapCenter": [40.7295, -73.9965] }
 ]

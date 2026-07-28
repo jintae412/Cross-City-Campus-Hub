@@ -192,3 +192,95 @@ worship are deliberately out of scope; don't "fix" this later.
    `aiSuggested`/`reviewed` metadata once accepted).
 4. Once Columbia's depth feels sufficient, the exact same script + workflow applies to NYU
    (Slice 7 in the plan) — just needs NYU's center lat/lng instead.
+
+## NYU — Slice 7, started 2026-07-28
+
+**Map code is now university-agnostic.** `initUniversityMap(id)` reads `mapCenter` from
+`data/universities/index.json` (which until now was dead data nothing referenced) and fetches
+`data/universities/<id>-map.json`. The filter controls, legend and map div are generated in
+`mapSectionHtml()` from `MAP_CATEGORY_LABELS` — index.html went from 45 lines of hand-copied
+`<option>` markup per campus to `<div class="map-section" data-map="nyu"></div>`. A third
+university is now genuinely data-only: registry entry + `<id>-map.json` + a nav button.
+
+**Live NYU pins: 24, all hand-curated with OSM-sourced coordinates** — 12 dorms, 8 subway
+stations, Bobst, Washington Square Park, Paulson Center, Catholic Center. Coordinates came from
+an Overpass query on `name~"NYU"` / `operator~"New York University"` rather than being typed by
+hand, per the bad-coordinate warning above.
+
+- Commercial gyms were **excluded on purpose**: the `gym` category means open gyms a visiting
+  group could use, and Overpass returns 40 boutique fitness studios and yoga chains near
+  Washington Square. Paulson Center is NYU's own facility and the only honest entry.
+
+### Official facilities completed exhaustively (2026-07-28)
+
+Matt's standing rule, set here: **dorms and dining halls are exhaustive against the school's own
+published list; other categories don't have to be.** Where a facility has no separate coordinate,
+pinning it at its host building is good enough — don't omit it for lack of precision.
+
+**Dorms: 21 pins = all 21 buildings** on
+[housing.nyu.edu/residencehalls](https://housing.nyu.edu/residencehalls) (the list shows 22 entries
+because Othmer Hall appears twice, apartment and traditional style). Coordinates came from an
+Overpass `building=dormitory` query where OSM had the building, and otherwise from Nominatim on an
+address read off NYU's official campus map PDF — none were eyeballed.
+
+Includes the Brooklyn/Tandon halls (Clark Street, Othmer) and the outlying Manhattan ones (Broome
+Street, Lafayette, Greenwich Hall, Gramercy Green); the walk-radius rule doesn't apply to official
+facilities. **"Senior House at 13th Street" was removed** — OSM still carries it, but it's absent
+from NYU's current official list. The older campus-map PDF calls it "Thirteenth Street Residence
+Hall", so it's likely converted or reassigned. Same reasoning excluded Hayden, D'Agostino and Loeb,
+which OSM tags as dormitories but NYU no longer lists as undergraduate housing.
+
+**Dining: 9 pins covering every NYU Eats location** in the 2024–25 dining guide — the four
+all-you-care-to-eat halls (Downstein, Third North, Lipton, Kosher Eatery) plus the retail locations
+(Upstein, Sidestein Market, Marketplace at Kimmel, Crave NYU, Cafe 181, Palladium, UHall Commons,
+Café 370, Jasper Kane, Bridgeview Bytes). Venues sharing a building are one pin naming all of them
+— four exactly-stacked pins at Weinstein would be unclickable, and no finer coordinate exists.
+
+Every dining pin is tagged `dining` only, **not** `group-food`: they need an NYU ID and a meal plan,
+so a visiting group can't actually eat there. The `source` field records the provenance distinction
+(`NYU Eats dining guide; coordinates are the host building`).
+
+NYU map total is now **855 pins**.
+
+### The NYU suggestions queue is 820 candidates — needs a scoping decision
+
+`data/universities/nyu-map-suggestions.json` holds 820 candidates from the same four queries
+Columbia used (restaurant / cafe / library / christian place_of_worship, 1200m). Columbia's
+same run produced 188. The difference is purely Greenwich Village density, not a query problem.
+
+By distance from Washington Square (40.7295, -73.9965):
+
+| radius | total | group-food | wifi | church | quiet |
+|---|---|---|---|---|---|
+| 400m | 78 | 58 | 16 | 3 | 1 |
+| 600m | 203 | 147 | 44 | 10 | 2 |
+| 800m | 385 | 276 | 88 | 16 | 5 |
+| 1200m | 815 | 596 | 175 | 39 | 5 |
+
+522 of the 820 carry real `opening_hours` (64%, better than Columbia's 55%), so whatever gets
+merged will work well with the open-now filter.
+
+**The tension:** the 1200m/15-minute-walk radius is Matt's stated requirement, but at NYU that
+means reviewing 815 candidates by hand. 600m lands at Columbia's proven review volume and is
+still an 8-minute walk, but it's a different standard for the two campuses.
+
+### RESOLVED — Matt's decision, 2026-07-28: keep 1200m, merge all
+
+Merged wholesale rather than reviewed pin-by-pin. The reasoning: these are factual OSM records
+(name, coordinates, opening hours), not AI-drafted prose, so the Slice 8 human-review rule —
+which exists to stop invented content going live — isn't what's protecting anything here. The
+category, size and open-now filters do the sorting the reviewer would have done.
+
+**NYU live map is now 838 pins.** group-food 596, wifi 176, church 40, dorm 12, subway 8,
+quiet 5, library/power/meet/sit-no-id/gym 1 each. 513 have machine-readable hours (61%), which
+is why the open-now filter is more useful here than at Columbia (83 of 234).
+
+Dropped during the merge: 5 out-of-radius (Overpass matches a way if any part is in range but
+`out center` returns the centroid — Jing Fong, Gramercy Tavern, Tacos Güey, Immaculate
+Conception, Most Holy Redeemer) and 1 already-live name collision (Bobst).
+
+**What this trades away:** nobody has eyeballed these 814. Expect some closed venues, some
+mis-tagged categories, and `group-food` entries that are really two-seat takeout counters —
+OSM has no capacity data, so the size filter can't separate them (all 838 pins still have zero
+`capacity`, same gap as Columbia). Fixing that is per-venue manual work if it ever matters.
+The distinguishing marker is `"source": "OpenStreetMap"` on all 814.

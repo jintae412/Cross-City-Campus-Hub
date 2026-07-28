@@ -217,8 +217,14 @@ function renderUniversity(container, uni) {
 loadUniversity('columbia', 'columbia-content');
 loadUniversity('nyu', 'nyu-content');
 
-var columbiaMapInitialized = false;
-var columbiaMarkers = []; // { marker, categories, capacity }
+// id -> { map, markers }. Presence doubles as the "already built" flag.
+var universityMaps = {};
+
+// One fetch for the registry, shared by every map that asks for it. Doing it per-map would
+// race two clicks against each other; doing it at startup and stashing the array would race
+// the click against the fetch.
+var universityRegistry = fetch('data/universities/index.json')
+  .then(function (res) { return res.json(); });
 
 var MAP_CATEGORY_LABELS = {
   dorm: 'Dorm', library: 'Library', dining: 'Dining Hall', subway: 'Subway',
@@ -245,11 +251,57 @@ var MAP_GROUP_COLORS = {
   lodging: '#33587D', food: '#C08A3E', transit: '#8C8878', social: '#9C4038'
 };
 
-function initColumbiaMap() {
-  if (columbiaMapInitialized) { return; }
-  columbiaMapInitialized = true;
+// The filter controls are generated rather than written per university — the category list
+// lives in MAP_CATEGORY_LABELS, and hand-copying 15 <option> tags into every new university's
+// section is how the two drift apart.
+function mapSectionHtml(id) {
+  var options = Object.keys(MAP_CATEGORY_LABELS).map(function (key) {
+    return '<option value="' + key + '">' + MAP_CATEGORY_LABELS[key] + '</option>';
+  }).join('');
 
-  var map = L.map('columbia-map').setView([40.8070, -73.9627], 16);
+  return '<p class="cap-label">Campus Map</p>'
+    + '<div class="map-filters">'
+    + '<label for="' + id + '-map-category">Category '
+    + '<select id="' + id + '-map-category"><option value="all">All categories</option>'
+    + options + '</select></label>'
+    + '<label for="' + id + '-map-size">Fits at least '
+    + '<input type="number" id="' + id + '-map-size" min="1" max="500" value="1"> people</label>'
+    + '<label for="' + id + '-map-open-now">'
+    + '<input type="checkbox" id="' + id + '-map-open-now"> Open now only</label>'
+    + '</div>'
+    + '<p class="source-note" id="' + id + '-map-note">Group size applies to food and meeting '
+    + 'spots only. Above 1, it hides places whose capacity we haven&rsquo;t confirmed &mdash; so '
+    + 'the map shows only spots actually checked to fit that many, not everything we simply '
+    + 'don&rsquo;t know about.</p>'
+    + '<div id="' + id + '-map" class="leaflet-map"></div>'
+    + '<div class="map-legend-simple">'
+    + '<span><span class="swatch" style="background:' + MAP_GROUP_COLORS.lodging + '"></span>Lodging &amp; Study</span>'
+    + '<span><span class="swatch" style="background:' + MAP_GROUP_COLORS.food + '"></span>Food</span>'
+    + '<span><span class="swatch" style="background:' + MAP_GROUP_COLORS.transit + '"></span>Transit &amp; Parking</span>'
+    + '<span><span class="swatch" style="background:' + MAP_GROUP_COLORS.social + '"></span>Social &amp; Faith</span>'
+    + '</div>';
+}
+
+// Called on every nav click; returns immediately for universities already built, and for
+// those the registry gives no mapCenter (i.e. no map yet — that's a data state, not an error).
+function initUniversityMap(id) {
+  if (universityMaps[id]) { return; }
+  universityRegistry.then(function (list) {
+    var entry = list.filter(function (u) { return u.id === id; })[0];
+    if (!entry || !entry.mapCenter) { return; }
+    buildUniversityMap(id, entry.mapCenter);
+  });
+}
+
+function buildUniversityMap(id, center) {
+  if (universityMaps[id]) { return; }
+
+  var host = document.querySelector('[data-map="' + id + '"]');
+  host.innerHTML = mapSectionHtml(id);
+
+  var map = L.map(id + '-map').setView(center, 16);
+  var state = { map: map, markers: [] };
+  universityMaps[id] = state;
 
   // CARTO Positron rather than OSM's standard tiles. The standard style draws every
   // footpath as a dashed salmon line and labels every shop — on a campus that's almost
@@ -262,8 +314,11 @@ function initColumbiaMap() {
       + '&copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
 
-  fetch('data/universities/columbia-map.json')
-    .then(function (res) { return res.json(); })
+  fetch('data/universities/' + id + '-map.json')
+    .then(function (res) {
+      if (!res.ok) { throw new Error('Map data request failed'); }
+      return res.json();
+    })
     .then(function (pins) {
       pins.forEach(function (pin) {
         var primaryCategory = pin.categories[0];
@@ -271,8 +326,8 @@ function initColumbiaMap() {
         var categoryLabels = pin.categories.map(function (c) { return MAP_CATEGORY_LABELS[c] || c; }).join(', ');
         var openRules = parseHours(pin.hours);
 
-        // Small dots: the map carries 230+ pins, and at the old radius 9 they merged into
-        // blobs wherever the density is high (the Broadway restaurant strip especially).
+        // Small dots: these maps carry hundreds of pins, and at the old radius 9 they merged
+        // into blobs wherever the density is high (the Broadway restaurant strip especially).
         var marker = L.circleMarker([pin.lat, pin.lng], {
           radius: 5,
           color: '#FFFFFF',
@@ -296,22 +351,37 @@ function initColumbiaMap() {
             + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
         });
 
-        columbiaMarkers.push({
+        state.markers.push({
           marker: marker, categories: pin.categories, capacity: pin.capacity, openRules: openRules
         });
       });
 
-      applyColumbiaMapFilters(map);
+      describeHoursCoverage(id, state.markers);
+      applyMapFilters(id);
+    })
+    .catch(function () {
+      document.getElementById(id + '-map').innerHTML =
+        '<p class="placeholder">Map data for this campus isn\'t available yet.</p>';
     });
 
-  document.getElementById('col-map-category')
-    .addEventListener('change', function () { applyColumbiaMapFilters(map); });
-  document.getElementById('col-map-size')
-    .addEventListener('input', function () { applyColumbiaMapFilters(map); });
-  document.getElementById('col-map-open-now')
-    .addEventListener('change', function () { applyColumbiaMapFilters(map); });
+  document.getElementById(id + '-map-category')
+    .addEventListener('change', function () { applyMapFilters(id); });
+  document.getElementById(id + '-map-size')
+    .addEventListener('input', function () { applyMapFilters(id); });
+  document.getElementById(id + '-map-open-now')
+    .addEventListener('change', function () { applyMapFilters(id); });
 
   setTimeout(function () { map.invalidateSize(); }, 100);
+}
+
+// Counted from the loaded pins rather than written into the copy, because the number moves
+// every time hours get backfilled and a hard-coded one goes stale silently.
+function describeHoursCoverage(id, markers) {
+  var readable = markers.filter(function (entry) { return entry.openRules; }).length;
+  document.getElementById(id + '-map-note').innerHTML +=
+    ' &ldquo;Open now&rdquo; uses New York time and covers the ' + readable + ' of '
+    + markers.length + ' pins here with posted hours we can read; the rest are hidden while '
+    + 'it&rsquo;s on rather than guessed at. Call ahead for anything that matters.';
 }
 
 // Categories where "will my group fit?" is a real question. For a dorm, a subway stop or a
@@ -333,14 +403,16 @@ function pinMatchesSize(entry, size) {
   return entry.capacity >= size;
 }
 
-function applyColumbiaMapFilters(map) {
-  var category = document.getElementById('col-map-category').value;
-  var size = parseInt(document.getElementById('col-map-size').value, 10) || 1;
-  var openOnly = document.getElementById('col-map-open-now').checked;
+function applyMapFilters(id) {
+  var state = universityMaps[id];
+  var map = state.map;
+  var category = document.getElementById(id + '-map-category').value;
+  var size = parseInt(document.getElementById(id + '-map-size').value, 10) || 1;
+  var openOnly = document.getElementById(id + '-map-open-now').checked;
   // One clock reading for the whole pass, so pins can't disagree about what time it is.
   var now = nycNow();
 
-  columbiaMarkers.forEach(function (entry) {
+  state.markers.forEach(function (entry) {
     var matchesCategory = category === 'all' || entry.categories.indexOf(category) !== -1;
     var matchesSize = pinMatchesSize(entry, size);
     // Unknown hours fail when the filter is on — same call as the size filter: showing a pin
@@ -368,6 +440,6 @@ document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
       section.hidden = section.getAttribute('data-section') !== target;
     });
 
-    if (target === 'columbia') { initColumbiaMap(); }
+    initUniversityMap(target);
   });
 });
