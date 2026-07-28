@@ -1,4 +1,5 @@
 ﻿CHECKED (y/n),NOTES,campus,name,categories,hours,capacity,contact,look up,id
+,"WHAT COUNTS AS CHECKED: someone went there in person, or called and spoke to the place, within the last ~6 months, AND confirmed all three — it exists, it is at the spot the map shows, and our listed hours are right. y = all three confirmed. n = closed, moved, or the pin is in the wrong place. Leave blank if not checked. A website or Street View is NOT enough — that is where this data already came from.",,^^ READ THIS FIRST — do not fill this row ^^,,,,,,
 ,,columbia,John Jay Hall,dorm,Residential building — access restricted to residents,,https://www.housing.columbia.edu/johnjay,"https://www.google.com/maps/search/?api=1&query=40.8059,-73.9624",john-jay-hall
 ,,columbia,Hartley Hall,dorm,Residential building — access restricted to residents,,https://www.housing.columbia.edu/hartley,"https://www.google.com/maps/search/?api=1&query=40.806466,-73.961785",hartley-hall
 ,,columbia,McBain Hall,dorm,Residential building — access restricted to residents,,https://www.housing.columbia.edu/mcbain,"https://www.google.com/maps/search/?api=1&query=40.8065,-73.9635",mcbain-hall

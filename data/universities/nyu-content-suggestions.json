@@ -1,0 +1,156 @@
+{
+  "university": "nyu",
+  "culture": [],
+  "traditions": [
+    {
+      "text": "Violet 100 (spirit week, 100 days to commencement)",
+      "source": "https://www.nyu.edu/life/events-traditions.html",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "text": "UltraViolet Live (student talent competition at Skirball)",
+      "source": "https://www.nyu.edu/life/events-traditions.html",
+      "aiSuggested": true,
+      "reviewed": false
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-08-28",
+      "label": "Residence Hall Move-In & Welcome Weekend Begins",
+      "verified": true,
+      "source": "https://www.nyu.edu/life/events-traditions/nyu-welcome/deadlines-and-dates.html (Fall 2026)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-08-29",
+      "label": "Welcome Weekend (cont.)",
+      "verified": true,
+      "source": "https://www.nyu.edu/life/events-traditions/nyu-welcome/deadlines-and-dates.html (Fall 2026)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-08-31",
+      "label": "Presidential Welcome",
+      "verified": true,
+      "source": "https://www.nyu.edu/life/events-traditions/nyu-welcome/deadlines-and-dates.html (Fall 2026)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-09-07",
+      "label": "Labor Day — no classes",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-10-14",
+      "label": "Legislative Day (Monday class schedule)",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-12-22",
+      "label": "Fall Final Exams End",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-04",
+      "label": "January Term Begins",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-15",
+      "label": "January Term Ends",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-18",
+      "label": "Martin Luther King Jr. Day — no classes",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-19",
+      "label": "Spring Classes Begin",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-02-15",
+      "label": "Presidents Day — no classes",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-03-15",
+      "label": "Spring Break Begins",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-03-19",
+      "label": "Spring Break Ends",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-04",
+      "label": "Spring Classes End",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-06",
+      "label": "Spring Final Exams Begin",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-12",
+      "label": "Spring Final Exams End",
+      "verified": true,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": null,
+      "label": "Commencement (date not published on the 2026–27 calendar — check nyu.edu)",
+      "verified": false,
+      "source": "https://bulletins.nyu.edu/nyu/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    }
+  ]
+}

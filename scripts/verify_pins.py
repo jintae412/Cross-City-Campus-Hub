@@ -32,6 +32,21 @@ CAMPUSES = ("columbia", "nyu")
 COLUMNS = ["CHECKED (y/n)", "NOTES", "campus", "name", "categories", "hours", "capacity",
            "contact", "look up", "id"]
 
+# Written into the sheet as the first row so the standard is in front of whoever is filling the
+# column, not buried in a README nobody opens. It has no campus or id, so --import-results skips
+# it even if someone types in it. Freeze rows 1-2 in Google Sheets to keep it on screen.
+STANDARD_ROW = {
+    "CHECKED (y/n)": "",
+    "NOTES": "WHAT COUNTS AS CHECKED: someone went there in person, or called and spoke to the "
+             "place, within the last ~6 months, AND confirmed all three — it exists, it is at "
+             "the spot the map shows, and our listed hours are right. "
+             "y = all three confirmed. n = closed, moved, or the pin is in the wrong place. "
+             "Leave blank if not checked. A website or Street View is NOT enough — that is where "
+             "this data already came from.",
+    "campus": "", "name": "^^ READ THIS FIRST — do not fill this row ^^",
+    "categories": "", "hours": "", "capacity": "", "contact": "", "look up": "", "id": "",
+}
+
 
 def rows_to_check():
     rows = []
@@ -123,6 +138,7 @@ def export(force):
     with open(CSV_PATH, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=COLUMNS)
         writer.writeheader()
+        writer.writerow(STANDARD_ROW)
         writer.writerows(rows)
 
     by_campus = {}

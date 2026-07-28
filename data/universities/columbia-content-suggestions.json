@@ -1,0 +1,194 @@
+{
+  "university": "columbia",
+  "culture": [],
+  "traditions": [
+    {
+      "text": "Bacchanal (spring concert)",
+      "source": "https://undergrad.admissions.columbia.edu/life/here/traditions",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "text": "The Varsity Show",
+      "source": "https://undergrad.admissions.columbia.edu/life/here/traditions",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "text": "Tree Lighting on College Walk",
+      "source": "https://undergrad.admissions.columbia.edu/life/here/traditions",
+      "aiSuggested": true,
+      "reviewed": false
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-08-29",
+      "label": "Move-In: International Students",
+      "verified": true,
+      "source": "https://www.cc-seas.columbia.edu/orientation/firstyear (2026 first-year orientation)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-08-30",
+      "label": "Move-In: Domestic Students, Convocation & Family Orientation",
+      "verified": true,
+      "source": "https://www.cc-seas.columbia.edu/orientation/firstyear (2026 first-year orientation)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-08-30",
+      "label": "New Student Orientation Program (NSOP) Begins",
+      "verified": true,
+      "source": "https://www.cc-seas.columbia.edu/orientation/firstyear (2026 first-year orientation)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-09-07",
+      "label": "Labor Day — no classes",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-09-07",
+      "label": "NSOP Ends",
+      "verified": true,
+      "source": "https://www.cc-seas.columbia.edu/orientation/firstyear (2026 first-year orientation)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-09-08",
+      "label": "Fall Classes Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-10-21",
+      "label": "Degrees Conferred (October)",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-11-03",
+      "label": "Election Day — no classes",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-12-14",
+      "label": "Last Day of Fall Classes",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-12-15",
+      "label": "Study Days Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-12-17",
+      "label": "Fall Final Exams Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2026-12-23",
+      "label": "Fall Final Exams End — Winter Break Begins",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-18",
+      "label": "Martin Luther King Jr. Day — no classes",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-01-19",
+      "label": "Spring Classes Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-03-15",
+      "label": "Spring Recess Begins",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-03-19",
+      "label": "Spring Recess Ends",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-03",
+      "label": "Last Day of Spring Classes",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-04",
+      "label": "Spring Study Days Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-07",
+      "label": "Spring Final Exams Begin",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-14",
+      "label": "Spring Final Exams End",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    },
+    {
+      "date": "2027-05-19",
+      "label": "Commencement",
+      "verified": true,
+      "source": "https://bulletin.columbia.edu/columbia-college/academic-calendar/ (2026–27 academic year)",
+      "aiSuggested": true,
+      "reviewed": false
+    }
+  ]
+}
