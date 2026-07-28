@@ -159,6 +159,22 @@ None of that proves a tile rendered, a marker drew, or the phone layout holds. B
 done, someone should open it (`python3 -m http.server 8000`) and click through both campus maps on a
 laptop and a phone.
 
+## TODO — accepted deviations from the spec, 2026-07-28
+
+- **Academic calendar renders as a list, not a calendar view.** The spec asks for calendar view.
+  Matt's call: acceptable as-is for now, revisit later. Nothing else depends on it.
+- **Group-size filter is parked.** The control is removed from the UI; `pinMatchesSize` and
+  `SIZEABLE_CATEGORIES` are kept in `app.js` behind a TODO because the logic encodes a decision
+  that was already got wrong once, and what's missing is data rather than code. 15 of 234 Columbia
+  pins and 0 of 855 NYU pins have a capacity, so the control emptied the NYU map entirely — which
+  broke the spec's first success criterion ("where can we meet a group of 15?") rather than serving
+  it. Unblocking it means hand-checking capacity for a set of plausible group venues per campus.
+- **Demographics and majors are refreshed by command, not automatically.** See
+  `scripts/refresh_scorecard.py` — College Scorecard requires an api.data.gov key, and a public
+  no-login site can't hold one. This is as close to the spec's "auto-updating" as the constraints
+  allow.
+- **Traffic remains two official links** rather than a live 511 feed. Confirmed as accepted.
+
 ## Follow-ups / Backlog
 
 - **Campus boundary outline (Columbia, and later NYU).** Attempted in Slice 5 using hand-derived

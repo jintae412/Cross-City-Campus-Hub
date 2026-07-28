@@ -38,12 +38,16 @@ function weatherIconSvg(code) {
 var weatherData = null;
 var openHourlyDate = null;
 
+// Fetched at 14 and shown at 7. One request either way, so the extra week costs nothing and
+// expanding is instant — refetching on click would put a spinner behind a disclosure toggle.
+var DEFAULT_FORECAST_DAYS = 7;
+
 function loadWeather() {
   var row = document.getElementById('weather-row');
   var url = 'https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.006'
     + '&daily=temperature_2m_max,temperature_2m_min,weathercode'
     + '&hourly=temperature_2m,weathercode'
-    + '&temperature_unit=fahrenheit&timezone=America%2FNew_York&forecast_days=7';
+    + '&temperature_unit=fahrenheit&timezone=America%2FNew_York&forecast_days=14';
 
   fetch(url)
     .then(function (res) {
@@ -71,7 +75,7 @@ function renderWeatherDays(row, daily) {
 
     var col = document.createElement('button');
     col.type = 'button';
-    col.className = 'wx-day-col';
+    col.className = 'wx-day-col' + (i >= DEFAULT_FORECAST_DAYS ? ' wx-extended' : '');
     col.setAttribute('aria-pressed', 'false');
     col.setAttribute('data-date', dateStr);
     col.innerHTML = '<div class="wx-day">' + weekday + '</div>'
@@ -81,6 +85,43 @@ function renderWeatherDays(row, daily) {
     col.addEventListener('click', function () { toggleHourly(dateStr, col); });
     row.appendChild(col);
   });
+
+  if (daily.time.length > DEFAULT_FORECAST_DAYS) {
+    row.appendChild(buildForecastToggle(row, daily.time.length));
+  }
+}
+
+function buildForecastToggle(row, totalDays) {
+  var btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'wx-more';
+  btn.setAttribute('aria-expanded', 'false');
+  btn.setAttribute('aria-controls', 'weather-row');
+
+  function paint() {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.title = expanded ? 'Show ' + DEFAULT_FORECAST_DAYS + ' days'
+      : 'Show ' + totalDays + ' days';
+    btn.innerHTML = '<span class="wx-more-chev" aria-hidden="true">' + (expanded ? '‹' : '›')
+      + '</span><span class="wx-more-label">' + (expanded ? DEFAULT_FORECAST_DAYS : totalDays)
+      + ' days</span>';
+  }
+
+  btn.addEventListener('click', function () {
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    row.classList.toggle('wx-show-extended', !expanded);
+    // An open hourly panel for a day that just got hidden would be stranded with nothing selected.
+    if (expanded && openHourlyDate) {
+      var stillVisible = row.querySelector('.wx-day-col[data-date="' + openHourlyDate
+        + '"]:not(.wx-extended)');
+      if (!stillVisible) { toggleHourly(openHourlyDate, null); }
+    }
+    paint();
+  });
+
+  paint();
+  return btn;
 }
 
 function toggleHourly(dateStr, col) {
@@ -150,10 +191,11 @@ function renderEvents(list, events) {
   }
 
   list.innerHTML = events.map(function (ev) {
-    var titleHtml = ev.url
-      ? '<a href="' + ev.url + '" target="_blank" rel="noopener">' + ev.title + '</a>'
-      : ev.title;
-    var meta = [ev.date, ev.location].filter(Boolean).join(' &middot; ');
+    var link = safeUrl(ev.url);
+    var titleHtml = link
+      ? '<a href="' + escapeHtml(link) + '" target="_blank" rel="noopener">' + escapeHtml(ev.title) + '</a>'
+      : escapeHtml(ev.title);
+    var meta = [ev.date, ev.location].filter(Boolean).map(escapeHtml).join(' &middot; ');
     return '<div class="event-item">'
       + '<div class="event-title">' + titleHtml + '</div>'
       + (meta ? '<div class="event-meta">' + meta + '</div>' : '')
@@ -183,9 +225,9 @@ function loadUniversity(id, containerId) {
 
 function renderUniversity(container, uni) {
   var majorsHtml = uni.majors.map(function (m) {
-    return '<div class="major"><span class="major-name">' + m.label + '</span>'
-      + '<span class="major-pct">' + m.pct + '%</span></div>'
-      + '<div class="bar-track"><div class="bar-fill" style="width:' + Math.min(m.pct * 3, 100) + '%"></div></div>';
+    return '<div class="major"><span class="major-name">' + escapeHtml(m.label) + '</span>'
+      + '<span class="major-pct">' + escapeHtml(m.pct) + '%</span></div>'
+      + '<div class="bar-track"><div class="bar-fill" style="width:' + Math.min(Number(m.pct) * 3, 100) + '%"></div></div>';
   }).join('');
 
   var calendarHtml = uni.calendar.map(function (ev) {
@@ -193,23 +235,24 @@ function renderUniversity(container, uni) {
       ? new Date(ev.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
       : 'TBD';
     var flag = ev.verified === false ? ' <span class="unverified">(unconfirmed)</span>' : '';
-    return '<div class="cal-item"><span class="cal-item-date">' + dateLabel + '</span>'
-      + '<span class="cal-item-label">' + ev.label + flag + '</span></div>';
+    return '<div class="cal-item"><span class="cal-item-date">' + escapeHtml(dateLabel) + '</span>'
+      + '<span class="cal-item-label">' + escapeHtml(ev.label) + flag + '</span></div>';
   }).join('');
 
   container.innerHTML = '<div class="row-top">'
     + '<div>'
     + '<p class="cap-label">Campus &amp; Culture</p>'
-    + '<p class="blurb">' + uni.culture + '</p>'
+    + '<p class="blurb">' + escapeHtml(uni.culture) + '</p>'
     + '<p class="demo-line">' + uni.demographics.undergrad.toLocaleString() + ' undergraduates &middot; '
     + uni.demographics.graduate.toLocaleString() + ' graduate students &middot; '
-    + uni.demographics.womenPct + '% women &middot; ' + uni.demographics.internationalPct + '% international</p>'
-    + '<p class="source-note">Source: ' + uni.demographics.source + '</p>'
+    + escapeHtml(uni.demographics.womenPct) + '% women &middot; '
+    + escapeHtml(uni.demographics.internationalPct) + '% international</p>'
+    + '<p class="source-note">Source: ' + escapeHtml(uni.demographics.source) + '</p>'
     + '<p class="cap-label" style="margin-top:1.6rem">Top Majors</p>'
     + majorsHtml
-    + '<p class="source-note">' + uni.majorsNote + '</p>'
+    + '<p class="source-note">' + escapeHtml(uni.majorsNote) + '</p>'
     + '<p class="cap-label" style="margin-top:1.6rem">Traditions</p>'
-    + '<p class="trad-prose">' + uni.traditions.join(', ') + '</p>'
+    + '<p class="trad-prose">' + uni.traditions.map(escapeHtml).join(', ') + '</p>'
     + '</div>'
     + '<div class="card">'
     + '<p class="cap-label">Calendar</p>'
@@ -232,6 +275,24 @@ var universityMaps = {};
 // the click against the fetch.
 var universityRegistry = fetch('data/universities/index.json')
   .then(function (res) { return res.json(); });
+
+// Most pin text now comes from OpenStreetMap, which anyone in the world can edit. That makes it
+// untrusted input rather than our own data: a venue renamed to `<img src=x onerror=...>` would
+// otherwise run as script the moment someone opened its popup. Escaped on the way into innerHTML.
+function escapeHtml(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// Same reasoning for links: an OSM `website` tag holding a javascript: URL would become a
+// clickable script. Anything that isn't a plain web or phone link is dropped rather than rendered.
+function safeUrl(url) {
+  return /^(https?:|tel:)/i.test(String(url == null ? '' : url)) ? String(url) : null;
+}
 
 var MAP_CATEGORY_LABELS = {
   dorm: 'Dorm', library: 'Library', dining: 'Dining Hall', subway: 'Subway',
@@ -271,15 +332,18 @@ function mapSectionHtml(id) {
     + '<label for="' + id + '-map-category">Category '
     + '<select id="' + id + '-map-category"><option value="all">All categories</option>'
     + options + '</select></label>'
-    + '<label for="' + id + '-map-size">Fits at least '
-    + '<input type="number" id="' + id + '-map-size" min="1" max="500" value="1"> people</label>'
+    // TODO: group-size filter is parked, not deleted — see pinMatchesSize below. It needs
+    // capacity data that doesn't exist yet (0 of 855 NYU pins have it), and shipping a control
+    // that empties the map is worse than not shipping it.
     + '<label for="' + id + '-map-open-now">'
     + '<input type="checkbox" id="' + id + '-map-open-now"> Open now only</label>'
+    + '<label for="' + id + '-map-verified">'
+    + '<input type="checkbox" id="' + id + '-map-verified"> Hand-checked spots only</label>'
     + '</div>'
-    + '<p class="source-note" id="' + id + '-map-note">Group size applies to food and meeting '
-    + 'spots only. Above 1, it hides places whose capacity we haven&rsquo;t confirmed &mdash; so '
-    + 'the map shows only spots actually checked to fit that many, not everything we simply '
-    + 'don&rsquo;t know about.</p>'
+    + '<p class="source-note" id="' + id + '-map-note">Most pins come straight from '
+    + 'OpenStreetMap and haven&rsquo;t been checked in person &mdash; call ahead for anything '
+    + 'you&rsquo;re planning around.</p>'
+    + '<p class="placeholder map-empty" id="' + id + '-map-empty" hidden></p>'
     + '<div id="' + id + '-map" class="leaflet-map"></div>'
     + '<div class="map-legend-simple">'
     + '<span><span class="swatch" style="background:' + MAP_GROUP_COLORS.lodging + '"></span>Lodging &amp; Study</span>'
@@ -354,21 +418,28 @@ function buildUniversityMap(id, center) {
 
         // Built on open rather than bound once, so the open/closed line is right for when
         // you actually clicked the pin, not for when the page happened to load.
+        var link = safeUrl(pin.contactUrl);
         marker.bindPopup(function () {
           var openStatus = isOpenNow(openRules, nycNow());
           var statusHtml = openStatus === null ? ''
             : openStatus
               ? '<br><strong style="color:#3F6B3E">Open now</strong>'
               : '<br><strong style="color:#9C4038">Closed now</strong>';
-          return '<strong>' + pin.name + '</strong><br><em>' + categoryLabels + '</em>'
+          return '<strong>' + escapeHtml(pin.name) + '</strong><br><em>'
+            + escapeHtml(categoryLabels) + '</em>'
             + statusHtml
-            + '<br>' + pin.hours
-            + (pin.capacity ? '<br>Fits up to ' + pin.capacity : '')
-            + (pin.contactUrl ? '<br><a href="' + pin.contactUrl + '" target="_blank" rel="noopener">More info</a>' : '');
+            + '<br>' + escapeHtml(pin.hours)
+            + (pin.capacity ? '<br>Fits up to ' + escapeHtml(pin.capacity) : '')
+            // Only the positive claim gets a badge. Every pin is unverified today, so an
+            // "unverified" line on all 1,089 would be noise repeating what the note already says.
+            + (pin.handVerified === true
+              ? '<br><span class="pin-checked">Checked in person</span>' : '')
+            + (link ? '<br><a href="' + escapeHtml(link) + '" target="_blank" rel="noopener">More info</a>' : '');
         });
 
         state.markers.push({
-          marker: marker, categories: pin.categories, capacity: pin.capacity, openRules: openRules
+          marker: marker, categories: pin.categories, capacity: pin.capacity,
+          openRules: openRules, handVerified: pin.handVerified === true
         });
       });
 
@@ -386,12 +457,10 @@ function buildUniversityMap(id, center) {
         + '-map.json exists and is valid JSON.</p>';
     });
 
-  document.getElementById(id + '-map-category')
-    .addEventListener('change', function () { applyMapFilters(id); });
-  document.getElementById(id + '-map-size')
-    .addEventListener('input', function () { applyMapFilters(id); });
-  document.getElementById(id + '-map-open-now')
-    .addEventListener('change', function () { applyMapFilters(id); });
+  ['-map-category', '-map-open-now', '-map-verified'].forEach(function (suffix) {
+    document.getElementById(id + suffix)
+      .addEventListener('change', function () { applyMapFilters(id); });
+  });
 
   setTimeout(function () { map.invalidateSize(); }, 100);
 }
@@ -412,6 +481,12 @@ function describeHoursCoverage(id, markers) {
     + 'it&rsquo;s on rather than guessed at. Call ahead for anything that matters.';
 }
 
+// TODO: bring the group-size filter back once capacity data exists. Kept rather than deleted
+// because the logic below encodes a decision that was got wrong once already (see the comment
+// on pinMatchesSize); what's missing is data, not code. 15 of 234 Columbia pins and 0 of 855
+// NYU pins carry a capacity, and OpenStreetMap doesn't publish it, so filling that gap is
+// per-venue manual work.
+//
 // Categories where "will my group fit?" is a real question. For a dorm, a subway stop or a
 // restroom the answer is meaningless, so those pins ignore the size control entirely rather
 // than being filtered out by a number that was never going to apply to them.
@@ -435,25 +510,51 @@ function applyMapFilters(id) {
   var state = universityMaps[id];
   var map = state.map;
   var category = document.getElementById(id + '-map-category').value;
-  var size = parseInt(document.getElementById(id + '-map-size').value, 10) || 1;
   var openOnly = document.getElementById(id + '-map-open-now').checked;
+  var verifiedOnly = document.getElementById(id + '-map-verified').checked;
   // One clock reading for the whole pass, so pins can't disagree about what time it is.
   var now = nycNow();
+  var shown = 0;
 
   state.markers.forEach(function (entry) {
     var matchesCategory = category === 'all' || entry.categories.indexOf(category) !== -1;
-    var matchesSize = pinMatchesSize(entry, size);
-    // Unknown hours fail when the filter is on — same call as the size filter: showing a pin
-    // we can't confirm is open is a claim the data doesn't support.
+    // Unknown hours fail when the filter is on: showing a pin we can't confirm is open is a
+    // claim the data doesn't support.
     var matchesOpen = !openOnly || isOpenNow(entry.openRules, now) === true;
-    var shouldShow = matchesCategory && matchesSize && matchesOpen;
+    // Cuts across every category on purpose — "has someone actually stood here?" is a different
+    // question from what kind of place it is.
+    var matchesVerified = !verifiedOnly || entry.handVerified;
+    var shouldShow = matchesCategory && matchesOpen && matchesVerified;
 
+    if (shouldShow) { shown += 1; }
     if (shouldShow && !map.hasLayer(entry.marker)) {
       entry.marker.addTo(map);
     } else if (!shouldShow && map.hasLayer(entry.marker)) {
       map.removeLayer(entry.marker);
     }
   });
+
+  reportEmptyMap(id, shown, verifiedOnly, state.markers.length);
+}
+
+// An empty map reads as broken unless it says why it's empty. That matters most for the
+// hand-checked filter, which legitimately hides everything until the verification pass has
+// actually produced something.
+function reportEmptyMap(id, shown, verifiedOnly, total) {
+  var note = document.getElementById(id + '-map-empty');
+  if (shown > 0) {
+    note.hidden = true;
+    return;
+  }
+  var verifiedCount = universityMaps[id].markers.filter(function (e) {
+    return e.handVerified;
+  }).length;
+  note.textContent = verifiedOnly && verifiedCount === 0
+    ? 'Nothing here has been checked in person yet, so this filter hides all ' + total
+      + ' pins. Spots appear here as they get confirmed — the list being worked through is '
+      + 'docs/recommended-to-verify.csv.'
+    : 'No pins match these filters.';
+  note.hidden = false;
 }
 
 document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {

@@ -2,6 +2,8 @@
   {
     "id": "nyu-weinstein-hall",
     "name": "Weinstein Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73101,
     "lng": -73.995,
@@ -12,6 +14,8 @@
   {
     "id": "nyu-brittany-hall",
     "name": "Brittany Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.7321,
     "lng": -73.9918,
@@ -22,6 +26,8 @@
   {
     "id": "nyu-third-north",
     "name": "Third North",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73145,
     "lng": -73.98798,
@@ -32,6 +38,8 @@
   {
     "id": "nyu-founders-hall",
     "name": "Founders Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73205,
     "lng": -73.98928,
@@ -42,6 +50,8 @@
   {
     "id": "nyu-university-hall",
     "name": "University Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73371,
     "lng": -73.9892,
@@ -52,6 +62,8 @@
   {
     "id": "nyu-palladium-hall",
     "name": "Palladium Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73348,
     "lng": -73.98803,
@@ -62,6 +74,8 @@
   {
     "id": "nyu-alumni-hall",
     "name": "Alumni Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73013,
     "lng": -73.98895,
@@ -72,6 +86,8 @@
   {
     "id": "nyu-coral-tower",
     "name": "Coral Tower",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73338,
     "lng": -73.98671,
@@ -82,6 +98,8 @@
   {
     "id": "nyu-seventh-street-residence",
     "name": "Seventh Street Residence",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.72807,
     "lng": -73.98887,
@@ -92,6 +110,8 @@
   {
     "id": "nyu-gramercy-green",
     "name": "Gramercy Green",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.73929,
     "lng": -73.98319,
@@ -102,6 +122,8 @@
   {
     "id": "nyu-lafayette-hall",
     "name": "Lafayette Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.71718,
     "lng": -74.0021,
@@ -113,6 +135,8 @@
   {
     "id": "nyu-bobst-library",
     "name": "Elmer Holmes Bobst Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet", "wifi", "power"],
     "lat": 40.72943,
     "lng": -73.99722,
@@ -124,6 +148,8 @@
   {
     "id": "nyu-washington-square-park",
     "name": "Washington Square Park",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet", "sit-no-id"],
     "lat": 40.73089,
     "lng": -73.99759,
@@ -135,6 +161,8 @@
   {
     "id": "nyu-paulson-center",
     "name": "John A. Paulson Center (residence, athletics & recreation)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["gym", "dorm"],
     "lat": 40.72658,
     "lng": -73.99754,
@@ -146,6 +174,8 @@
   {
     "id": "nyu-catholic-center",
     "name": "Generoso Pope Catholic Center at NYU",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.72992,
     "lng": -73.99817,
@@ -157,6 +187,8 @@
   {
     "id": "nyu-subway-8th-st",
     "name": "8th St – NYU Station (N, R, W)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.73033,
     "lng": -73.99263,
@@ -166,6 +198,8 @@
   {
     "id": "nyu-subway-w4th",
     "name": "W 4th St – Washington Square (A, C, E, B, D, F, M)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.73164,
     "lng": -74.00099,
@@ -175,6 +209,8 @@
   {
     "id": "nyu-subway-astor-place",
     "name": "Astor Place (6)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.72985,
     "lng": -73.99139,
@@ -184,6 +220,8 @@
   {
     "id": "nyu-subway-bleecker",
     "name": "Bleecker St (6)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.72595,
     "lng": -73.99468,
@@ -193,6 +231,8 @@
   {
     "id": "nyu-subway-broadway-lafayette",
     "name": "Broadway–Lafayette St (B, D, F, M)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.7253,
     "lng": -73.9962,
@@ -202,6 +242,8 @@
   {
     "id": "nyu-subway-union-square",
     "name": "14th St – Union Square (4, 5, 6, L, N, Q, R, W)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.73476,
     "lng": -73.99054,
@@ -211,6 +253,8 @@
   {
     "id": "nyu-subway-christopher-st",
     "name": "Christopher St – Stonewall (1)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.73361,
     "lng": -74.00283,
@@ -220,6 +264,8 @@
   {
     "id": "nyu-subway-prince-st",
     "name": "Prince St (N, R, W)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.72433,
     "lng": -73.9977,
@@ -230,6 +276,8 @@
   {
     "id": "nyu-the-musket-room",
     "name": "The Musket Room",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -242,6 +290,8 @@
   {
     "id": "nyu-freemans",
     "name": "Freemans",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -254,6 +304,8 @@
   {
     "id": "nyu-rockmeisha-izakaya",
     "name": "Rockmeisha Izakaya",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -265,6 +317,8 @@
   {
     "id": "nyu-john-s-of-bleecker-street",
     "name": "John's of Bleecker Street",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -276,6 +330,8 @@
   {
     "id": "nyu-joe-s-pizza",
     "name": "Joe's Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -288,6 +344,8 @@
   {
     "id": "nyu-lombardi-s-pizza",
     "name": "Lombardi's Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -300,6 +358,8 @@
   {
     "id": "nyu-moc-mac",
     "name": "Mộc Mạc",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -312,6 +372,8 @@
   {
     "id": "nyu-stromboli-pizza",
     "name": "Stromboli Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -324,6 +386,8 @@
   {
     "id": "nyu-l-ecole-restaurant",
     "name": "L'Ecole Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -335,6 +399,8 @@
   {
     "id": "nyu-balade",
     "name": "Balade",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -347,6 +413,8 @@
   {
     "id": "nyu-bar-bianchi",
     "name": "Bar Bianchi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -359,6 +427,8 @@
   {
     "id": "nyu-little-rubys-cafe",
     "name": "Little Ruby’s Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -371,6 +441,8 @@
   {
     "id": "nyu-shmone",
     "name": "Shmoné",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -383,6 +455,8 @@
   {
     "id": "nyu-ayza-wine-chocolate-bar",
     "name": "Ayza Wine & Chocolate Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -395,6 +469,8 @@
   {
     "id": "nyu-trattoria-spaghetto",
     "name": "Trattoria Spaghetto",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -406,6 +482,8 @@
   {
     "id": "nyu-vin-et-fleur",
     "name": "Vin et Fleur",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -417,6 +495,8 @@
   {
     "id": "nyu-maison-close",
     "name": "Maison Close",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -428,6 +508,8 @@
   {
     "id": "nyu-laut",
     "name": "Laut",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -440,6 +522,8 @@
   {
     "id": "nyu-pasquale-jones",
     "name": "Pasquale Jones",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -452,6 +536,8 @@
   {
     "id": "nyu-katz-s-delicatessen",
     "name": "Katz's Delicatessen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -464,6 +550,8 @@
   {
     "id": "nyu-alice",
     "name": "Alice",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -475,6 +563,8 @@
   {
     "id": "nyu-tavern-on-jane",
     "name": "Tavern on Jane",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -487,6 +577,8 @@
   {
     "id": "nyu-maman",
     "name": "maman",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -498,6 +590,8 @@
   {
     "id": "nyu-the-laurels",
     "name": "The Laurels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -510,6 +604,8 @@
   {
     "id": "nyu-ihop",
     "name": "IHOP",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -522,6 +618,8 @@
   {
     "id": "nyu-mokyo",
     "name": "Mokyo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -533,6 +631,8 @@
   {
     "id": "nyu-crema",
     "name": "Crema",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -544,6 +644,8 @@
   {
     "id": "nyu-da-umberto",
     "name": "da Umberto",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -555,6 +657,8 @@
   {
     "id": "nyu-the-hummus-pita-co",
     "name": "The Hummus & Pita Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -566,6 +670,8 @@
   {
     "id": "nyu-j-s-pizza",
     "name": "J's Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -577,6 +683,8 @@
   {
     "id": "nyu-capitaine",
     "name": "Capitaine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -589,6 +697,8 @@
   {
     "id": "nyu-north-square",
     "name": "North Square",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -601,6 +711,8 @@
   {
     "id": "nyu-waverly-diner",
     "name": "Waverly Diner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -613,6 +725,8 @@
   {
     "id": "nyu-blt-fish",
     "name": "BLT Fish",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -625,6 +739,8 @@
   {
     "id": "nyu-aldea",
     "name": "Aldea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -637,6 +753,8 @@
   {
     "id": "nyu-chelsea-inn",
     "name": "Chelsea Inn",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -648,6 +766,8 @@
   {
     "id": "nyu-hollywood-diner",
     "name": "Hollywood Diner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -659,6 +779,8 @@
   {
     "id": "nyu-flavabom",
     "name": "Flavabom",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -670,6 +792,8 @@
   {
     "id": "nyu-guac-time",
     "name": "Guac Time",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -682,6 +806,8 @@
   {
     "id": "nyu-san-marzano",
     "name": "San Marzano",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -694,6 +820,8 @@
   {
     "id": "nyu-paul-s-da-burger-joint",
     "name": "Paul's \"Da Burger Joint\"",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -706,6 +834,8 @@
   {
     "id": "nyu-mr-keke",
     "name": "Mr. Keke",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -718,6 +848,8 @@
   {
     "id": "nyu-chat-n-chew",
     "name": "Chat n Chew",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -730,6 +862,8 @@
   {
     "id": "nyu-port-sa-id",
     "name": "Port Sa'id",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -742,6 +876,8 @@
   {
     "id": "nyu-dim-sum-palace",
     "name": "Dim Sum Palace",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -754,6 +890,8 @@
   {
     "id": "nyu-the-grid",
     "name": "The GRID",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -766,6 +904,8 @@
   {
     "id": "nyu-dos-caminos",
     "name": "Dos Caminos",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -778,6 +918,8 @@
   {
     "id": "nyu-linen-hall",
     "name": "Linen Hall",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -790,6 +932,8 @@
   {
     "id": "nyu-hags",
     "name": "Hags",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -802,6 +946,8 @@
   {
     "id": "nyu-love-mama",
     "name": "Love Mama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -814,6 +960,8 @@
   {
     "id": "nyu-tim-ho-wan",
     "name": "Tim Ho Wan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -826,6 +974,8 @@
   {
     "id": "nyu-leon-s",
     "name": "Leon's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -838,6 +988,8 @@
   {
     "id": "nyu-sauerkraut-fish",
     "name": "Sauerkraut Fish",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -850,6 +1002,8 @@
   {
     "id": "nyu-glaze-teriyaki",
     "name": "Glaze Teriyaki",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -862,6 +1016,8 @@
   {
     "id": "nyu-manuela",
     "name": "Manuela",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -874,6 +1030,8 @@
   {
     "id": "nyu-la-pecora-bianca",
     "name": "La Pecora Bianca",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -886,6 +1044,8 @@
   {
     "id": "nyu-santo-taco",
     "name": "Santo Taco",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -898,6 +1058,8 @@
   {
     "id": "nyu-ruby-s",
     "name": "Ruby's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -910,6 +1072,8 @@
   {
     "id": "nyu-champers-social-club",
     "name": "Champers Social Club",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -922,6 +1086,8 @@
   {
     "id": "nyu-upside-pizza",
     "name": "Upside Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -934,6 +1100,8 @@
   {
     "id": "nyu-jacks-wife-freda",
     "name": "Jack’s Wife Freda",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -946,6 +1114,8 @@
   {
     "id": "nyu-grand-street-social",
     "name": "Grand Street Social",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -958,6 +1128,8 @@
   {
     "id": "nyu-rintintin",
     "name": "Rintintin",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -970,6 +1142,8 @@
   {
     "id": "nyu-thai-diner",
     "name": "Thai Diner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -982,6 +1156,8 @@
   {
     "id": "nyu-piacere",
     "name": "Piacere",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -994,6 +1170,8 @@
   {
     "id": "nyu-ki-mi-ka",
     "name": "Ki Mi Ka",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1006,6 +1184,8 @@
   {
     "id": "nyu-tabetomo",
     "name": "Tabetomo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1017,6 +1197,8 @@
   {
     "id": "nyu-bar-moga",
     "name": "Bar Moga",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1029,6 +1211,8 @@
   {
     "id": "nyu-mermaid-oyster-bar",
     "name": "Mermaid Oyster Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1040,6 +1224,8 @@
   {
     "id": "nyu-artichoke-pizza",
     "name": "Artichoke Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1052,6 +1238,8 @@
   {
     "id": "nyu-senza-gluten",
     "name": "Senza Gluten",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1064,6 +1252,8 @@
   {
     "id": "nyu-tue-thai-food",
     "name": "Tue Thai Food",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1076,6 +1266,8 @@
   {
     "id": "nyu-amelie-wine-bar",
     "name": "Amelie Wine Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1088,6 +1280,8 @@
   {
     "id": "nyu-super-burrito",
     "name": "Super Burrito",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1099,6 +1293,8 @@
   {
     "id": "nyu-marumi",
     "name": "Marumi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1111,6 +1307,8 @@
   {
     "id": "nyu-bin-141",
     "name": "Bin 141",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1123,6 +1321,8 @@
   {
     "id": "nyu-sonnyboy",
     "name": "Sonnyboy",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1135,6 +1335,8 @@
   {
     "id": "nyu-shoo-shoo-nolita",
     "name": "Shoo Shoo Nolita",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1147,6 +1349,8 @@
   {
     "id": "nyu-v-nam-cafe",
     "name": "V-Nam Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1159,6 +1363,8 @@
   {
     "id": "nyu-tsurutontan",
     "name": "TsuruTonTan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1171,6 +1377,8 @@
   {
     "id": "nyu-oceans",
     "name": "Oceans",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1183,6 +1391,8 @@
   {
     "id": "nyu-lucia-pizza",
     "name": "Lucia Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1194,6 +1404,8 @@
   {
     "id": "nyu-taureau",
     "name": "Taureau",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1206,6 +1418,8 @@
   {
     "id": "nyu-ueki",
     "name": "Ueki",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1218,6 +1432,8 @@
   {
     "id": "nyu-charley-bird",
     "name": "Charley Bird",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1229,6 +1445,8 @@
   {
     "id": "nyu-wolfnights-the-gourmet-wrap",
     "name": "Wolfnights - the gourmet wrap",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1240,6 +1458,8 @@
   {
     "id": "nyu-tacombi",
     "name": "Tacombi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1252,6 +1472,8 @@
   {
     "id": "nyu-via-carota",
     "name": "Via Carota",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1264,6 +1486,8 @@
   {
     "id": "nyu-malatesta",
     "name": "Malatesta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1276,6 +1500,8 @@
   {
     "id": "nyu-da-andrea",
     "name": "Da Andrea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1288,6 +1514,8 @@
   {
     "id": "nyu-shu-han-ju",
     "name": "Shu Han Ju",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1299,6 +1527,8 @@
   {
     "id": "nyu-wogies",
     "name": "Wogies",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1311,6 +1541,8 @@
   {
     "id": "nyu-elephant-and-castle",
     "name": "Elephant and Castle",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1322,6 +1554,8 @@
   {
     "id": "nyu-empellon-taqueria",
     "name": "Empellon Taqueria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1334,6 +1568,8 @@
   {
     "id": "nyu-sevilla",
     "name": "Sevilla",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1345,6 +1581,8 @@
   {
     "id": "nyu-cowgirl",
     "name": "Cowgirl",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1357,6 +1595,8 @@
   {
     "id": "nyu-anton-s",
     "name": "Anton's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1369,6 +1609,8 @@
   {
     "id": "nyu-arthur-sons",
     "name": "Arthur & Sons",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1381,6 +1623,8 @@
   {
     "id": "nyu-buffalo-wild-wings",
     "name": "Buffalo Wild Wings",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1392,6 +1636,8 @@
   {
     "id": "nyu-veeray-da-dhaba",
     "name": "Veeray Da Dhaba",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1403,6 +1649,8 @@
   {
     "id": "nyu-onion-tree-pizza-co",
     "name": "Onion Tree Pizza Co",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1414,6 +1662,8 @@
   {
     "id": "nyu-motorino",
     "name": "Motorino",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1426,6 +1676,8 @@
   {
     "id": "nyu-s-mac",
     "name": "S'MAC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1438,6 +1690,8 @@
   {
     "id": "nyu-sao-mai",
     "name": "Sao Mai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1450,6 +1704,8 @@
   {
     "id": "nyu-oiji-mi",
     "name": "Oiji Mi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1462,6 +1718,8 @@
   {
     "id": "nyu-casa-mono",
     "name": "Casa Mono",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1474,6 +1732,8 @@
   {
     "id": "nyu-chez-jacqueline",
     "name": "Chez Jacqueline",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1485,6 +1745,8 @@
   {
     "id": "nyu-song-e-napule",
     "name": "Song’ E Napule",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1497,6 +1759,8 @@
   {
     "id": "nyu-comodo",
     "name": "Comodo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1508,6 +1772,8 @@
   {
     "id": "nyu-emmett-s",
     "name": "Emmett's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1520,6 +1786,8 @@
   {
     "id": "nyu-villa-mosconi",
     "name": "Villa Mosconi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1531,6 +1799,8 @@
   {
     "id": "nyu-da-silvano",
     "name": "Da Silvano",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1542,6 +1812,8 @@
   {
     "id": "nyu-lupa",
     "name": "Lupa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1553,6 +1825,8 @@
   {
     "id": "nyu-tartine",
     "name": "Tartine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1565,6 +1839,8 @@
   {
     "id": "nyu-chloe-s-soft-serve-fruit-co",
     "name": "Chloe's Soft Serve Fruit Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1577,6 +1853,8 @@
   {
     "id": "nyu-extra-virgin",
     "name": "Extra Virgin",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1589,6 +1867,8 @@
   {
     "id": "nyu-bobo",
     "name": "Bobo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1600,6 +1880,8 @@
   {
     "id": "nyu-divyas-kitchen",
     "name": "Divya’s Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1612,6 +1894,8 @@
   {
     "id": "nyu-mikaku",
     "name": "Mikaku",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1624,6 +1908,8 @@
   {
     "id": "nyu-19-cleveland",
     "name": "19 Cleveland",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1636,6 +1922,8 @@
   {
     "id": "nyu-cafe-select",
     "name": "Café Select",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1648,6 +1936,8 @@
   {
     "id": "nyu-osteria-morini",
     "name": "Osteria Morini",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1660,6 +1950,8 @@
   {
     "id": "nyu-the-market-table",
     "name": "The Market Table",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1672,6 +1964,8 @@
   {
     "id": "nyu-the-grey-dog",
     "name": "The Grey Dog",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1684,6 +1978,8 @@
   {
     "id": "nyu-ben-s-pizzeria",
     "name": "Ben's Pizzeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1695,6 +1991,8 @@
   {
     "id": "nyu-blenheim",
     "name": "Blenheim",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1707,6 +2005,8 @@
   {
     "id": "nyu-dravida",
     "name": "Dravida",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1719,6 +2019,8 @@
   {
     "id": "nyu-simo-pizza",
     "name": "SIMÒ PIZZA",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1730,6 +2032,8 @@
   {
     "id": "nyu-blossom",
     "name": "Blossom",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1741,6 +2045,8 @@
   {
     "id": "nyu-knickerbocker-bar-grill",
     "name": "Knickerbocker Bar & Grill",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1752,6 +2058,8 @@
   {
     "id": "nyu-mamoun-s-falafel",
     "name": "Mamoun's Falafel",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1764,6 +2072,8 @@
   {
     "id": "nyu-bar-pitti",
     "name": "Bar Pitti",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1775,6 +2085,8 @@
   {
     "id": "nyu-fanelli-cafe",
     "name": "Fanelli Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1786,6 +2098,8 @@
   {
     "id": "nyu-ippudo",
     "name": "Ippudo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1798,6 +2112,8 @@
   {
     "id": "nyu-favela-cubana",
     "name": "Favela Cubana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1810,6 +2126,8 @@
   {
     "id": "nyu-chateau-royale",
     "name": "Chateau Royale",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1822,6 +2140,8 @@
   {
     "id": "nyu-east-village-pizza",
     "name": "East Village Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1834,6 +2154,8 @@
   {
     "id": "nyu-jadis-wine-bar",
     "name": "Jadis Wine Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1846,6 +2168,8 @@
   {
     "id": "nyu-big-daddy-s-diner",
     "name": "Big Daddy's Diner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1858,6 +2182,8 @@
   {
     "id": "nyu-balthazar",
     "name": "Balthazar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1869,6 +2195,8 @@
   {
     "id": "nyu-blue-ribbon",
     "name": "Blue Ribbon",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1880,6 +2208,8 @@
   {
     "id": "nyu-lil-frankies",
     "name": "Lil' Frankies",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1892,6 +2222,8 @@
   {
     "id": "nyu-the-dutch",
     "name": "The Dutch",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1903,6 +2235,8 @@
   {
     "id": "nyu-wan-wan",
     "name": "Wan Wan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1915,6 +2249,8 @@
   {
     "id": "nyu-cafe-habana",
     "name": "Café Habana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1927,6 +2263,8 @@
   {
     "id": "nyu-kyuramen",
     "name": "Kyuramen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1939,6 +2277,8 @@
   {
     "id": "nyu-for-u",
     "name": "For U",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1951,6 +2291,8 @@
   {
     "id": "nyu-kati",
     "name": "Kati",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1963,6 +2305,8 @@
   {
     "id": "nyu-sotto-13",
     "name": "Sotto 13",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1974,6 +2318,8 @@
   {
     "id": "nyu-saigon-shack",
     "name": "Saigon Shack",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1986,6 +2332,8 @@
   {
     "id": "nyu-baar-baar",
     "name": "Baar Baar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -1998,6 +2346,8 @@
   {
     "id": "nyu-chloe",
     "name": "Chloe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2010,6 +2360,8 @@
   {
     "id": "nyu-miss-lilys",
     "name": "Miss Lily’s",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2022,6 +2374,8 @@
   {
     "id": "nyu-kyu",
     "name": "KYU",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2034,6 +2388,8 @@
   {
     "id": "nyu-mighty-quinns-barbeque",
     "name": "Mighty Quinns Barbeque",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2045,6 +2401,8 @@
   {
     "id": "nyu-morandi",
     "name": "Morandi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2056,6 +2414,8 @@
   {
     "id": "nyu-the-waverly-inn",
     "name": "The Waverly Inn",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2068,6 +2428,8 @@
   {
     "id": "nyu-cafe-cluny",
     "name": "Cafe Cluny",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2080,6 +2442,8 @@
   {
     "id": "nyu-bleecker-street-pizza",
     "name": "Bleecker Street Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2092,6 +2456,8 @@
   {
     "id": "nyu-the-sabieng-thai",
     "name": "The Sabieng Thai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2104,6 +2470,8 @@
   {
     "id": "nyu-risotteria-melotti",
     "name": "Risotteria Melotti",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2116,6 +2484,8 @@
   {
     "id": "nyu-ferns",
     "name": "Ferns",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2128,6 +2498,8 @@
   {
     "id": "nyu-late-night-ramen-at-takashi",
     "name": "Late Night Ramen at Takashi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2139,6 +2511,8 @@
   {
     "id": "nyu-streecha-ukrainian-kitchen",
     "name": "Streecha Ukrainian Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2150,6 +2524,8 @@
   {
     "id": "nyu-rosemary-s",
     "name": "Rosemary's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2162,6 +2538,8 @@
   {
     "id": "nyu-miss-lily-s-soho",
     "name": "Miss Lily's (Soho)",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2174,6 +2552,8 @@
   {
     "id": "nyu-piccola-strada",
     "name": "Piccola Strada",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2185,6 +2565,8 @@
   {
     "id": "nyu-roey-s",
     "name": "Roey's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2197,6 +2579,8 @@
   {
     "id": "nyu-mr-taka-ramen",
     "name": "Mr. Taka Ramen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2209,6 +2593,8 @@
   {
     "id": "nyu-momofuku-noodle-bar",
     "name": "Momofuku Noodle Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2221,6 +2607,8 @@
   {
     "id": "nyu-benito-one",
     "name": "Benito One",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2232,6 +2620,8 @@
   {
     "id": "nyu-sartianos",
     "name": "Sartiano’s",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2244,6 +2634,8 @@
   {
     "id": "nyu-jane",
     "name": "Jane",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2256,6 +2648,8 @@
   {
     "id": "nyu-blue-hill",
     "name": "Blue Hill",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2268,6 +2662,8 @@
   {
     "id": "nyu-tampico",
     "name": "Tampico",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2280,6 +2676,8 @@
   {
     "id": "nyu-piora",
     "name": "Piora",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2291,6 +2689,8 @@
   {
     "id": "nyu-rubirosa",
     "name": "Rubirosa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2303,6 +2703,8 @@
   {
     "id": "nyu-berimbau-do-brasil",
     "name": "Berimbau do Brasil",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2314,6 +2716,8 @@
   {
     "id": "nyu-the-little-owl",
     "name": "The Little Owl",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2326,6 +2730,8 @@
   {
     "id": "nyu-caravan-of-dreams",
     "name": "Caravan of Dreams",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2338,6 +2744,8 @@
   {
     "id": "nyu-fossetta",
     "name": "Fossetta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2350,6 +2758,8 @@
   {
     "id": "nyu-jekyll-and-hyde-club",
     "name": "Jekyll and Hyde Club",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2361,6 +2771,8 @@
   {
     "id": "nyu-lava-shawarma",
     "name": "Lava Shawarma",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2373,6 +2785,8 @@
   {
     "id": "nyu-beetle-house-nyc",
     "name": "Beetle House NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2385,6 +2799,8 @@
   {
     "id": "nyu-trattoria-pesce-pasta",
     "name": "Trattoria Pesce Pasta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2397,6 +2813,8 @@
   {
     "id": "nyu-da-marcella",
     "name": "Da Marcella",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2408,6 +2826,8 @@
   {
     "id": "nyu-jazba",
     "name": "Jazba",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2420,6 +2840,8 @@
   {
     "id": "nyu-black-tap",
     "name": "Black Tap",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2432,6 +2854,8 @@
   {
     "id": "nyu-joe-junior",
     "name": "Joe Junior",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2443,6 +2867,8 @@
   {
     "id": "nyu-blue-ribbon-brassiere",
     "name": "Blue Ribbon Brassiere",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2455,6 +2881,8 @@
   {
     "id": "nyu-follia",
     "name": "Follia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2467,6 +2895,8 @@
   {
     "id": "nyu-p-f-chang-s",
     "name": "P.F. Chang's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2478,6 +2908,8 @@
   {
     "id": "nyu-gyu-kaku",
     "name": "Gyu-Kaku",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2489,6 +2921,8 @@
   {
     "id": "nyu-boqueria-soho",
     "name": "Boqueria Soho",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2501,6 +2935,8 @@
   {
     "id": "nyu-corkbuzz",
     "name": "Corkbuzz",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2513,6 +2949,8 @@
   {
     "id": "nyu-ariari",
     "name": "Ariari",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2525,6 +2963,8 @@
   {
     "id": "nyu-kisa",
     "name": "Kisa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2537,6 +2977,8 @@
   {
     "id": "nyu-peasant",
     "name": "Peasant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2549,6 +2991,8 @@
   {
     "id": "nyu-don-angie",
     "name": "Don Angie",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2561,6 +3005,8 @@
   {
     "id": "nyu-cafe-mogador",
     "name": "Cafe Mogador",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2573,6 +3019,8 @@
   {
     "id": "nyu-soothr",
     "name": "Soothr",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2584,6 +3032,8 @@
   {
     "id": "nyu-la-dong",
     "name": "La Dong",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2596,6 +3046,8 @@
   {
     "id": "nyu-nolita-pizza",
     "name": "Nolita Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2608,6 +3060,8 @@
   {
     "id": "nyu-david-burke-kitchen",
     "name": "David Burke Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2619,6 +3073,8 @@
   {
     "id": "nyu-fiat-cafe",
     "name": "Fiat Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2631,6 +3087,8 @@
   {
     "id": "nyu-la-nacional",
     "name": "La Nacional",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2642,6 +3100,8 @@
   {
     "id": "nyu-pierre-loti",
     "name": "Pierre Loti",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2654,6 +3114,8 @@
   {
     "id": "nyu-taboonette",
     "name": "Taboonette",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2666,6 +3128,8 @@
   {
     "id": "nyu-yuca-bar-restaurant",
     "name": "Yuca Bar & Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2677,6 +3141,8 @@
   {
     "id": "nyu-sahara-east",
     "name": "Sahara East",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2688,6 +3154,8 @@
   {
     "id": "nyu-demo",
     "name": "Demo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2700,6 +3168,8 @@
   {
     "id": "nyu-p-s-burgers",
     "name": "P.S. Burgers",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2711,6 +3181,8 @@
   {
     "id": "nyu-numero-28-pizzeria",
     "name": "Numero 28 Pizzeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2722,6 +3194,8 @@
   {
     "id": "nyu-pommes-frites",
     "name": "Pommes Frites",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2734,6 +3208,8 @@
   {
     "id": "nyu-loreley-beer-garden",
     "name": "Loreley Beer Garden",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2746,6 +3222,8 @@
   {
     "id": "nyu-spicy-moon",
     "name": "Spicy Moon",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2758,6 +3236,8 @@
   {
     "id": "nyu-lupe-s-east-l-a-kitchen",
     "name": "lupe's East L.A. Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2770,6 +3250,8 @@
   {
     "id": "nyu-marylou",
     "name": "Marylou",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2782,6 +3264,8 @@
   {
     "id": "nyu-stanton-social",
     "name": "Stanton Social",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2794,6 +3278,8 @@
   {
     "id": "nyu-los-tacos-nyc",
     "name": "Los Tacos NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2805,6 +3291,8 @@
   {
     "id": "nyu-sobaya",
     "name": "Sobaya",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2817,6 +3305,8 @@
   {
     "id": "nyu-rebelle",
     "name": "Rebelle",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2828,6 +3318,8 @@
   {
     "id": "nyu-momoya",
     "name": "Momoya",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2840,6 +3332,8 @@
   {
     "id": "nyu-dominique-ansel-kitchen",
     "name": "Dominique Ansel Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2851,6 +3345,8 @@
   {
     "id": "nyu-prince-street-pizza",
     "name": "Prince Street Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2863,6 +3359,8 @@
   {
     "id": "nyu-spaghetti-incident",
     "name": "Spaghetti Incident",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2875,6 +3373,8 @@
   {
     "id": "nyu-rice-to-riches",
     "name": "Rice to Riches",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2886,6 +3386,8 @@
   {
     "id": "nyu-masala-times",
     "name": "Masala Times",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2898,6 +3400,8 @@
   {
     "id": "nyu-meama",
     "name": "Meama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2910,6 +3414,8 @@
   {
     "id": "nyu-altro-paradiso",
     "name": "Altro Paradiso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2922,6 +3428,8 @@
   {
     "id": "nyu-spunto-thin-crust-pizza",
     "name": "Spunto Thin Crust Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2933,6 +3441,8 @@
   {
     "id": "nyu-l-amore",
     "name": "L' Amore",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2944,6 +3454,8 @@
   {
     "id": "nyu-kikoo",
     "name": "Kikoo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2956,6 +3468,8 @@
   {
     "id": "nyu-carroll-place",
     "name": "Carroll Place",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2968,6 +3482,8 @@
   {
     "id": "nyu-friend-of-a-farmer",
     "name": "Friend of a Farmer",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2980,6 +3496,8 @@
   {
     "id": "nyu-hearth",
     "name": "Hearth",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -2992,6 +3510,8 @@
   {
     "id": "nyu-john-s-of-12th-street",
     "name": "John's of 12th Street",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3004,6 +3524,8 @@
   {
     "id": "nyu-mint-masala",
     "name": "Mint Masala",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3016,6 +3538,8 @@
   {
     "id": "nyu-mile-end-deli",
     "name": "Mile End Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3027,6 +3551,8 @@
   {
     "id": "nyu-antique-garage",
     "name": "Antique Garage",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3038,6 +3564,8 @@
   {
     "id": "nyu-hanoi-house",
     "name": "Hanoi House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3049,6 +3577,8 @@
   {
     "id": "nyu-le-coucou",
     "name": "Le Coucou",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3061,6 +3591,8 @@
   {
     "id": "nyu-lure-fishbar",
     "name": "Lure Fishbar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3073,6 +3605,8 @@
   {
     "id": "nyu-i-sodi",
     "name": "I Sodi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3084,6 +3618,8 @@
   {
     "id": "nyu-shuko",
     "name": "Shuko",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3095,6 +3631,8 @@
   {
     "id": "nyu-dante",
     "name": "Dante",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3107,6 +3645,8 @@
   {
     "id": "nyu-landmark-coffee-shop-pancake-house",
     "name": "Landmark Coffee Shop & Pancake House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3118,6 +3658,8 @@
   {
     "id": "nyu-voula",
     "name": "Voula",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3129,6 +3671,8 @@
   {
     "id": "nyu-spain-restaurant",
     "name": "Spain Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3140,6 +3684,8 @@
   {
     "id": "nyu-babbo",
     "name": "Babbo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3152,6 +3698,8 @@
   {
     "id": "nyu-caliente-cab",
     "name": "Caliente Cab",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3164,6 +3712,8 @@
   {
     "id": "nyu-aoc",
     "name": "AOC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3176,6 +3726,8 @@
   {
     "id": "nyu-union-fare",
     "name": "Union Fare",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3187,6 +3739,8 @@
   {
     "id": "nyu-lucky-s",
     "name": "Lucky's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3199,6 +3753,8 @@
   {
     "id": "nyu-gottino-enoteca-salumeria",
     "name": "Gottino Enoteca Salumeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3211,6 +3767,8 @@
   {
     "id": "nyu-the-bao",
     "name": "The Bao",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3223,6 +3781,8 @@
   {
     "id": "nyu-al-horno",
     "name": "Al Horno",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3235,6 +3795,8 @@
   {
     "id": "nyu-little-poland",
     "name": "Little Poland",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3247,6 +3809,8 @@
   {
     "id": "nyu-pokerice",
     "name": "Pokerice",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3259,6 +3823,8 @@
   {
     "id": "nyu-sauce",
     "name": "Sauce",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3271,6 +3837,8 @@
   {
     "id": "nyu-cafe-himalaya",
     "name": "Cafe Himalaya",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3283,6 +3851,8 @@
   {
     "id": "nyu-washington-square-dinner",
     "name": "Washington Square Dinner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3294,6 +3864,8 @@
   {
     "id": "nyu-gelso-grand",
     "name": "Gelso & Grand",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3305,6 +3877,8 @@
   {
     "id": "nyu-lord-s",
     "name": "Lord's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3317,6 +3891,8 @@
   {
     "id": "nyu-mocha-burger",
     "name": "Mocha Burger",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3329,6 +3905,8 @@
   {
     "id": "nyu-madam-ji",
     "name": "Madam Ji",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3341,6 +3919,8 @@
   {
     "id": "nyu-grandmas-one-pizza",
     "name": "Grandma’s One Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3352,6 +3932,8 @@
   {
     "id": "nyu-pera-soho",
     "name": "Pera SoHo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3364,6 +3946,8 @@
   {
     "id": "nyu-sessanta",
     "name": "Sessanta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3376,6 +3960,8 @@
   {
     "id": "nyu-aurora-soho",
     "name": "Aurora SoHo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3388,6 +3974,8 @@
   {
     "id": "nyu-bowery-meat-company",
     "name": "Bowery Meat Company",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3400,6 +3988,8 @@
   {
     "id": "nyu-bar-six",
     "name": "Bar Six",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3412,6 +4002,8 @@
   {
     "id": "nyu-pizza-studio-tamaki",
     "name": "Pizza Studio Tamaki",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3424,6 +4016,8 @@
   {
     "id": "nyu-rosie-s",
     "name": "Rosie's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3436,6 +4030,8 @@
   {
     "id": "nyu-manousheh",
     "name": "Manousheh",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3447,6 +4043,8 @@
   {
     "id": "nyu-sadelles",
     "name": "Sadelle’s",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3459,6 +4057,8 @@
   {
     "id": "nyu-westville",
     "name": "Westville",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3471,6 +4071,8 @@
   {
     "id": "nyu-the-butchers-daughter",
     "name": "The Butcher’s Daughter",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3482,6 +4084,8 @@
   {
     "id": "nyu-veselka",
     "name": "Veselka",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3494,6 +4098,8 @@
   {
     "id": "nyu-bbf",
     "name": "BBF",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3506,6 +4112,8 @@
   {
     "id": "nyu-the-spaniard",
     "name": "The Spaniard",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3517,6 +4125,8 @@
   {
     "id": "nyu-emily",
     "name": "Emily",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3529,6 +4139,8 @@
   {
     "id": "nyu-pep-s-on-grand",
     "name": "Pep's on Grand",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3541,6 +4153,8 @@
   {
     "id": "nyu-buvette-gastrotheque",
     "name": "Buvette Gastrotheque",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3552,6 +4166,8 @@
   {
     "id": "nyu-supper",
     "name": "Supper",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3564,6 +4180,8 @@
   {
     "id": "nyu-paul-jimmy-s-ristorante",
     "name": "Paul & Jimmy's Ristorante",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3576,6 +4194,8 @@
   {
     "id": "nyu-la-lanterna-di-vittorio",
     "name": "La Lanterna di Vittorio",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3588,6 +4208,8 @@
   {
     "id": "nyu-old-tbilisi-garden",
     "name": "Old Tbilisi Garden",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3600,6 +4222,8 @@
   {
     "id": "nyu-papatzu-mexican-restaurant",
     "name": "Papatzu Mexican Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3612,6 +4236,8 @@
   {
     "id": "nyu-rasa",
     "name": "Rasa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3624,6 +4250,8 @@
   {
     "id": "nyu-soho-thai",
     "name": "Soho Thai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3636,6 +4264,8 @@
   {
     "id": "nyu-sushi-west",
     "name": "Sushi West",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3647,6 +4277,8 @@
   {
     "id": "nyu-madame-vo",
     "name": "Madame Vo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3659,6 +4291,8 @@
   {
     "id": "nyu-mezeh-mediterranean-grill",
     "name": "Mezeh Mediterranean Grill",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3671,6 +4305,8 @@
   {
     "id": "nyu-saint-tropez-wine-bar",
     "name": "Saint Tropez Wine Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3683,6 +4319,8 @@
   {
     "id": "nyu-adda",
     "name": "Adda",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3695,6 +4333,8 @@
   {
     "id": "nyu-pinch-chinese",
     "name": "Pinch Chinese",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3707,6 +4347,8 @@
   {
     "id": "nyu-dokodemo",
     "name": "DokoDemo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3719,6 +4361,8 @@
   {
     "id": "nyu-bus-stop-cafe",
     "name": "Bus Stop Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3731,6 +4375,8 @@
   {
     "id": "nyu-el-cantinero",
     "name": "El Cantinero",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3743,6 +4389,8 @@
   {
     "id": "nyu-upstate",
     "name": "Upstate",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3755,6 +4403,8 @@
   {
     "id": "nyu-top-thai-greenwich",
     "name": "Top Thai Greenwich",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3767,6 +4417,8 @@
   {
     "id": "nyu-hunan-slurp",
     "name": "Hunan Slurp",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3779,6 +4431,8 @@
   {
     "id": "nyu-unique-omakase",
     "name": "Unique Omakase",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3791,6 +4445,8 @@
   {
     "id": "nyu-turks-and-frogs",
     "name": "Turks and Frogs",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3803,6 +4459,8 @@
   {
     "id": "nyu-redfarm",
     "name": "RedFarm",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3815,6 +4473,8 @@
   {
     "id": "nyu-aria-west-village",
     "name": "Aria West Village",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3827,6 +4487,8 @@
   {
     "id": "nyu-upholstery-store-food-and-wine",
     "name": "Upholstery Store: Food and Wine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3839,6 +4501,8 @@
   {
     "id": "nyu-wallse",
     "name": "Wallsé",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3851,6 +4515,8 @@
   {
     "id": "nyu-indochine",
     "name": "Indochine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3863,6 +4529,8 @@
   {
     "id": "nyu-the-wren",
     "name": "The Wren",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3875,6 +4543,8 @@
   {
     "id": "nyu-4-charles-prime-rib",
     "name": "4 Charles Prime Rib",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3886,6 +4556,8 @@
   {
     "id": "nyu-thai-villa",
     "name": "Thai Villa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3898,6 +4570,8 @@
   {
     "id": "nyu-da-nico",
     "name": "Da Nico",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3910,6 +4584,8 @@
   {
     "id": "nyu-w4-noodle-house",
     "name": "W4 Noodle House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3922,6 +4598,8 @@
   {
     "id": "nyu-c-as-in-charlie",
     "name": "C as in Charlie",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3933,6 +4611,8 @@
   {
     "id": "nyu-takahachi",
     "name": "Takahachi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3944,6 +4624,8 @@
   {
     "id": "nyu-sushi-king",
     "name": "Sushi King",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3955,6 +4637,8 @@
   {
     "id": "nyu-ms-yoo",
     "name": "Ms. Yoo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3967,6 +4651,8 @@
   {
     "id": "nyu-superiority-burger",
     "name": "Superiority Burger",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3979,6 +4665,8 @@
   {
     "id": "nyu-amy-ruth-s-downtown",
     "name": "Amy Ruth's Downtown",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -3991,6 +4679,8 @@
   {
     "id": "nyu-three-times",
     "name": "Three Times",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4002,6 +4692,8 @@
   {
     "id": "nyu-diu-tea",
     "name": "DIU Tea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4013,6 +4705,8 @@
   {
     "id": "nyu-estela",
     "name": "Estela",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4025,6 +4719,8 @@
   {
     "id": "nyu-nur",
     "name": "Nur",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4036,6 +4732,8 @@
   {
     "id": "nyu-carbone",
     "name": "Carbone",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4048,6 +4746,8 @@
   {
     "id": "nyu-avant-garden",
     "name": "Avant Garden",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4060,6 +4760,8 @@
   {
     "id": "nyu-sushi-para-88",
     "name": "Sushi Para 88",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4072,6 +4774,8 @@
   {
     "id": "nyu-awash",
     "name": "Awash",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4084,6 +4788,8 @@
   {
     "id": "nyu-ukrainian-east-village-restaurant",
     "name": "Ukrainian East Village Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4095,6 +4801,8 @@
   {
     "id": "nyu-zazzy-s-pizza",
     "name": "Zazzy's Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4107,6 +4815,8 @@
   {
     "id": "nyu-raku-east-village",
     "name": "Raku East Village",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4119,6 +4829,8 @@
   {
     "id": "nyu-dumpling-man",
     "name": "Dumpling Man",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4131,6 +4843,8 @@
   {
     "id": "nyu-parm",
     "name": "Parm",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4143,6 +4857,8 @@
   {
     "id": "nyu-cava",
     "name": "CAVA",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4155,6 +4871,8 @@
   {
     "id": "nyu-barn-joo",
     "name": "Barn Joo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4166,6 +4884,8 @@
   {
     "id": "nyu-ho-foods",
     "name": "Ho Foods",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4178,6 +4898,8 @@
   {
     "id": "nyu-886",
     "name": "886",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4190,6 +4912,8 @@
   {
     "id": "nyu-il-buco",
     "name": "il Buco",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4201,6 +4925,8 @@
   {
     "id": "nyu-the-woo",
     "name": "The Woo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4212,6 +4938,8 @@
   {
     "id": "nyu-makimaki",
     "name": "MakiMaki",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4224,6 +4952,8 @@
   {
     "id": "nyu-l-accolade",
     "name": "L'accolade",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4236,6 +4966,8 @@
   {
     "id": "nyu-the-standard",
     "name": "The Standard",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4247,6 +4979,8 @@
   {
     "id": "nyu-five-boys-fresh-pizza",
     "name": "Five Boys Fresh Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4258,6 +4992,8 @@
   {
     "id": "nyu-hello-saigon",
     "name": "Hello Saigon",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4269,6 +5005,8 @@
   {
     "id": "nyu-san-carlo-osteria-piemonte",
     "name": "San Carlo Osteria Piemonte",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4281,6 +5019,8 @@
   {
     "id": "nyu-juice-generation",
     "name": "Juice Generation",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4292,6 +5032,8 @@
   {
     "id": "nyu-indi-thai",
     "name": "Indi Thai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4304,6 +5046,8 @@
   {
     "id": "nyu-revival",
     "name": "Revival",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4316,6 +5060,8 @@
   {
     "id": "nyu-ahimsa",
     "name": "Ahimsa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4328,6 +5074,8 @@
   {
     "id": "nyu-new-arc-chicken",
     "name": "New Arc Chicken",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4339,6 +5087,8 @@
   {
     "id": "nyu-trapizzino",
     "name": "Trapizzino",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4351,6 +5101,8 @@
   {
     "id": "nyu-pete-s-tavern",
     "name": "Pete's Tavern",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4362,6 +5114,8 @@
   {
     "id": "nyu-grotta-azzurra",
     "name": "Grotta Azzurra",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4374,6 +5128,8 @@
   {
     "id": "nyu-cathedral",
     "name": "Cathédral",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4385,6 +5141,8 @@
   {
     "id": "nyu-one-if-by-land-two-by-if-see",
     "name": "One if by Land, Two by if See",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4396,6 +5154,8 @@
   {
     "id": "nyu-wayan",
     "name": "Wayan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4408,6 +5168,8 @@
   {
     "id": "nyu-onieals",
     "name": "Onieal’s",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4420,6 +5182,8 @@
   {
     "id": "nyu-cafeta-social-club-italian-restaurant",
     "name": "Cafeta Social Club Italian Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4431,6 +5195,8 @@
   {
     "id": "nyu-rai-rai-ken",
     "name": "Rai Rai Ken",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4442,6 +5208,8 @@
   {
     "id": "nyu-una-pizza-napoletana",
     "name": "Una Pizza Napoletana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4454,6 +5222,8 @@
   {
     "id": "nyu-ankara-3",
     "name": "Ankara #3",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4465,6 +5235,8 @@
   {
     "id": "nyu-sushi-kai",
     "name": "Sushi Kai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4477,6 +5249,8 @@
   {
     "id": "nyu-sweet-chick",
     "name": "Sweet Chick",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4489,6 +5263,8 @@
   {
     "id": "nyu-le-botaniste",
     "name": "Le Botaniste",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4500,6 +5276,8 @@
   {
     "id": "nyu-barolo",
     "name": "Barolo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4511,6 +5289,8 @@
   {
     "id": "nyu-piccola-cuccina-estiatorio",
     "name": "Piccola Cuccina Estiatorio",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4523,6 +5303,8 @@
   {
     "id": "nyu-emmy-squared",
     "name": "Emmy Squared",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4535,6 +5317,8 @@
   {
     "id": "nyu-bar-primi",
     "name": "Bar Primi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4547,6 +5331,8 @@
   {
     "id": "nyu-aoi-kitchen",
     "name": "AOI Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4559,6 +5345,8 @@
   {
     "id": "nyu-quality-eats",
     "name": "Quality Eats",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4570,6 +5358,8 @@
   {
     "id": "nyu-mighty-bowl",
     "name": "MIGHTY Bowl",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4582,6 +5372,8 @@
   {
     "id": "nyu-ramen-takumi",
     "name": "Ramen Takumi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4593,6 +5385,8 @@
   {
     "id": "nyu-bowllin",
     "name": "Bowllin'",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4604,6 +5398,8 @@
   {
     "id": "nyu-dame",
     "name": "Dame",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4616,6 +5412,8 @@
   {
     "id": "nyu-lao-ma-spicy",
     "name": "Lao Ma Spicy",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4628,6 +5426,8 @@
   {
     "id": "nyu-boucherie",
     "name": "Boucherie",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4640,6 +5440,8 @@
   {
     "id": "nyu-seahorse-nyc",
     "name": "Seahorse NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4652,6 +5454,8 @@
   {
     "id": "nyu-prosciutto",
     "name": "Prosciutto",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4664,6 +5468,8 @@
   {
     "id": "nyu-mikado",
     "name": "Mikado",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4675,6 +5481,8 @@
   {
     "id": "nyu-klong",
     "name": "Klong",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4687,6 +5495,8 @@
   {
     "id": "nyu-south-of-the-clouds",
     "name": "South of the Clouds",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4699,6 +5509,8 @@
   {
     "id": "nyu-askili-orchard",
     "name": "Askili Orchard",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4711,6 +5523,8 @@
   {
     "id": "nyu-moko",
     "name": "Moko",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4723,6 +5537,8 @@
   {
     "id": "nyu-noreetuh",
     "name": "noreetuh",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4735,6 +5551,8 @@
   {
     "id": "nyu-socarrat-paella-bar",
     "name": "Socarrat Paella Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4746,6 +5564,8 @@
   {
     "id": "nyu-bellacio",
     "name": "Bellacio",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4757,6 +5577,8 @@
   {
     "id": "nyu-sushi-dairo",
     "name": "Sushi Dairo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4768,6 +5590,8 @@
   {
     "id": "nyu-casa-bocada",
     "name": "Casa Bocada",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4780,6 +5604,8 @@
   {
     "id": "nyu-llama-san",
     "name": "Llama San",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4792,6 +5618,8 @@
   {
     "id": "nyu-king",
     "name": "King",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4804,6 +5632,8 @@
   {
     "id": "nyu-non-la",
     "name": "Nón Lá",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4815,6 +5645,8 @@
   {
     "id": "nyu-north-fork",
     "name": "North Fork",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4827,6 +5659,8 @@
   {
     "id": "nyu-rivoli-pizza",
     "name": "Rivoli Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4838,6 +5672,8 @@
   {
     "id": "nyu-snack-taverna",
     "name": "Snack Taverna",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4849,6 +5685,8 @@
   {
     "id": "nyu-claudette",
     "name": "Claudette",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4861,6 +5699,8 @@
   {
     "id": "nyu-kana-tapas-bar",
     "name": "Kaña Tapas Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4873,6 +5713,8 @@
   {
     "id": "nyu-la-palapa-cocina-mexicana",
     "name": "La Palapa Cocina Mexicana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4885,6 +5727,8 @@
   {
     "id": "nyu-pokeworks",
     "name": "Pokeworks",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4897,6 +5741,8 @@
   {
     "id": "nyu-shaji-bbq",
     "name": "Shaji BBQ",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4908,6 +5754,8 @@
   {
     "id": "nyu-anyway-cafe",
     "name": "Anyway Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4920,6 +5768,8 @@
   {
     "id": "nyu-5ive-spice",
     "name": "5ive Spice",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4931,6 +5781,8 @@
   {
     "id": "nyu-panineria",
     "name": "Panineria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4943,6 +5795,8 @@
   {
     "id": "nyu-champion-pizza",
     "name": "Champion Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4954,6 +5808,8 @@
   {
     "id": "nyu-little-italy-pizzeria-deli",
     "name": "Little Italy Pizzeria & Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4965,6 +5821,8 @@
   {
     "id": "nyu-famous-ben-s-pizza",
     "name": "Famous Ben's Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4977,6 +5835,8 @@
   {
     "id": "nyu-1-50-fresh-pizza",
     "name": "$1.50 Fresh Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -4989,6 +5849,8 @@
   {
     "id": "nyu-delice-sarrasin",
     "name": "Delice Sarrasin",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5000,6 +5862,8 @@
   {
     "id": "nyu-yellow-rose",
     "name": "Yellow Rose",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5012,6 +5876,8 @@
   {
     "id": "nyu-sant-ambroeus",
     "name": "Sant Ambroeus",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5024,6 +5890,8 @@
   {
     "id": "nyu-pelicana-chicken",
     "name": "Pelicana Chicken",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5036,6 +5904,8 @@
   {
     "id": "nyu-village-square-pizza",
     "name": "Village Square Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5047,6 +5917,8 @@
   {
     "id": "nyu-mamo",
     "name": "MAMO",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5059,6 +5931,8 @@
   {
     "id": "nyu-thai-delight",
     "name": "Thai Delight",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5071,6 +5945,8 @@
   {
     "id": "nyu-the-happiest-hour",
     "name": "The Happiest Hour",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5082,6 +5958,8 @@
   {
     "id": "nyu-chubby-tan",
     "name": "Chubby Tan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5094,6 +5972,8 @@
   {
     "id": "nyu-sveta",
     "name": "Sveta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5106,6 +5986,8 @@
   {
     "id": "nyu-mishka-soho",
     "name": "Mishka Soho",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5118,6 +6000,8 @@
   {
     "id": "nyu-chama-mama",
     "name": "Chama Mama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5130,6 +6014,8 @@
   {
     "id": "nyu-szechuan-mountain-house",
     "name": "Szechuan Mountain House - 川山甲",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5142,6 +6028,8 @@
   {
     "id": "nyu-rubys",
     "name": "Rubys",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5153,6 +6041,8 @@
   {
     "id": "nyu-the-dolar-shop",
     "name": "The Dolar Shop",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5165,6 +6055,8 @@
   {
     "id": "nyu-sabor-a-mexico",
     "name": "Sabor A Mexico",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5176,6 +6068,8 @@
   {
     "id": "nyu-fresh-99-cents-pizza",
     "name": "Fresh 99 cents pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5187,6 +6081,8 @@
   {
     "id": "nyu-criollas-baked-empanadas",
     "name": "Criollas baked empanadas",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5198,6 +6094,8 @@
   {
     "id": "nyu-okiboru-house-of-udon",
     "name": "Okiboru House of Udon",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5210,6 +6108,8 @@
   {
     "id": "nyu-ogawa",
     "name": "Ogawa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5222,6 +6122,8 @@
   {
     "id": "nyu-bistro-les-amis",
     "name": "Bistro les Amis",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5234,6 +6136,8 @@
   {
     "id": "nyu-il-buco-alimentari",
     "name": "Il Buco Alimentari",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5246,6 +6150,8 @@
   {
     "id": "nyu-vic-s",
     "name": "Vic's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5258,6 +6164,8 @@
   {
     "id": "nyu-ny-1-50-fresh-pizza",
     "name": "NY $1.50 Fresh Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5269,6 +6177,8 @@
   {
     "id": "nyu-farook-s-halal-cart",
     "name": "Farook's Halal Cart",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5280,6 +6190,8 @@
   {
     "id": "nyu-tivoli-trattoria",
     "name": "Tivoli Trattoria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5292,6 +6204,8 @@
   {
     "id": "nyu-chow-house",
     "name": "Chow House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5304,6 +6218,8 @@
   {
     "id": "nyu-mott-pho-bang",
     "name": "Mott Pho Bang",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5315,6 +6231,8 @@
   {
     "id": "nyu-han-dynasty",
     "name": "Han Dynasty",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5327,6 +6245,8 @@
   {
     "id": "nyu-agave",
     "name": "Agave",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5339,6 +6259,8 @@
   {
     "id": "nyu-temakase",
     "name": "Temakase",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5351,6 +6273,8 @@
   {
     "id": "nyu-1-50-pizza",
     "name": "$1.50 Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5362,6 +6286,8 @@
   {
     "id": "nyu-cipriani-downtown-nyc",
     "name": "Cipriani Downtown NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5373,6 +6299,8 @@
   {
     "id": "nyu-chef-tan",
     "name": "Chef Tan",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5385,6 +6313,8 @@
   {
     "id": "nyu-uluh",
     "name": "Uluh",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5397,6 +6327,8 @@
   {
     "id": "nyu-gemma",
     "name": "Gemma",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5409,6 +6341,8 @@
   {
     "id": "nyu-atla",
     "name": "ATLA",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5421,6 +6355,8 @@
   {
     "id": "nyu-odre",
     "name": "Odre",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5433,6 +6369,8 @@
   {
     "id": "nyu-tomino",
     "name": "Tomiño",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5445,6 +6383,8 @@
   {
     "id": "nyu-giano",
     "name": "Giano",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5457,6 +6397,8 @@
   {
     "id": "nyu-omen-azen",
     "name": "Omen Azen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5469,6 +6411,8 @@
   {
     "id": "nyu-ixta",
     "name": "Ixta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5481,6 +6425,8 @@
   {
     "id": "nyu-kanoyama",
     "name": "Kanoyama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5493,6 +6439,8 @@
   {
     "id": "nyu-little-rascal",
     "name": "Little Rascal",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5505,6 +6453,8 @@
   {
     "id": "nyu-potluck-club",
     "name": "Potluck Club",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5517,6 +6467,8 @@
   {
     "id": "nyu-nudibranch",
     "name": "Nudibranch",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5529,6 +6481,8 @@
   {
     "id": "nyu-jiang-s-kitchen",
     "name": "Jiang's Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5541,6 +6495,8 @@
   {
     "id": "nyu-ainslie-bowery",
     "name": "Ainslie Bowery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5553,6 +6509,8 @@
   {
     "id": "nyu-yama",
     "name": "Yama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5565,6 +6523,8 @@
   {
     "id": "nyu-made-in-new-york-pizza",
     "name": "Made in New York Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5576,6 +6536,8 @@
   {
     "id": "nyu-wolfnights-the-gourmet-wrap-2",
     "name": "Wolfnights - The Gourmet Wrap",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5588,6 +6550,8 @@
   {
     "id": "nyu-the-wooly",
     "name": "The Wooly",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5600,6 +6564,8 @@
   {
     "id": "nyu-american-bar",
     "name": "American Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5611,6 +6577,8 @@
   {
     "id": "nyu-margaux",
     "name": "Margaux",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5623,6 +6591,8 @@
   {
     "id": "nyu-wicked-jane",
     "name": "Wicked Jane",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5635,6 +6605,8 @@
   {
     "id": "nyu-mr-capri",
     "name": "Mr. Capri",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5647,6 +6619,8 @@
   {
     "id": "nyu-monomono",
     "name": "Monomono",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5659,6 +6633,8 @@
   {
     "id": "nyu-sushi-lab",
     "name": "Sushi Lab",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5671,6 +6647,8 @@
   {
     "id": "nyu-ramen-danbo",
     "name": "Ramen Danbo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5683,6 +6661,8 @@
   {
     "id": "nyu-ja-moy-kitchen-bar",
     "name": "Ja Moy Kitchen & Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5694,6 +6674,8 @@
   {
     "id": "nyu-sushi-nakazawa",
     "name": "Sushi Nakazawa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5705,6 +6687,8 @@
   {
     "id": "nyu-sushi-mumi",
     "name": "Sushi Mumi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5716,6 +6700,8 @@
   {
     "id": "nyu-domodomo",
     "name": "DOMODOMO",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5727,6 +6713,8 @@
   {
     "id": "nyu-il-corallo-trattoria",
     "name": "Il Corallo Trattoria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5739,6 +6727,8 @@
   {
     "id": "nyu-shuka",
     "name": "Shuka",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5751,6 +6741,8 @@
   {
     "id": "nyu-figaro",
     "name": "Figaro",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5763,6 +6755,8 @@
   {
     "id": "nyu-kubeh",
     "name": "Kubeh",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5775,6 +6769,8 @@
   {
     "id": "nyu-two-boots",
     "name": "Two Boots",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5786,6 +6782,8 @@
   {
     "id": "nyu-eataly-soho",
     "name": "Eataly - SoHo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5798,6 +6796,8 @@
   {
     "id": "nyu-semma",
     "name": "Semma",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5809,6 +6809,8 @@
   {
     "id": "nyu-sushi-bar-hasaki",
     "name": "Sushi Bar Hasaki",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5820,6 +6822,8 @@
   {
     "id": "nyu-shiso",
     "name": "Shiso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5831,6 +6835,8 @@
   {
     "id": "nyu-pizza-loves-sauce",
     "name": "Pizza Loves Sauce",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5842,6 +6848,8 @@
   {
     "id": "nyu-pangea",
     "name": "Pangea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5854,6 +6862,8 @@
   {
     "id": "nyu-moustache-pitza-moustache",
     "name": "Moustache Pitza (Moustache)",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5866,6 +6876,8 @@
   {
     "id": "nyu-sushi-by-m",
     "name": "Sushi by M",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5878,6 +6890,8 @@
   {
     "id": "nyu-gupshup",
     "name": "Gupshup",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5890,6 +6904,8 @@
   {
     "id": "nyu-bites-of-xian",
     "name": "Bites of Xi’an",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5902,6 +6918,8 @@
   {
     "id": "nyu-fields-good-chicken",
     "name": "Fields Good Chicken",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5914,6 +6932,8 @@
   {
     "id": "nyu-ladybird",
     "name": "Ladybird",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5926,6 +6946,8 @@
   {
     "id": "nyu-strip-house",
     "name": "Strip House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5938,6 +6960,8 @@
   {
     "id": "nyu-chakra",
     "name": "Chakra",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5950,6 +6974,8 @@
   {
     "id": "nyu-la-bella-vita",
     "name": "La Bella Vita",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5961,6 +6987,8 @@
   {
     "id": "nyu-baby-john-s-pizzeria",
     "name": "Baby John's Pizzeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5972,6 +7000,8 @@
   {
     "id": "nyu-delice-sarrasin-2",
     "name": "Délice & Sarrasin",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5984,6 +7014,8 @@
   {
     "id": "nyu-karvouna-mezze",
     "name": "Karvouna Mezze",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -5996,6 +7028,8 @@
   {
     "id": "nyu-mayree",
     "name": "MayRee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6008,6 +7042,8 @@
   {
     "id": "nyu-okinii",
     "name": "Okinii",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6019,6 +7055,8 @@
   {
     "id": "nyu-sanuki-udon",
     "name": "SANUKI UDON",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6031,6 +7069,8 @@
   {
     "id": "nyu-bings-noodles",
     "name": "Bings & Noodles",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6042,6 +7082,8 @@
   {
     "id": "nyu-sushidelic",
     "name": "SushiDelic",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6054,6 +7096,8 @@
   {
     "id": "nyu-beatnic",
     "name": "Beatnic",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6065,6 +7109,8 @@
   {
     "id": "nyu-madina-halal-deli",
     "name": "Madina Halal Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6076,6 +7122,8 @@
   {
     "id": "nyu-osteria-57",
     "name": "Osteria 57",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6088,6 +7136,8 @@
   {
     "id": "nyu-vestry",
     "name": "Vestry",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6100,6 +7150,8 @@
   {
     "id": "nyu-mori",
     "name": "Mori",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6112,6 +7164,8 @@
   {
     "id": "nyu-lucien",
     "name": "Lucien",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6124,6 +7178,8 @@
   {
     "id": "nyu-saperavi",
     "name": "Saperavi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6136,6 +7192,8 @@
   {
     "id": "nyu-kimura",
     "name": "Kimura",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6148,6 +7206,8 @@
   {
     "id": "nyu-long-island-dumplings",
     "name": "Long Island Dumplings",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6160,6 +7220,8 @@
   {
     "id": "nyu-il-cantinori",
     "name": "Il Cantinori",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6171,6 +7233,8 @@
   {
     "id": "nyu-maestro-pasta",
     "name": "Maestro Pasta",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6183,6 +7247,8 @@
   {
     "id": "nyu-souen",
     "name": "Souen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6195,6 +7261,8 @@
   {
     "id": "nyu-restaurante-felix",
     "name": "Restaurante Félix",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6206,6 +7274,8 @@
   {
     "id": "nyu-kintsugi",
     "name": "Kintsugi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6217,6 +7287,8 @@
   {
     "id": "nyu-torrisi",
     "name": "Torrisi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6229,6 +7301,8 @@
   {
     "id": "nyu-jeffrey-s-grocery",
     "name": "Jeffrey's Grocery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6241,6 +7315,8 @@
   {
     "id": "nyu-sushi-counter",
     "name": "Sushi Counter",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6253,6 +7329,8 @@
   {
     "id": "nyu-los-tacos-no-1",
     "name": "Los Tacos No.1",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6265,6 +7343,8 @@
   {
     "id": "nyu-son-steakeasy",
     "name": "& Son Steakeasy",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6277,6 +7357,8 @@
   {
     "id": "nyu-frank",
     "name": "Frank",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6289,6 +7371,8 @@
   {
     "id": "nyu-lucia-alimentari",
     "name": "Lucia Alimentari",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6300,6 +7384,8 @@
   {
     "id": "nyu-aria",
     "name": "Aria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6312,6 +7398,8 @@
   {
     "id": "nyu-ubani",
     "name": "Ubani",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6324,6 +7412,8 @@
   {
     "id": "nyu-cotenna",
     "name": "Cotenna",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6336,6 +7426,8 @@
   {
     "id": "nyu-soho-diner",
     "name": "Soho Diner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6348,6 +7440,8 @@
   {
     "id": "nyu-hub-thai",
     "name": "Hub Thai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6360,6 +7454,8 @@
   {
     "id": "nyu-benemon",
     "name": "Benemon",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6372,6 +7468,8 @@
   {
     "id": "nyu-cecilia",
     "name": "Cecilia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6383,6 +7481,8 @@
   {
     "id": "nyu-rosella",
     "name": "Rosella",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6394,6 +7494,8 @@
   {
     "id": "nyu-forsythia",
     "name": "Forsythia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6406,6 +7508,8 @@
   {
     "id": "nyu-le-basque-french-vegan-restaurant",
     "name": "Le Basque French Vegan Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6418,6 +7522,8 @@
   {
     "id": "nyu-tre",
     "name": "Tre",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6430,6 +7536,8 @@
   {
     "id": "nyu-bondi-sushi",
     "name": "Bondi Sushi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6442,6 +7550,8 @@
   {
     "id": "nyu-boni-mott",
     "name": "Boni & Mott",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6454,6 +7564,8 @@
   {
     "id": "nyu-to-eat-sushi",
     "name": "To Eat Sushi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6466,6 +7578,8 @@
   {
     "id": "nyu-batsu",
     "name": "Batsu",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6478,6 +7592,8 @@
   {
     "id": "nyu-rafele",
     "name": "Rafele",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6490,6 +7606,8 @@
   {
     "id": "nyu-village-taverna",
     "name": "Village Taverna",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6502,6 +7620,8 @@
   {
     "id": "nyu-laliko",
     "name": "Laliko",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6514,6 +7634,8 @@
   {
     "id": "nyu-danny-coops-cheesesteaks",
     "name": "Danny & Coop’s Cheesesteaks",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6526,6 +7648,8 @@
   {
     "id": "nyu-apollo-bagels",
     "name": "Apollo Bagels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6538,6 +7662,8 @@
   {
     "id": "nyu-roscioli-nyc",
     "name": "Roscioli NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6550,6 +7676,8 @@
   {
     "id": "nyu-shirokuro",
     "name": "SHIROKURO",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6562,6 +7690,8 @@
   {
     "id": "nyu-nomo-kitchen",
     "name": "NoMo Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6574,6 +7704,8 @@
   {
     "id": "nyu-noodlelove",
     "name": "noodlelove",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6586,6 +7718,8 @@
   {
     "id": "nyu-a-salt-battery",
     "name": "A Salt & Battery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6598,6 +7732,8 @@
   {
     "id": "nyu-spes",
     "name": "Spes",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6609,6 +7745,8 @@
   {
     "id": "nyu-prime-catch-nyc",
     "name": "Prime Catch NYC",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6620,6 +7758,8 @@
   {
     "id": "nyu-penny",
     "name": "Penny",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6632,6 +7772,8 @@
   {
     "id": "nyu-le-petit-village",
     "name": "Le petit village",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6643,6 +7785,8 @@
   {
     "id": "nyu-maza-mexican-restaurant",
     "name": "Maza Mexican Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6654,6 +7798,8 @@
   {
     "id": "nyu-amber-sushi-asian-cuisine-bar",
     "name": "Amber Sushi Asian Cuisine & Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6665,6 +7811,8 @@
   {
     "id": "nyu-joseph-leonard",
     "name": "Joseph Leonard",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6676,6 +7824,8 @@
   {
     "id": "nyu-third-kingdom",
     "name": "Third Kingdom",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6688,6 +7838,8 @@
   {
     "id": "nyu-tipsy-shanghai",
     "name": "Tipsy Shanghai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6700,6 +7852,8 @@
   {
     "id": "nyu-cafe-maud",
     "name": "Café Maud",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6712,6 +7866,8 @@
   {
     "id": "nyu-345-cantina",
     "name": "345 Cantina",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6723,6 +7879,8 @@
   {
     "id": "nyu-jeju-noodle-bar",
     "name": "Jeju Noodle Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6734,6 +7892,8 @@
   {
     "id": "nyu-me-chicken-rice",
     "name": "Me Chicken Rice",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6745,6 +7905,8 @@
   {
     "id": "nyu-milon-indian-restaurant",
     "name": "Milon Indian Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6756,6 +7918,8 @@
   {
     "id": "nyu-whitmans",
     "name": "Whitmans",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6767,6 +7931,8 @@
   {
     "id": "nyu-omg-shawarma",
     "name": "OMG Shawarma",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6778,6 +7944,8 @@
   {
     "id": "nyu-tarallucci-e-vino",
     "name": "Tarallucci e Vino",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6790,6 +7958,8 @@
   {
     "id": "nyu-vallata",
     "name": "Vallata",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6801,6 +7971,8 @@
   {
     "id": "nyu-coppelia",
     "name": "Coppelia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6813,6 +7985,8 @@
   {
     "id": "nyu-pizazz",
     "name": "pizazz",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6824,6 +7998,8 @@
   {
     "id": "nyu-sogno-toscano-market-wine-bar",
     "name": "Sogno Toscano Market & Wine Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6835,6 +8011,8 @@
   {
     "id": "nyu-mamas-too",
     "name": "Mama’s Too",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6847,6 +8025,8 @@
   {
     "id": "nyu-cocoron",
     "name": "Cocoron",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6859,6 +8039,8 @@
   {
     "id": "nyu-la-contenta-oeste",
     "name": "La Contenta Oeste",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6871,6 +8053,8 @@
   {
     "id": "nyu-sakura",
     "name": "Sakura",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6883,6 +8067,8 @@
   {
     "id": "nyu-gandhi-cafe",
     "name": "Gandhi Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6894,6 +8080,8 @@
   {
     "id": "nyu-burgers-beer",
     "name": "Burgers & Beer",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6906,6 +8094,8 @@
   {
     "id": "nyu-kawa-sushi",
     "name": "Kawa Sushi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6918,6 +8108,8 @@
   {
     "id": "nyu-leitao",
     "name": "Leitao",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6930,6 +8122,8 @@
   {
     "id": "nyu-abcv",
     "name": "abcV",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6942,6 +8136,8 @@
   {
     "id": "nyu-godunk",
     "name": "Godunk",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6954,6 +8150,8 @@
   {
     "id": "nyu-mido-omakase",
     "name": "Mido Omakase",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6966,6 +8164,8 @@
   {
     "id": "nyu-ananda",
     "name": "Ananda",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6977,6 +8177,8 @@
   {
     "id": "nyu-bite-sip",
     "name": "Bite & Sip",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -6989,6 +8191,8 @@
   {
     "id": "nyu-kabawa",
     "name": "Kabawa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7001,6 +8205,8 @@
   {
     "id": "nyu-yoko-cho",
     "name": "YOKO-CHO",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7013,6 +8219,8 @@
   {
     "id": "nyu-felixs-handmade-empanadas",
     "name": "Felix’s Handmade Empanadas",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7025,6 +8233,8 @@
   {
     "id": "nyu-shinzo-omakase",
     "name": "Shinzo Omakase",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7037,6 +8247,8 @@
   {
     "id": "nyu-suprema-provisions",
     "name": "Suprema Provisions",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7048,6 +8260,8 @@
   {
     "id": "nyu-pasta-rullo",
     "name": "Pasta Rullo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7060,6 +8274,8 @@
   {
     "id": "nyu-sip-guzzle",
     "name": "Sip & Guzzle",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7072,6 +8288,8 @@
   {
     "id": "nyu-gazab",
     "name": "Gazab",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7084,6 +8302,8 @@
   {
     "id": "nyu-fiaschetteria-pistoia",
     "name": "Fiaschetteria Pistoia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7096,6 +8316,8 @@
   {
     "id": "nyu-gen-korean-bbq-house",
     "name": "Gen Korean BBQ House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7108,6 +8330,8 @@
   {
     "id": "nyu-the-kati-roll-company",
     "name": "The Kati Roll Company",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7119,6 +8343,8 @@
   {
     "id": "nyu-sushi-on-jones",
     "name": "Sushi On Jones",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7131,6 +8357,8 @@
   {
     "id": "nyu-odd-sister",
     "name": "Odd Sister",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7143,6 +8371,8 @@
   {
     "id": "nyu-abc-kitchen",
     "name": "ABC Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7154,6 +8384,8 @@
   {
     "id": "nyu-the-house",
     "name": "The House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7166,6 +8398,8 @@
   {
     "id": "nyu-top-thai-55-carmine",
     "name": "Top Thai 55 Carmine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7178,6 +8412,8 @@
   {
     "id": "nyu-kish-kash",
     "name": "Kish Kash",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7189,6 +8425,8 @@
   {
     "id": "nyu-petite-abeille",
     "name": "Petite Abeille",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "group-food"
     ],
@@ -7200,6 +8438,8 @@
   {
     "id": "nyu-think-coffee",
     "name": "Think Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7212,6 +8452,8 @@
   {
     "id": "nyu-starbucks",
     "name": "Starbucks",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7224,6 +8466,8 @@
   {
     "id": "nyu-la-colombe-coffee-roasters",
     "name": "La Colombe Coffee Roasters",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7235,6 +8479,8 @@
   {
     "id": "nyu-whole-green",
     "name": "Whole Green",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7246,6 +8492,8 @@
   {
     "id": "nyu-bite",
     "name": "Bite",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7258,6 +8506,8 @@
   {
     "id": "nyu-joe-coffee-company",
     "name": "Joe Coffee Company",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7270,6 +8520,8 @@
   {
     "id": "nyu-bagel-and-more",
     "name": "Bagel and More",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7281,6 +8533,8 @@
   {
     "id": "nyu-the-donut-pub",
     "name": "The Donut Pub",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7293,6 +8547,8 @@
   {
     "id": "nyu-yonah-shimmel-knish-bakery",
     "name": "Yonah Shimmel Knish Bakery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7305,6 +8561,8 @@
   {
     "id": "nyu-xing-fu-tang",
     "name": "Xing Fu Tang",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7317,6 +8575,8 @@
   {
     "id": "nyu-the-bean",
     "name": "The Bean",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7328,6 +8588,8 @@
   {
     "id": "nyu-plantshed",
     "name": "PlantShed",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7340,6 +8602,8 @@
   {
     "id": "nyu-cafe-habibti",
     "name": "Cafe Habibti",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7352,6 +8616,8 @@
   {
     "id": "nyu-felix-roasting-co",
     "name": "Felix Roasting Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7364,6 +8630,8 @@
   {
     "id": "nyu-prince-tea-house",
     "name": "Prince Tea House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7376,6 +8644,8 @@
   {
     "id": "nyu-hidden-grounds",
     "name": "Hidden Grounds",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7387,6 +8657,8 @@
   {
     "id": "nyu-matto-espresso",
     "name": "Matto Espresso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7399,6 +8671,8 @@
   {
     "id": "nyu-max-brenner",
     "name": "Max Brenner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7411,6 +8685,8 @@
   {
     "id": "nyu-kolkata-chai-co",
     "name": "Kolkata Chai Co",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7423,6 +8699,8 @@
   {
     "id": "nyu-kollectiv",
     "name": "Kollectiv",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7435,6 +8713,8 @@
   {
     "id": "nyu-tartinery",
     "name": "Tartinery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7446,6 +8726,8 @@
   {
     "id": "nyu-haven-cafe",
     "name": "Haven Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7457,6 +8739,8 @@
   {
     "id": "nyu-chiu-hong-bakery-restaurant",
     "name": "Chiu Hong Bakery & Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7468,6 +8752,8 @@
   {
     "id": "nyu-bibliotheque-cafe-winebar",
     "name": "Bibliotheque Cafe & Winebar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7480,6 +8766,8 @@
   {
     "id": "nyu-joe-coffee",
     "name": "Joe Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7492,6 +8780,8 @@
   {
     "id": "nyu-daily-provisions",
     "name": "Daily Provisions",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7504,6 +8794,8 @@
   {
     "id": "nyu-bedford-studio",
     "name": "Bedford Studio",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7516,6 +8808,8 @@
   {
     "id": "nyu-caffe-bene",
     "name": "Caffé Bene",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7527,6 +8821,8 @@
   {
     "id": "nyu-gotham-coffee-roasters",
     "name": "Gotham Coffee Roasters",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7539,6 +8835,8 @@
   {
     "id": "nyu-gramercy-cafe",
     "name": "Gramercy Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7551,6 +8849,8 @@
   {
     "id": "nyu-bagel-pub",
     "name": "Bagel Pub",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7563,6 +8863,8 @@
   {
     "id": "nyu-stumptown",
     "name": "Stumptown",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7575,6 +8877,8 @@
   {
     "id": "nyu-the-uncommons",
     "name": "The Uncommons",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7587,6 +8891,8 @@
   {
     "id": "nyu-corbet-conley",
     "name": "Corbet & Conley",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7598,6 +8904,8 @@
   {
     "id": "nyu-vivi-bubble-tea",
     "name": "ViVi Bubble Tea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7610,6 +8918,8 @@
   {
     "id": "nyu-luckin-coffee",
     "name": "Luckin Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7621,6 +8931,8 @@
   {
     "id": "nyu-cupsoul",
     "name": "Cupsoul",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7633,6 +8945,8 @@
   {
     "id": "nyu-grounded",
     "name": "Grounded",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7644,6 +8958,8 @@
   {
     "id": "nyu-dominique-ansel-bakery",
     "name": "Dominique Ansel Bakery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7656,6 +8972,8 @@
   {
     "id": "nyu-bluestone-lane",
     "name": "Bluestone Lane",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7668,6 +8986,8 @@
   {
     "id": "nyu-mud",
     "name": "MUD",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7680,6 +9000,8 @@
   {
     "id": "nyu-the-butcher-s-daughter",
     "name": "The Butcher's Daughter",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7692,6 +9014,8 @@
   {
     "id": "nyu-sweet-corner-bakeshop",
     "name": "Sweet Corner Bakeshop",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7703,6 +9027,8 @@
   {
     "id": "nyu-the-elk",
     "name": "The Elk",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7715,6 +9041,8 @@
   {
     "id": "nyu-bar-pisellino",
     "name": "Bar Pisellino",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7727,6 +9055,8 @@
   {
     "id": "nyu-abraco",
     "name": "Abraço",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7739,6 +9069,8 @@
   {
     "id": "nyu-stone-street",
     "name": "Stone Street",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7751,6 +9083,8 @@
   {
     "id": "nyu-getting-hungry",
     "name": "Getting Hungry",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7762,6 +9096,8 @@
   {
     "id": "nyu-cafe-integral",
     "name": "Cafe Integral",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7773,6 +9109,8 @@
   {
     "id": "nyu-partners-coffee",
     "name": "Partners Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7785,6 +9123,8 @@
   {
     "id": "nyu-787-coffee",
     "name": "787 Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7797,6 +9137,8 @@
   {
     "id": "nyu-hex-co",
     "name": "Hex & Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7809,6 +9151,8 @@
   {
     "id": "nyu-black-seed-bagels",
     "name": "Black Seed Bagels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7821,6 +9165,8 @@
   {
     "id": "nyu-the-lost-draft",
     "name": "The Lost Draft",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7833,6 +9179,8 @@
   {
     "id": "nyu-morgenstern-s-finest-ice-cream",
     "name": "Morgenstern's Finest Ice Cream",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7844,6 +9192,8 @@
   {
     "id": "nyu-cafe-roma",
     "name": "Cafe Roma",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7855,6 +9205,8 @@
   {
     "id": "nyu-blank-street-coffee",
     "name": "Blank Street Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7866,6 +9218,8 @@
   {
     "id": "nyu-tipsy-village",
     "name": "Tipsy Village",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7878,6 +9232,8 @@
   {
     "id": "nyu-honeybrains",
     "name": "Honeybrains",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7890,6 +9246,8 @@
   {
     "id": "nyu-cha-an-teahouse",
     "name": "Cha-An Teahouse",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7902,6 +9260,8 @@
   {
     "id": "nyu-ground-support-cafe",
     "name": "Ground Support Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7914,6 +9274,8 @@
   {
     "id": "nyu-big-famous-deli-grocery",
     "name": "Big Famous Deli & Grocery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7925,6 +9287,8 @@
   {
     "id": "nyu-matcha-house",
     "name": "Matcha House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7937,6 +9301,8 @@
   {
     "id": "nyu-debutea",
     "name": "Debutea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7949,6 +9315,8 @@
   {
     "id": "nyu-birch-coffee",
     "name": "Birch Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7961,6 +9329,8 @@
   {
     "id": "nyu-chobani-soho",
     "name": "Chobani SoHo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7973,6 +9343,8 @@
   {
     "id": "nyu-blue-bottle-coffee",
     "name": "Blue Bottle Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7985,6 +9357,8 @@
   {
     "id": "nyu-gregorys-coffee",
     "name": "Gregorys Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -7997,6 +9371,8 @@
   {
     "id": "nyu-cafe-angelique",
     "name": "Cafe Angelique",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8009,6 +9385,8 @@
   {
     "id": "nyu-lafayette-grand-cafe-bakery",
     "name": "Lafayette Grand Café & Bakery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8021,6 +9399,8 @@
   {
     "id": "nyu-seven-grams-caffe",
     "name": "Seven Grams Caffé",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8033,6 +9413,8 @@
   {
     "id": "nyu-dialogue",
     "name": "Dialogue",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8045,6 +9427,8 @@
   {
     "id": "nyu-maman-2",
     "name": "Maman",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8057,6 +9441,8 @@
   {
     "id": "nyu-veniero-s-pasticceria-caffe",
     "name": "Veniero's Pasticceria & Caffé",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8069,6 +9455,8 @@
   {
     "id": "nyu-rebel-coffee",
     "name": "Rebel Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8081,6 +9469,8 @@
   {
     "id": "nyu-yaya-tea",
     "name": "Yaya Tea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8093,6 +9483,8 @@
   {
     "id": "nyu-sanctuary-t",
     "name": "Sanctuary T",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8104,6 +9496,8 @@
   {
     "id": "nyu-cabin-on-9th",
     "name": "Cabin on 9th",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8115,6 +9509,8 @@
   {
     "id": "nyu-nutella-cafe",
     "name": "Nutella café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8126,6 +9522,8 @@
   {
     "id": "nyu-joey-bats-cafe",
     "name": "Joey Bats Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8138,6 +9536,8 @@
   {
     "id": "nyu-irving-farm-new-york",
     "name": "Irving Farm New York",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8149,6 +9549,8 @@
   {
     "id": "nyu-porto-rico-importing-co",
     "name": "Porto Rico Importing Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8161,6 +9563,8 @@
   {
     "id": "nyu-matchaful",
     "name": "Matchaful",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8173,6 +9577,8 @@
   {
     "id": "nyu-787-coffee-co",
     "name": "787 Coffee Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8185,6 +9591,8 @@
   {
     "id": "nyu-ad-hoc-collective-coffee-shoppe",
     "name": "ad hoc collective coffee + shoppe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8197,6 +9605,8 @@
   {
     "id": "nyu-le-cafe-coffee",
     "name": "Le Café coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8208,6 +9618,8 @@
   {
     "id": "nyu-o-cafe",
     "name": "O Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8219,6 +9631,8 @@
   {
     "id": "nyu-paradis",
     "name": "Paradis",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8231,6 +9645,8 @@
   {
     "id": "nyu-everyman-espresso",
     "name": "Everyman Espresso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8242,6 +9658,8 @@
   {
     "id": "nyu-bonsai-kakigori",
     "name": "Bonsai Kakigori",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8254,6 +9672,8 @@
   {
     "id": "nyu-setsugekka",
     "name": "Setsugekka",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8266,6 +9686,8 @@
   {
     "id": "nyu-mille-feuille",
     "name": "Mille-Feuille",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8278,6 +9700,8 @@
   {
     "id": "nyu-despana",
     "name": "Despaña",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8290,6 +9714,8 @@
   {
     "id": "nyu-t2-tea",
     "name": "T2 tea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8301,6 +9727,8 @@
   {
     "id": "nyu-union-square-cafe",
     "name": "Union Square Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8313,6 +9741,8 @@
   {
     "id": "nyu-la-mercerie",
     "name": "La Mercerie",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8325,6 +9755,8 @@
   {
     "id": "nyu-caffe-palermo",
     "name": "Caffè Palermo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8337,6 +9769,8 @@
   {
     "id": "nyu-croft-alley",
     "name": "Croft Alley",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8349,6 +9783,8 @@
   {
     "id": "nyu-astor-plate",
     "name": "Astor Plate",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8361,6 +9797,8 @@
   {
     "id": "nyu-le-petit-parisien",
     "name": "Le Petit Parisien",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8373,6 +9811,8 @@
   {
     "id": "nyu-oscar-s-place",
     "name": "Oscar's Place",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8384,6 +9824,8 @@
   {
     "id": "nyu-tompkins-square-bagels",
     "name": "Tompkins Square Bagels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8396,6 +9838,8 @@
   {
     "id": "nyu-la-la-bakeshop",
     "name": "LÀ LÁ Bakeshop",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8408,6 +9852,8 @@
   {
     "id": "nyu-blackstone-coffee-roaster",
     "name": "Blackstone Coffee Roaster",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8419,6 +9865,8 @@
   {
     "id": "nyu-oslo-coffee-roasters",
     "name": "Oslo Coffee Roasters",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8430,6 +9878,8 @@
   {
     "id": "nyu-n25-nitro-tea-coffee",
     "name": "N25 Nitro Tea & Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8441,6 +9891,8 @@
   {
     "id": "nyu-moomoocha",
     "name": "MooMooCha",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8453,6 +9905,8 @@
   {
     "id": "nyu-sammy-l-coffee",
     "name": "Sammy L Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8464,6 +9918,8 @@
   {
     "id": "nyu-kettl",
     "name": "Kettl",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8476,6 +9932,8 @@
   {
     "id": "nyu-three-jewels",
     "name": "Three Jewels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8488,6 +9946,8 @@
   {
     "id": "nyu-joe-the-juice",
     "name": "Joe & The Juice",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8500,6 +9960,8 @@
   {
     "id": "nyu-plantshed-2",
     "name": "Plantshed",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8512,6 +9974,8 @@
   {
     "id": "nyu-hungry-ghost-coffee",
     "name": "Hungry Ghost Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8523,6 +9987,8 @@
   {
     "id": "nyu-venchi",
     "name": "Venchi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8535,6 +10001,8 @@
   {
     "id": "nyu-modern-bread-and-bagel",
     "name": "Modern Bread and Bagel",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8547,6 +10015,8 @@
   {
     "id": "nyu-carmela-coffee",
     "name": "Carmela Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8558,6 +10028,8 @@
   {
     "id": "nyu-moshava-coffee",
     "name": "Moshava Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8570,6 +10042,8 @@
   {
     "id": "nyu-matcha-cafe-maiko",
     "name": "Matcha Cafe Maiko",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8582,6 +10056,8 @@
   {
     "id": "nyu-gregorys-coffee-2",
     "name": "Gregory’s coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8593,6 +10069,8 @@
   {
     "id": "nyu-le-cafe-coffee-2",
     "name": "Le Café Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8604,6 +10082,8 @@
   {
     "id": "nyu-butterdose",
     "name": "Butterdose",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8615,6 +10095,8 @@
   {
     "id": "nyu-two-hands",
     "name": "Two Hands",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8626,6 +10108,8 @@
   {
     "id": "nyu-the-chai-spot",
     "name": "The Chai Spot",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8637,6 +10121,8 @@
   {
     "id": "nyu-jack-s-stir-brew-coffee",
     "name": "Jack's Stir Brew Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8649,6 +10135,8 @@
   {
     "id": "nyu-blank-slate",
     "name": "Blank Slate",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8660,6 +10148,8 @@
   {
     "id": "nyu-beloved-cafe-resto",
     "name": "Beloved Café & Resto",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8672,6 +10162,8 @@
   {
     "id": "nyu-cafe-kitsune",
     "name": "Cafe Kitsune",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8683,6 +10175,8 @@
   {
     "id": "nyu-empanadas-soho",
     "name": "Empanadas Soho",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8695,6 +10189,8 @@
   {
     "id": "nyu-hokkaido-baked-cheese-tart",
     "name": "Hokkaido Baked Cheese Tart",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8707,6 +10203,8 @@
   {
     "id": "nyu-mangia",
     "name": "Mangia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8718,6 +10216,8 @@
   {
     "id": "nyu-wanpo-tea-shop",
     "name": "Wanpo Tea Shop",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8729,6 +10229,8 @@
   {
     "id": "nyu-pops-bagels",
     "name": "Pop’s Bagels",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8740,6 +10242,8 @@
   {
     "id": "nyu-butler",
     "name": "Butler",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8752,6 +10256,8 @@
   {
     "id": "nyu-drip-coffee-makers",
     "name": "drip coffee makers",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8764,6 +10270,8 @@
   {
     "id": "nyu-panther-coffee",
     "name": "Panther Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8776,6 +10284,8 @@
   {
     "id": "nyu-sui-yoga-studio-cafe",
     "name": "Sui Yoga Studio.Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8787,6 +10297,8 @@
   {
     "id": "nyu-elsewhere-espresso",
     "name": "Elsewhere Espresso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8798,6 +10310,8 @@
   {
     "id": "nyu-do-not-feed-alligators",
     "name": "Do Not Feed Alligators",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8810,6 +10324,8 @@
   {
     "id": "nyu-duo",
     "name": "Duo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8821,6 +10337,8 @@
   {
     "id": "nyu-coffee-for-sasquatch",
     "name": "Coffee For Sasquatch",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8833,6 +10351,8 @@
   {
     "id": "nyu-cafe-lyria",
     "name": "Cafe Lyria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8844,6 +10364,8 @@
   {
     "id": "nyu-raf-s",
     "name": "Raf's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8856,6 +10378,8 @@
   {
     "id": "nyu-starbucks-pickup",
     "name": "Starbucks Pickup",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8868,6 +10392,8 @@
   {
     "id": "nyu-love-mi-yogurt",
     "name": "Love Mi Yogurt",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8880,6 +10406,8 @@
   {
     "id": "nyu-the-dutchess-tea-house",
     "name": "The Dutchess Tea House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8891,6 +10419,8 @@
   {
     "id": "nyu-l-a-burdick-handmade-chocolates",
     "name": "L.A. Burdick Handmade Chocolates",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8903,6 +10433,8 @@
   {
     "id": "nyu-yours-truly-coffee",
     "name": "Yours Truly Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8914,6 +10446,8 @@
   {
     "id": "nyu-spring-lemon-tree",
     "name": "Spring Lemon Tree",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8925,6 +10459,8 @@
   {
     "id": "nyu-the-green-room-by-blank-street-coffee",
     "name": "The Green Room by Blank Street Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8936,6 +10472,8 @@
   {
     "id": "nyu-red-beard-bakery",
     "name": "Red Beard Bakery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8947,6 +10485,8 @@
   {
     "id": "nyu-pop-up-grocer",
     "name": "Pop Up Grocer",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8959,6 +10499,8 @@
   {
     "id": "nyu-amano-cafe",
     "name": "amano cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8971,6 +10513,8 @@
   {
     "id": "nyu-the-coppola-cafe",
     "name": "The Coppola Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8982,6 +10526,8 @@
   {
     "id": "nyu-cafe-la-fe",
     "name": "Cafe La Fe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -8994,6 +10540,8 @@
   {
     "id": "nyu-st-george-coffee",
     "name": "St. George Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9005,6 +10553,8 @@
   {
     "id": "nyu-a-more-cafe",
     "name": "A'more Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9016,6 +10566,8 @@
   {
     "id": "nyu-telegraphe-cafe",
     "name": "Telegraphe Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9027,6 +10579,8 @@
   {
     "id": "nyu-12-matcha",
     "name": "12 Matcha",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9039,6 +10593,8 @@
   {
     "id": "nyu-capital-one-cafe",
     "name": "Capital One Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9051,6 +10607,8 @@
   {
     "id": "nyu-gem",
     "name": "Gem",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9063,6 +10621,8 @@
   {
     "id": "nyu-jooy-tea-shoppe",
     "name": "Jooy Tea Shoppe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9075,6 +10635,8 @@
   {
     "id": "nyu-arcane-estate-coffee",
     "name": "Arcane Estate Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9087,6 +10649,8 @@
   {
     "id": "nyu-fiftylan",
     "name": "FIFTYLAN",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9098,6 +10662,8 @@
   {
     "id": "nyu-ansa-micro-coffee-roastery",
     "name": "ansā Micro Coffee Roastery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9109,6 +10675,8 @@
   {
     "id": "nyu-ioannis-coffee-chef",
     "name": "Ioannis Coffee Chef",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9121,6 +10689,8 @@
   {
     "id": "nyu-little-uluh",
     "name": "Little Uluh",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9132,6 +10702,8 @@
   {
     "id": "nyu-davidovich",
     "name": "Davidovich",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9143,6 +10715,8 @@
   {
     "id": "nyu-zuri",
     "name": "Zuri",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9154,6 +10728,8 @@
   {
     "id": "nyu-heytea",
     "name": "Heytea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9165,6 +10741,8 @@
   {
     "id": "nyu-cafe-fred",
     "name": "Cafe Fred",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9176,6 +10754,8 @@
   {
     "id": "nyu-moon-coffee-lab",
     "name": "Moon Coffee Lab",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9188,6 +10768,8 @@
   {
     "id": "nyu-park-at-kims",
     "name": "PARK at KIMS",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9199,6 +10781,8 @@
   {
     "id": "nyu-bagel-belly",
     "name": "Bagel Belly",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9211,6 +10795,8 @@
   {
     "id": "nyu-springbone",
     "name": "Springbone",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9223,6 +10809,8 @@
   {
     "id": "nyu-cha-cha-matcha",
     "name": "Cha Cha Matcha",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "wifi"
     ],
@@ -9235,6 +10823,8 @@
   {
     "id": "nyu-mulberry-street-library",
     "name": "Mulberry Street Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "quiet"
     ],
@@ -9247,6 +10837,8 @@
   {
     "id": "nyu-ottendorfer-library",
     "name": "Ottendorfer Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "quiet"
     ],
@@ -9259,6 +10851,8 @@
   {
     "id": "nyu-jefferson-market-library",
     "name": "Jefferson Market Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "quiet"
     ],
@@ -9271,6 +10865,8 @@
   {
     "id": "nyu-hudson-park-library",
     "name": "Hudson Park Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "quiet"
     ],
@@ -9283,6 +10879,8 @@
   {
     "id": "nyu-south-baptist-church",
     "name": "South Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9294,6 +10892,8 @@
   {
     "id": "nyu-templo-adventists-del-septimo-dia",
     "name": "Templo Adventists Del Septimo Dia",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9305,6 +10905,8 @@
   {
     "id": "nyu-generoso-pope-catholic-center-at-new-york-univer",
     "name": "Generoso Pope Catholic Center at New York University",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9316,6 +10918,8 @@
   {
     "id": "nyu-salvation-army-centennial-memorial-temple",
     "name": "Salvation Army Centennial Memorial Temple",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9327,6 +10931,8 @@
   {
     "id": "nyu-iglesia-de-cristo",
     "name": "Iglesia de Cristo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9338,6 +10944,8 @@
   {
     "id": "nyu-jubilee-mission-center",
     "name": "Jubilee Mission Center",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9349,6 +10957,8 @@
   {
     "id": "nyu-new-york-chinese-alliance-church",
     "name": "New York Chinese Alliance Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9360,6 +10970,8 @@
   {
     "id": "nyu-sea-of-galilee-church",
     "name": "Sea of Galilee Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9372,6 +10984,8 @@
   {
     "id": "nyu-grace-church",
     "name": "Grace Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9384,6 +10998,8 @@
   {
     "id": "nyu-saint-cyril-catholic-church",
     "name": "Saint Cyril Catholic Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9396,6 +11012,8 @@
   {
     "id": "nyu-cornerstone-first-ukrainian-assembly-of-god",
     "name": "Cornerstone First Ukrainian Assembly of God",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9407,6 +11025,8 @@
   {
     "id": "nyu-st-george-s-church",
     "name": "St. George's Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9419,6 +11039,8 @@
   {
     "id": "nyu-saint-mark-s-in-the-bowery",
     "name": "Saint Mark's in-the-Bowery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9431,6 +11053,8 @@
   {
     "id": "nyu-all-saints-ukrainian-orthodox-church",
     "name": "All Saints Ukrainian Orthodox Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9443,6 +11067,8 @@
   {
     "id": "nyu-orthodox-cathedral-of-the-holy-virgin-protection",
     "name": "Orthodox Cathedral of the Holy Virgin Protection",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9455,6 +11081,8 @@
   {
     "id": "nyu-saint-michael-s-church",
     "name": "Saint Michael's Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9466,6 +11094,8 @@
   {
     "id": "nyu-saint-patrick-s-old-cathedral",
     "name": "Saint Patrick's Old Cathedral",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9478,6 +11108,8 @@
   {
     "id": "nyu-slavic-evangelical-christian-church",
     "name": "Slavic Evangelical Christian Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9489,6 +11121,8 @@
   {
     "id": "nyu-san-lorenzo-ruiz-chapel",
     "name": "San Lorenzo Ruiz Chapel",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9500,6 +11134,8 @@
   {
     "id": "nyu-saint-stanislaus-bishop-martyr-catholic-church",
     "name": "Saint Stanislaus Bishop & Martyr Catholic Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9512,6 +11148,8 @@
   {
     "id": "nyu-st-nicholas-of-myra-orthodox-church",
     "name": "St. Nicholas of Myra Orthodox Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9524,6 +11162,8 @@
   {
     "id": "nyu-tenth-church-of-christ-scientist",
     "name": "Tenth Church of Christ Scientist",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9536,6 +11176,8 @@
   {
     "id": "nyu-judson-memorial-church",
     "name": "Judson Memorial Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9548,6 +11190,8 @@
   {
     "id": "nyu-church-of-grace-to-fujianese",
     "name": "Church of Grace to Fujianese",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9560,6 +11204,8 @@
   {
     "id": "nyu-saint-mary-s-church",
     "name": "Saint Mary's Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9572,6 +11218,8 @@
   {
     "id": "nyu-saint-anthony-of-padua-church",
     "name": "Saint Anthony of Padua Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9584,6 +11232,8 @@
   {
     "id": "nyu-saint-joseph-catholic-church",
     "name": "Saint Joseph Catholic Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9596,6 +11246,8 @@
   {
     "id": "nyu-church-of-st-luke-in-the-fields",
     "name": "Church of St. Luke in the Fields",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9608,6 +11260,8 @@
   {
     "id": "nyu-church-of-the-ascension",
     "name": "Church of the Ascension",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9619,6 +11273,8 @@
   {
     "id": "nyu-first-presbyterian-church",
     "name": "First Presbyterian Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9630,6 +11286,8 @@
   {
     "id": "nyu-st-veronica-s-church",
     "name": "St. Veronica's Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9641,6 +11299,8 @@
   {
     "id": "nyu-saint-john-s-church",
     "name": "Saint John's Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9653,6 +11313,8 @@
   {
     "id": "nyu-seventh-day-adventist-church",
     "name": "Seventh-Day Adventist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9665,6 +11327,8 @@
   {
     "id": "nyu-st-johns-church",
     "name": "St. John’s Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9676,6 +11340,8 @@
   {
     "id": "nyu-church-of-the-village",
     "name": "Church of the Village",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9688,6 +11354,8 @@
   {
     "id": "nyu-church-of-saint-francis-xavier",
     "name": "Church of Saint Francis Xavier",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9700,6 +11368,8 @@
   {
     "id": "nyu-fifteenth-street-meeting-house",
     "name": "Fifteenth Street Meeting House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9711,6 +11381,8 @@
   {
     "id": "nyu-st-john-the-baptist",
     "name": "St. John the Baptist",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9723,6 +11395,8 @@
   {
     "id": "nyu-holy-trinity-cathedral",
     "name": "Holy Trinity Cathedral",
+    "handResearched": false,
+    "handVerified": false,
     "categories": [
       "church"
     ],
@@ -9735,6 +11409,8 @@
   {
     "id": "nyu-rubin-hall",
     "name": "Rubin Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9747,6 +11423,8 @@
   {
     "id": "nyu-lipton-hall",
     "name": "Lipton Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9759,6 +11437,8 @@
   {
     "id": "nyu-carlyle-court",
     "name": "Carlyle Court",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9771,6 +11451,8 @@
   {
     "id": "nyu-second-street",
     "name": "Second Street Residence Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9783,6 +11465,8 @@
   {
     "id": "nyu-sixth-street",
     "name": "Sixth Street Residence",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9795,6 +11479,8 @@
   {
     "id": "nyu-broome-street",
     "name": "Broome Street Residence",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9807,6 +11493,8 @@
   {
     "id": "nyu-greenwich-hall",
     "name": "Greenwich Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9819,6 +11507,8 @@
   {
     "id": "nyu-clark-street",
     "name": "Clark Street Residence Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9831,6 +11521,8 @@
   {
     "id": "nyu-othmer-hall",
     "name": "Othmer Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dorm"
     ],
@@ -9843,6 +11535,8 @@
   {
     "id": "nyu-dining-weinstein",
     "name": "NYU Eats at Weinstein — Downstein, Upstein, Sidestein Market, Kosher Eatery",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9855,6 +11549,8 @@
   {
     "id": "nyu-dining-third-north",
     "name": "NYU Eats at Third North",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9867,6 +11563,8 @@
   {
     "id": "nyu-dining-lipton",
     "name": "NYU Eats at Lipton",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9879,6 +11577,8 @@
   {
     "id": "nyu-dining-kimmel",
     "name": "Marketplace at Kimmel",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9891,6 +11591,8 @@
   {
     "id": "nyu-dining-paulson",
     "name": "Crave NYU & Cafe 181",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9903,6 +11605,8 @@
   {
     "id": "nyu-dining-palladium",
     "name": "NYU Eats at Palladium",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9915,6 +11619,8 @@
   {
     "id": "nyu-dining-uhall",
     "name": "UHall Commons Café",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9927,6 +11633,8 @@
   {
     "id": "nyu-dining-cafe-370",
     "name": "Café 370",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],
@@ -9939,6 +11647,8 @@
   {
     "id": "nyu-dining-jasper-kane",
     "name": "Jasper Kane Café & Bridgeview Bytes",
+    "handResearched": true,
+    "handVerified": false,
     "categories": [
       "dining"
     ],

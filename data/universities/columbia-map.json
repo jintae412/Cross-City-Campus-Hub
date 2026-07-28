@@ -2,6 +2,8 @@
   {
     "id": "john-jay-hall",
     "name": "John Jay Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8059,
     "lng": -73.9624,
@@ -11,6 +13,8 @@
   {
     "id": "hartley-hall",
     "name": "Hartley Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.806466,
     "lng": -73.961785,
@@ -20,6 +24,8 @@
   {
     "id": "mcbain-hall",
     "name": "McBain Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9635,
@@ -29,6 +35,8 @@
   {
     "id": "wallach-hall",
     "name": "Wallach Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8054,
     "lng": -73.9640,
@@ -38,6 +46,8 @@
   {
     "id": "wien-hall",
     "name": "Wien Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8054,
     "lng": -73.9638,
@@ -47,6 +57,8 @@
   {
     "id": "carman-hall",
     "name": "Carman Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8063,
     "lng": -73.9635,
@@ -56,6 +68,8 @@
   {
     "id": "furnald-hall",
     "name": "Furnald Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8070,
     "lng": -73.9640,
@@ -65,6 +79,8 @@
   {
     "id": "broadway-hall",
     "name": "Broadway Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9642,
@@ -74,6 +90,8 @@
   {
     "id": "hogan-hall",
     "name": "Hogan Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9642,
@@ -83,6 +101,8 @@
   {
     "id": "east-campus",
     "name": "East Campus",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8087,
     "lng": -73.9595,
@@ -92,6 +112,8 @@
   {
     "id": "47-claremont",
     "name": "47 Claremont Avenue",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8100,
     "lng": -73.9660,
@@ -101,6 +123,8 @@
   {
     "id": "schapiro-hall",
     "name": "Schapiro Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9645,
@@ -110,6 +134,8 @@
   {
     "id": "ruggles-hall",
     "name": "Ruggles Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9635,
@@ -119,6 +145,8 @@
   {
     "id": "watt-hall",
     "name": "Watt Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9635,
@@ -128,6 +156,8 @@
   {
     "id": "harmony-hall",
     "name": "Harmony Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9635,
@@ -137,6 +167,8 @@
   {
     "id": "river-hall",
     "name": "River Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9635,
@@ -146,6 +178,8 @@
   {
     "id": "woodbridge-hall",
     "name": "Woodbridge Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dorm"],
     "lat": 40.8065,
     "lng": -73.9690,
@@ -155,6 +189,8 @@
   {
     "id": "butler-library",
     "name": "Butler Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "wifi", "quiet"],
     "lat": 40.8064,
     "lng": -73.9630,
@@ -164,6 +200,8 @@
   {
     "id": "avery-library",
     "name": "Avery Architectural & Fine Arts Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet", "wifi", "power", "restroom", "rain-backup"],
     "lat": 40.8082,
     "lng": -73.9610,
@@ -173,6 +211,8 @@
   {
     "id": "starr-east-asian-library",
     "name": "C.V. Starr East Asian Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet", "wifi"],
     "lat": 40.8072,
     "lng": -73.9617,
@@ -182,6 +222,8 @@
   {
     "id": "lehman-library",
     "name": "Lehman Social Sciences Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "wifi", "power", "restroom", "rain-backup"],
     "lat": 40.8082,
     "lng": -73.9585,
@@ -191,6 +233,8 @@
   {
     "id": "burke-library",
     "name": "The Burke Library (Union Theological Seminary)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8100,
     "lng": -73.9615,
@@ -200,6 +244,8 @@
   {
     "id": "uris-business-library",
     "name": "Business & Economics Library (Uris Hall)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "wifi", "power"],
     "lat": 40.8080,
     "lng": -73.9588,
@@ -209,6 +255,8 @@
   {
     "id": "journalism-library",
     "name": "Journalism Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8078,
     "lng": -73.9613,
@@ -218,6 +266,8 @@
   {
     "id": "law-library",
     "name": "Li Lu Law Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "wifi", "power"],
     "lat": 40.8075,
     "lng": -73.9600,
@@ -227,6 +277,8 @@
   {
     "id": "math-library",
     "name": "Mathematics Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8080,
     "lng": -73.9622,
@@ -236,6 +288,8 @@
   {
     "id": "music-arts-library",
     "name": "Gabe M. Wiener Music & Arts Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8078,
     "lng": -73.9625,
@@ -245,6 +299,8 @@
   {
     "id": "science-engineering-library",
     "name": "Science & Engineering Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "wifi", "power"],
     "lat": 40.8090,
     "lng": -73.9615,
@@ -254,6 +310,8 @@
   {
     "id": "social-work-library",
     "name": "Social Work Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8095,
     "lng": -73.9600,
@@ -263,6 +321,8 @@
   {
     "id": "barnard-library",
     "name": "Barnard Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet", "wifi"],
     "lat": 40.8085,
     "lng": -73.9648,
@@ -272,6 +332,8 @@
   {
     "id": "jts-library",
     "name": "Jewish Theological Seminary Library",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet"],
     "lat": 40.8105,
     "lng": -73.9618,
@@ -281,6 +343,8 @@
   {
     "id": "tc-library",
     "name": "Teachers College Library (Gottesman Libraries)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["library", "quiet", "wifi"],
     "lat": 40.8093,
     "lng": -73.9605,
@@ -290,6 +354,8 @@
   {
     "id": "chef-mikes",
     "name": "Chef Mike's Sub Shop",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dining", "group-food"],
     "capacity": 10,
     "lat": 40.8080,
@@ -300,6 +366,8 @@
   {
     "id": "john-jay-dining",
     "name": "John Jay Dining Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dining", "group-food"],
     "capacity": 30,
     "lat": 40.8059,
@@ -310,6 +378,8 @@
   {
     "id": "jjs-place",
     "name": "JJ's Place",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dining", "group-food"],
     "capacity": 15,
     "lat": 40.8059,
@@ -320,6 +390,8 @@
   {
     "id": "ferris-booth-commons",
     "name": "Ferris Booth Commons",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dining", "group-food"],
     "capacity": 30,
     "lat": 40.80685,
@@ -330,6 +402,8 @@
   {
     "id": "faculty-house",
     "name": "Faculty House",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["dining", "group-food"],
     "capacity": 20,
     "lat": 40.8085,
@@ -340,6 +414,8 @@
   {
     "id": "subway-116th",
     "name": "116th St – Columbia University Station (1 train)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["subway"],
     "lat": 40.8081,
     "lng": -73.9639,
@@ -348,6 +424,8 @@
   {
     "id": "iab-garage",
     "name": "International Affairs Building Garage",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["parking"],
     "lat": 40.8082,
     "lng": -73.9585,
@@ -357,6 +435,8 @@
   {
     "id": "champion-parking",
     "name": "Champion Parking",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["parking"],
     "lat": 40.8054,
     "lng": -73.9648,
@@ -366,6 +446,8 @@
   {
     "id": "claremont-parking",
     "name": "Rapid Park at Riverside Church (621 W 120th St)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["parking"],
     "lat": 40.81117,
     "lng": -73.96317,
@@ -375,6 +457,8 @@
   {
     "id": "dodge-fitness",
     "name": "Dodge Fitness Center",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["gym"],
     "lat": 40.8098,
     "lng": -73.9642,
@@ -384,6 +468,8 @@
   {
     "id": "lerner-hall",
     "name": "Alfred Lerner Hall",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["restroom", "rain-backup", "power", "meet"],
     "capacity": 40,
     "lat": 40.80685,
@@ -394,6 +480,8 @@
   {
     "id": "low-library-sundial",
     "name": "Low Library Steps / Sundial",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet", "sit-no-id"],
     "capacity": 50,
     "lat": 40.80833,
@@ -404,6 +492,8 @@
   {
     "id": "college-walk",
     "name": "College Walk",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet", "sit-no-id"],
     "capacity": 50,
     "lat": 40.8075,
@@ -414,6 +504,8 @@
   {
     "id": "st-pauls-chapel",
     "name": "St. Paul's Chapel",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["quiet"],
     "lat": 40.80783,
     "lng": -73.96094,
@@ -423,6 +515,8 @@
   {
     "id": "sakura-park",
     "name": "Sakura Park",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet"],
     "capacity": 30,
     "lat": 40.81306,
@@ -433,6 +527,8 @@
   {
     "id": "riverside-park",
     "name": "Riverside Park (near W116 St)",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet", "sit-no-id"],
     "capacity": 50,
     "lat": 40.8081,
@@ -443,6 +539,8 @@
   {
     "id": "morningside-park",
     "name": "Morningside Park",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["meet", "sit-no-id"],
     "capacity": 40,
     "lat": 40.8081,
@@ -453,6 +551,8 @@
   {
     "id": "riverside-church",
     "name": "Riverside Church",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.8116,
     "lng": -73.9629,
@@ -462,6 +562,8 @@
   {
     "id": "st-john-divine",
     "name": "Cathedral of St. John the Divine",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80384,
     "lng": -73.96296,
@@ -471,6 +573,8 @@
   {
     "id": "broadway-presbyterian",
     "name": "Broadway Presbyterian Church",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.8069,
     "lng": -73.9642,
@@ -480,6 +584,8 @@
   {
     "id": "corpus-christi",
     "name": "Corpus Christi Church",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81111,
     "lng": -73.96077,
@@ -489,6 +595,8 @@
   {
     "id": "toms-restaurant",
     "name": "Tom's Restaurant",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["group-food"],
     "capacity": 15,
     "lat": 40.8053,
@@ -498,6 +606,8 @@
   {
     "id": "koronet-pizza",
     "name": "Koronet Pizza",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["group-food"],
     "capacity": 15,
     "lat": 40.8055,
@@ -508,6 +618,8 @@
   {
     "id": "community-food-juice",
     "name": "Community Food & Juice",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["group-food"],
     "capacity": 20,
     "lat": 40.8059,
@@ -518,6 +630,8 @@
   {
     "id": "max-soha",
     "name": "Max Soha",
+    "handResearched": true,
+    "handVerified": false,
     "categories": ["group-food"],
     "capacity": 20,
     "lat": 40.8110,
@@ -528,6 +642,8 @@
   {
     "id": "trudy-s-ice-cream",
     "name": "Trudy's Ice Cream",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80038,
     "lng": -73.96181,
@@ -538,6 +654,8 @@
   {
     "id": "le-monde",
     "name": "Le Monde",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80578,
     "lng": -73.96587,
@@ -548,6 +666,8 @@
   {
     "id": "chocolat-restaurant-lounge",
     "name": "Chocolat Restaurant Lounge",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80695,
     "lng": -73.95375,
@@ -558,6 +678,8 @@
   {
     "id": "the-fox",
     "name": "The Fox",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8068,
     "lng": -73.95341,
@@ -568,6 +690,8 @@
   {
     "id": "melba-s",
     "name": "Melba's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80309,
     "lng": -73.95657,
@@ -578,6 +702,8 @@
   {
     "id": "cedric",
     "name": "Cedric",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80614,
     "lng": -73.95303,
@@ -587,6 +713,8 @@
   {
     "id": "billie-s-black-bar-lounge",
     "name": "Billie's Black Bar & Lounge",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80623,
     "lng": -73.95323,
@@ -596,6 +724,8 @@
   {
     "id": "bosino",
     "name": "Bosino",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79874,
     "lng": -73.96733,
@@ -606,6 +736,8 @@
   {
     "id": "fumo",
     "name": "Fumo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80281,
     "lng": -73.96805,
@@ -616,6 +748,8 @@
   {
     "id": "smoke-jazz-supper-club",
     "name": "Smoke Jazz & Supper Club",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80112,
     "lng": -73.96821,
@@ -626,6 +760,8 @@
   {
     "id": "the-ellington",
     "name": "The Ellington",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80086,
     "lng": -73.96826,
@@ -636,6 +772,8 @@
   {
     "id": "serafina",
     "name": "Serafina",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80049,
     "lng": -73.96828,
@@ -646,6 +784,8 @@
   {
     "id": "harlem-maison",
     "name": "Harlem Maison",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8122,
     "lng": -73.95167,
@@ -655,6 +795,8 @@
   {
     "id": "the-tang",
     "name": "The Tang",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79996,
     "lng": -73.9663,
@@ -665,6 +807,8 @@
   {
     "id": "new-kam-lai",
     "name": "New Kam Lai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.7988,
     "lng": -73.96717,
@@ -675,6 +819,8 @@
   {
     "id": "noche-mexicana",
     "name": "Noche Mexicana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79742,
     "lng": -73.96813,
@@ -685,6 +831,8 @@
   {
     "id": "calaveras-corner",
     "name": "Calaveras Corner",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80066,
     "lng": -73.96578,
@@ -695,6 +843,8 @@
   {
     "id": "ortomare-ristorante-pizzeria",
     "name": "Ortomare Ristorante Pizzeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80115,
     "lng": -73.96172,
@@ -705,6 +855,8 @@
   {
     "id": "miss-mamie-s-spoonbread-too",
     "name": "Miss Mamie's Spoonbread Too",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80145,
     "lng": -73.9609,
@@ -715,6 +867,8 @@
   {
     "id": "koo-thai",
     "name": "Koo Thai",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79839,
     "lng": -73.96324,
@@ -724,6 +878,8 @@
   {
     "id": "v-t-pizzeria",
     "name": "V&T Pizzeria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80335,
     "lng": -73.96383,
@@ -734,6 +890,8 @@
   {
     "id": "ollie-s",
     "name": "Ollie's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79943,
     "lng": -73.9687,
@@ -744,6 +902,8 @@
   {
     "id": "zurna",
     "name": "Zurna",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79975,
     "lng": -73.96854,
@@ -754,6 +914,8 @@
   {
     "id": "cafe-du-soleil",
     "name": "Café du Soleil",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8001,
     "lng": -73.9684,
@@ -764,6 +926,8 @@
   {
     "id": "bennys-chao-king",
     "name": "Benny’s Chao King",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.7983,
     "lng": -73.9638,
@@ -773,6 +937,8 @@
   {
     "id": "longwood-fish-market",
     "name": "Longwood Fish Market",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79801,
     "lng": -73.96353,
@@ -782,6 +948,8 @@
   {
     "id": "saiguette",
     "name": "Saiguette",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79903,
     "lng": -73.96279,
@@ -792,6 +960,8 @@
   {
     "id": "hinds-hall",
     "name": "Hinds Hall",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80051,
     "lng": -73.96541,
@@ -802,6 +972,8 @@
   {
     "id": "halal-chicks",
     "name": "Halal Chicks",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79994,
     "lng": -73.96212,
@@ -811,6 +983,8 @@
   {
     "id": "super-nice-pizza",
     "name": "Super Nice Pizza",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80157,
     "lng": -73.96466,
@@ -821,6 +995,8 @@
   {
     "id": "mizu-hibachi",
     "name": "Mizu Hibachi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80079,
     "lng": -73.96569,
@@ -831,6 +1007,8 @@
   {
     "id": "amity-hall-uptown",
     "name": "Amity Hall Uptown",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80226,
     "lng": -73.96464,
@@ -841,6 +1019,8 @@
   {
     "id": "roti-roll-bombay-frankie",
     "name": "Roti Roll (Bombay Frankie)",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80259,
     "lng": -73.96437,
@@ -851,6 +1031,8 @@
   {
     "id": "safari",
     "name": "Safari",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80059,
     "lng": -73.95271,
@@ -861,6 +1043,8 @@
   {
     "id": "lalibela",
     "name": "Lalibela",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80231,
     "lng": -73.95667,
@@ -870,6 +1054,8 @@
   {
     "id": "bixi-harlem",
     "name": "BIXI Harlem",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80482,
     "lng": -73.95483,
@@ -880,6 +1066,8 @@
   {
     "id": "sapps",
     "name": "Sapps",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8056,
     "lng": -73.96531,
@@ -890,6 +1078,8 @@
   {
     "id": "nikko-hibachi-asian-fusion",
     "name": "Nikko Hibachi Asian Fusion",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81148,
     "lng": -73.95792,
@@ -899,6 +1089,8 @@
   {
     "id": "bar-314",
     "name": "Bar 314",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81417,
     "lng": -73.95975,
@@ -909,6 +1101,8 @@
   {
     "id": "south-of-the-clouds",
     "name": "South of the Clouds",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80825,
     "lng": -73.95977,
@@ -918,6 +1112,8 @@
   {
     "id": "pisticci",
     "name": "Pisticci",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81417,
     "lng": -73.96035,
@@ -928,6 +1124,8 @@
   {
     "id": "la-salle-dumpling-room",
     "name": "La Salle Dumpling Room",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81403,
     "lng": -73.95983,
@@ -938,6 +1136,8 @@
   {
     "id": "jin-ramen",
     "name": "Jin Ramen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81539,
     "lng": -73.95885,
@@ -948,6 +1148,8 @@
   {
     "id": "osteria-106",
     "name": "Osteria 106",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79893,
     "lng": -73.96169,
@@ -958,6 +1160,8 @@
   {
     "id": "sushi-w",
     "name": "Sushi W",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79837,
     "lng": -73.96941,
@@ -968,6 +1172,8 @@
   {
     "id": "amy-ruth-s",
     "name": "Amy Ruth's",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80246,
     "lng": -73.95023,
@@ -978,6 +1184,8 @@
   {
     "id": "chez-alain",
     "name": "Chez Alain",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80736,
     "lng": -73.94983,
@@ -987,6 +1195,8 @@
   {
     "id": "paris-blues",
     "name": "Paris Blues",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8064,
     "lng": -73.94988,
@@ -996,6 +1206,8 @@
   {
     "id": "strokos-deli",
     "name": "Strokos Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80547,
     "lng": -73.96228,
@@ -1005,6 +1217,8 @@
   {
     "id": "himalayan-curry-house",
     "name": "Himalayan Curry House",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80264,
     "lng": -73.96713,
@@ -1014,6 +1228,8 @@
   {
     "id": "picnic-by-the-black-parrot",
     "name": "Picnic by The Black Parrot",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80043,
     "lng": -73.96526,
@@ -1023,6 +1239,8 @@
   {
     "id": "the-heights-bar-grill",
     "name": "The Heights Bar & Grill",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80518,
     "lng": -73.9664,
@@ -1033,6 +1251,8 @@
   {
     "id": "dragon-one",
     "name": "Dragon One",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80208,
     "lng": -73.95684,
@@ -1043,6 +1263,8 @@
   {
     "id": "massawa",
     "name": "Massawa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80979,
     "lng": -73.95861,
@@ -1053,6 +1275,8 @@
   {
     "id": "symposium",
     "name": "Symposium",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80552,
     "lng": -73.96427,
@@ -1063,6 +1287,8 @@
   {
     "id": "haji-s-famous-deli",
     "name": "Haji's Famous Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80642,
     "lng": -73.96111,
@@ -1072,6 +1298,8 @@
   {
     "id": "wu-nussbaum",
     "name": "Wu + Nussbaum",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8061,
     "lng": -73.96564,
@@ -1082,6 +1310,8 @@
   {
     "id": "anar",
     "name": "Anar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80021,
     "lng": -73.96563,
@@ -1092,6 +1322,8 @@
   {
     "id": "vinateria",
     "name": "Vinateria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80654,
     "lng": -73.95406,
@@ -1102,6 +1334,8 @@
   {
     "id": "moca-bar-lounge",
     "name": "Moca Bar & Lounge",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80637,
     "lng": -73.95368,
@@ -1111,6 +1345,8 @@
   {
     "id": "tropical-sensation",
     "name": "Tropical Sensation",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80087,
     "lng": -73.96515,
@@ -1120,6 +1356,8 @@
   {
     "id": "awash",
     "name": "Awash",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80069,
     "lng": -73.96528,
@@ -1129,6 +1367,8 @@
   {
     "id": "clay",
     "name": "Clay",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80944,
     "lng": -73.95376,
@@ -1138,6 +1378,8 @@
   {
     "id": "angel-of-harlem",
     "name": "Angel of Harlem",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80806,
     "lng": -73.95248,
@@ -1147,6 +1389,8 @@
   {
     "id": "crab-du-jour",
     "name": "Crab du Jour",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81082,
     "lng": -73.95097,
@@ -1157,6 +1401,8 @@
   {
     "id": "new-york-gourmet-deli",
     "name": "New York Gourmet Deli",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8085,
     "lng": -73.94898,
@@ -1166,6 +1412,8 @@
   {
     "id": "savanna-raes",
     "name": "Savanna Raes",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8083,
     "lng": -73.94927,
@@ -1175,6 +1423,8 @@
   {
     "id": "red-star",
     "name": "Red Star",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80769,
     "lng": -73.94968,
@@ -1184,6 +1434,8 @@
   {
     "id": "dun-huang",
     "name": "Dun Huang",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81104,
     "lng": -73.9582,
@@ -1194,6 +1446,8 @@
   {
     "id": "west-place",
     "name": "West Place",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8116,
     "lng": -73.95781,
@@ -1203,6 +1457,8 @@
   {
     "id": "red-lobster",
     "name": "Red Lobster",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81006,
     "lng": -73.95044,
@@ -1212,6 +1468,8 @@
   {
     "id": "consuelo",
     "name": "Consuelo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79946,
     "lng": -73.96771,
@@ -1222,6 +1480,8 @@
   {
     "id": "harlem-pizza-co",
     "name": "Harlem Pizza Co.",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80282,
     "lng": -73.95114,
@@ -1232,6 +1492,8 @@
   {
     "id": "freda-s-caribbean-and-soul-cuisine",
     "name": "Freda's Caribbean and Soul Cuisine",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80093,
     "lng": -73.96139,
@@ -1241,6 +1503,8 @@
   {
     "id": "curry-king",
     "name": "Curry King",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79953,
     "lng": -73.96289,
@@ -1251,6 +1515,8 @@
   {
     "id": "los-3-charros",
     "name": "Los 3 Charros",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80011,
     "lng": -73.9514,
@@ -1261,6 +1527,8 @@
   {
     "id": "zaad",
     "name": "Zaad",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80121,
     "lng": -73.96492,
@@ -1271,6 +1539,8 @@
   {
     "id": "minton-s-playhouse",
     "name": "Minton's Playhouse",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80474,
     "lng": -73.95238,
@@ -1281,6 +1551,8 @@
   {
     "id": "mamas-too",
     "name": "Mama’s TOO!",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.8008,
     "lng": -73.96765,
@@ -1290,6 +1562,8 @@
   {
     "id": "oasis-jimma-juice-bar",
     "name": "Oasis Jimma Juice Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81498,
     "lng": -73.95916,
@@ -1299,6 +1573,8 @@
   {
     "id": "frozen-love",
     "name": "Frozen Love",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81383,
     "lng": -73.9602,
@@ -1308,6 +1584,8 @@
   {
     "id": "le-baobab-gouygui",
     "name": "Le Baobab Gouygui",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80235,
     "lng": -73.95093,
@@ -1317,6 +1595,8 @@
   {
     "id": "keur-coumba",
     "name": "Keur Coumba",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80266,
     "lng": -73.95073,
@@ -1326,6 +1606,8 @@
   {
     "id": "blvd-bistro",
     "name": "BLVD Bistro",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80437,
     "lng": -73.95567,
@@ -1336,6 +1618,8 @@
   {
     "id": "tropilyz",
     "name": "Tropilyz",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80287,
     "lng": -73.95213,
@@ -1346,6 +1630,8 @@
   {
     "id": "la-savane",
     "name": "La Savane",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80413,
     "lng": -73.95425,
@@ -1356,6 +1642,8 @@
   {
     "id": "olivia-spanish-tapas",
     "name": "Olivia - Spanish Tapas",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81696,
     "lng": -73.95786,
@@ -1366,6 +1654,8 @@
   {
     "id": "spice-lamb",
     "name": "Spice Lamb",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80018,
     "lng": -73.96613,
@@ -1375,6 +1665,8 @@
   {
     "id": "dragon-105",
     "name": "Dragon 105",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79825,
     "lng": -73.96336,
@@ -1385,6 +1677,8 @@
   {
     "id": "elis-wine-bar",
     "name": "Elis Wine Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80282,
     "lng": -73.9642,
@@ -1395,6 +1689,8 @@
   {
     "id": "homemade-taqueria",
     "name": "Homemade Taqueria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80117,
     "lng": -73.9612,
@@ -1405,6 +1701,8 @@
   {
     "id": "the-calaveras",
     "name": "The Calaveras",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79953,
     "lng": -73.9624,
@@ -1415,6 +1713,8 @@
   {
     "id": "ellington-in-the-park",
     "name": "Ellington in the park",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80258,
     "lng": -73.97188,
@@ -1425,6 +1725,8 @@
   {
     "id": "vegan-hood",
     "name": "Vegan Hood",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80284,
     "lng": -73.95629,
@@ -1435,6 +1737,8 @@
   {
     "id": "tartina",
     "name": "Tartina",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80362,
     "lng": -73.96364,
@@ -1445,6 +1749,8 @@
   {
     "id": "koko-wings",
     "name": "Koko Wings",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80096,
     "lng": -73.96735,
@@ -1455,6 +1761,8 @@
   {
     "id": "happy-hot-hunan-restaurant",
     "name": "Happy Hot Hunan Restaurant",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80139,
     "lng": -73.96478,
@@ -1465,6 +1773,8 @@
   {
     "id": "pancho-s-antojitos-mexicano",
     "name": "Pancho's Antojitos Mexicano",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80139,
     "lng": -73.96523,
@@ -1475,6 +1785,8 @@
   {
     "id": "mala-town",
     "name": "Mala Town",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80002,
     "lng": -73.96578,
@@ -1484,6 +1796,8 @@
   {
     "id": "atlas-kitchen",
     "name": "Atlas Kitchen",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80329,
     "lng": -73.96676,
@@ -1494,6 +1808,8 @@
   {
     "id": "the-grand-feast",
     "name": "The Grand Feast",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79779,
     "lng": -73.96787,
@@ -1504,6 +1820,8 @@
   {
     "id": "kikoo-sushi",
     "name": "Kikoo Sushi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80139,
     "lng": -73.96155,
@@ -1514,6 +1832,8 @@
   {
     "id": "telio",
     "name": "Telio",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.79821,
     "lng": -73.96885,
@@ -1524,6 +1844,8 @@
   {
     "id": "island-grill",
     "name": "Island Grill",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81519,
     "lng": -73.95812,
@@ -1533,6 +1855,8 @@
   {
     "id": "ghemo",
     "name": "Ghemo",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80074,
     "lng": -73.96602,
@@ -1542,6 +1866,8 @@
   {
     "id": "cantina-taqueria",
     "name": "Cantina Taqueria",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80275,
     "lng": -73.95682,
@@ -1551,6 +1877,8 @@
   {
     "id": "cafe-massawa",
     "name": "Cafe Massawa",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81458,
     "lng": -73.95945,
@@ -1561,6 +1889,8 @@
   {
     "id": "pho-amsterdam",
     "name": "Pho Amsterdam",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81091,
     "lng": -73.95829,
@@ -1570,6 +1900,8 @@
   {
     "id": "alke-cafe",
     "name": "Alke Café",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80034,
     "lng": -73.95498,
@@ -1580,6 +1912,8 @@
   {
     "id": "nai-brother-sauerkraut-fish",
     "name": "Nai Brother Sauerkraut Fish",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80346,
     "lng": -73.96757,
@@ -1590,6 +1924,8 @@
   {
     "id": "columbia-deli-cafe",
     "name": "Columbia Deli & Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.81533,
     "lng": -73.95826,
@@ -1599,6 +1935,8 @@
   {
     "id": "double-dutch-espresso",
     "name": "Double Dutch Espresso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80584,
     "lng": -73.95399,
@@ -1608,6 +1946,8 @@
   {
     "id": "patisserie-des-ambassades",
     "name": "Patisserie Des Ambassades",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80608,
     "lng": -73.95382,
@@ -1617,16 +1957,20 @@
   {
     "id": "silvana",
     "name": "Silvana",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["group-food"],
     "lat": 40.80443,
     "lng": -73.9559,
     "hours": "08:00-22:00 open \"Cafe\" || 16:00-04:00 open \"Bar\"",
-    "contactUrl": "silvana-nyc.com",
+    "contactUrl": "https://silvana-nyc.com",
     "source": "OpenStreetMap"
   },
   {
     "id": "corpus-christi-catholic-church",
     "name": "Corpus Christi Catholic Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81102,
     "lng": -73.96083,
@@ -1637,6 +1981,8 @@
   {
     "id": "mount-nebo-baptist-church",
     "name": "Mount Nebo Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80194,
     "lng": -73.95306,
@@ -1646,6 +1992,8 @@
   {
     "id": "memorial-canaan-baptist-church",
     "name": "Memorial Canaan Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80243,
     "lng": -73.95208,
@@ -1655,6 +2003,8 @@
   {
     "id": "first-corinthian-baptist-church",
     "name": "First Corinthian Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.8032,
     "lng": -73.95312,
@@ -1665,6 +2015,8 @@
   {
     "id": "morningside-avenue-presbyterian-church",
     "name": "Morningside Avenue Presbyterian Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80917,
     "lng": -73.95528,
@@ -1674,6 +2026,8 @@
   {
     "id": "greater-metropolitan-baptist-church",
     "name": "Greater Metropolitan Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.8075,
     "lng": -73.94833,
@@ -1683,6 +2037,8 @@
   {
     "id": "seventh-church-of-christ-scientist",
     "name": "Seventh Church of Christ Scientist",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80467,
     "lng": -73.96429,
@@ -1692,6 +2048,8 @@
   {
     "id": "arca-de-refugio-iglesia-de-dios-pentecostal",
     "name": "Arca de Refugio, Iglesia de Dios Pentecostal",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80055,
     "lng": -73.96028,
@@ -1701,6 +2059,8 @@
   {
     "id": "saint-mary-magdalen-orthodox-church",
     "name": "Saint Mary Magdalen Orthodox Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79965,
     "lng": -73.96204,
@@ -1711,6 +2071,8 @@
   {
     "id": "grace-united-methodist-church",
     "name": "Grace United Methodist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79862,
     "lng": -73.9651,
@@ -1721,6 +2083,8 @@
   {
     "id": "iglesia-enmanuel-iglesia-de-dios-pentecostal",
     "name": "Iglesia Enmanuel - Iglesia De Dios Pentecostal",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79988,
     "lng": -73.96266,
@@ -1730,6 +2094,8 @@
   {
     "id": "southern-baptist-church",
     "name": "Southern Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79954,
     "lng": -73.96012,
@@ -1739,6 +2105,8 @@
   {
     "id": "saint-gerasimos-greek-orthodox-church",
     "name": "Saint Gerasimos Greek Orthodox Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79959,
     "lng": -73.9652,
@@ -1749,6 +2117,8 @@
   {
     "id": "west-end-presbyterian-church",
     "name": "West End Presbyterian Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.79983,
     "lng": -73.96575,
@@ -1759,6 +2129,8 @@
   {
     "id": "kingdom-hall-of-jehovah-s-witnesses",
     "name": "Kingdom Hall of Jehovah's Witnesses",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80101,
     "lng": -73.96436,
@@ -1768,6 +2140,8 @@
   {
     "id": "iglesia-pentecostal-juan-8-32",
     "name": "Iglesia Pentecostal Juan 8:32",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80299,
     "lng": -73.96524,
@@ -1777,6 +2151,8 @@
   {
     "id": "mount-olivet-baptist-church",
     "name": "Mount Olivet Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80495,
     "lng": -73.94807,
@@ -1786,6 +2162,8 @@
   {
     "id": "greater-refuge-temple",
     "name": "Greater Refuge Temple",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80831,
     "lng": -73.94825,
@@ -1796,6 +2174,8 @@
   {
     "id": "church-of-the-master",
     "name": "Church of the Master",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80899,
     "lng": -73.95535,
@@ -1805,6 +2185,8 @@
   {
     "id": "eglise-adventiste-du-7eme-jour",
     "name": "Eglise Adventiste du 7eme jour",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80719,
     "lng": -73.9546,
@@ -1814,6 +2196,8 @@
   {
     "id": "greater-zion-hill-baptist-church",
     "name": "Greater Zion Hill Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81144,
     "lng": -73.95057,
@@ -1823,6 +2207,8 @@
   {
     "id": "saint-joseph-of-the-holy-family-catholic-church",
     "name": "Saint Joseph of the Holy Family Catholic Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81176,
     "lng": -73.95405,
@@ -1833,6 +2219,8 @@
   {
     "id": "templo-biblico",
     "name": "Templo Biblico",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81453,
     "lng": -73.95572,
@@ -1843,16 +2231,19 @@
   {
     "id": "antioch-baptist-church",
     "name": "Antioch Baptist Church",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81417,
     "lng": -73.95653,
     "hours": "Hours not listed — check before you go",
-    "contactUrl": "Antioch Baptist Church",
     "source": "OpenStreetMap"
   },
   {
     "id": "st-mary-s-episcopal-church-harlem",
     "name": "St. Mary's Episcopal Church Harlem",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.81489,
     "lng": -73.95608,
@@ -1863,6 +2254,8 @@
   {
     "id": "saint-paul-s-chapel",
     "name": "Saint Paul's Chapel",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80786,
     "lng": -73.96095,
@@ -1872,6 +2265,8 @@
   {
     "id": "church-of-notre-dame",
     "name": "Church of Notre Dame",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80511,
     "lng": -73.96037,
@@ -1882,6 +2277,8 @@
   {
     "id": "church-of-the-ascension",
     "name": "Church of the Ascension",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["church"],
     "lat": 40.80187,
     "lng": -73.96633,
@@ -1891,6 +2288,8 @@
   {
     "id": "niko-coffee",
     "name": "Niko Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80528,
     "lng": -73.96243,
@@ -1901,6 +2300,8 @@
   {
     "id": "starbucks",
     "name": "Starbucks",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80593,
     "lng": -73.95453,
@@ -1911,6 +2312,8 @@
   {
     "id": "cafe-amrita",
     "name": "Cafe Amrita",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80102,
     "lng": -73.95876,
@@ -1921,6 +2324,8 @@
   {
     "id": "luckin-coffee",
     "name": "Luckin Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80295,
     "lng": -73.96795,
@@ -1930,6 +2335,8 @@
   {
     "id": "joe-coffee-company",
     "name": "Joe Coffee Company",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8102,
     "lng": -73.9619,
@@ -1940,6 +2347,8 @@
   {
     "id": "blue-java",
     "name": "Blue Java",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8095,
     "lng": -73.96029,
@@ -1949,6 +2358,8 @@
   {
     "id": "tea-magic",
     "name": "Tea Magic",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8052,
     "lng": -73.96561,
@@ -1958,6 +2369,8 @@
   {
     "id": "boba-whale",
     "name": "Boba Whale",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.79824,
     "lng": -73.9695,
@@ -1967,6 +2380,8 @@
   {
     "id": "city-coffee-bar",
     "name": "City Coffee Bar",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.79847,
     "lng": -73.96368,
@@ -1976,6 +2391,8 @@
   {
     "id": "park-cafe",
     "name": "Park Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.79949,
     "lng": -73.96107,
@@ -1985,6 +2402,8 @@
   {
     "id": "gong-cha",
     "name": "Gong Cha",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80317,
     "lng": -73.96709,
@@ -1994,6 +2413,8 @@
   {
     "id": "claire-s-kitchen-cafe",
     "name": "Claire's Kitchen Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.79976,
     "lng": -73.95266,
@@ -2004,6 +2425,8 @@
   {
     "id": "broadway-au-lait",
     "name": "Broadway Au Lait",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.81137,
     "lng": -73.96112,
@@ -2013,6 +2436,8 @@
   {
     "id": "molly-tea",
     "name": "Molly Tea",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80479,
     "lng": -73.96659,
@@ -2023,6 +2448,8 @@
   {
     "id": "blue-bottle-coffee",
     "name": "Blue Bottle Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8063,
     "lng": -73.96549,
@@ -2033,6 +2460,8 @@
   {
     "id": "nous-espresso",
     "name": "Nous Espresso",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80752,
     "lng": -73.96088,
@@ -2042,6 +2471,8 @@
   {
     "id": "plowshares-coffee-roasters",
     "name": "Plowshares Coffee Roasters",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80014,
     "lng": -73.96776,
@@ -2051,6 +2482,8 @@
   {
     "id": "cafe-east",
     "name": "Café East",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8067,
     "lng": -73.96383,
@@ -2060,6 +2493,8 @@
   {
     "id": "picky-barista",
     "name": "Picky Barista",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.7985,
     "lng": -73.96862,
@@ -2070,6 +2505,8 @@
   {
     "id": "zoe-cafe-and-hookah-lounge",
     "name": "Zoe Café and Hookah Lounge",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80777,
     "lng": -73.95316,
@@ -2079,6 +2516,8 @@
   {
     "id": "publique",
     "name": "Publique",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80723,
     "lng": -73.95968,
@@ -2088,6 +2527,8 @@
   {
     "id": "dear-mama",
     "name": "Dear Mama",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.81673,
     "lng": -73.95851,
@@ -2098,6 +2539,8 @@
   {
     "id": "ganache-coffee",
     "name": "Ganache Coffee",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80667,
     "lng": -73.95396,
@@ -2107,6 +2550,8 @@
   {
     "id": "cloud-touch",
     "name": "Cloud Touch",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80265,
     "lng": -73.96816,
@@ -2116,6 +2561,8 @@
   {
     "id": "omonia-cafe",
     "name": "Omonia Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80315,
     "lng": -73.9678,
@@ -2125,6 +2572,8 @@
   {
     "id": "super-nice-coffee-and-bakery",
     "name": "Super Nice Coffee and Bakery",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80151,
     "lng": -73.96447,
@@ -2135,6 +2584,8 @@
   {
     "id": "mom-s-food-market",
     "name": "Mom's Food Market",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80126,
     "lng": -73.95934,
@@ -2145,6 +2596,8 @@
   {
     "id": "purple-waves",
     "name": "Purple Waves",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80083,
     "lng": -73.95759,
@@ -2154,6 +2607,8 @@
   {
     "id": "omega-bakery-cafe",
     "name": "Omega Bakery & Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.81027,
     "lng": -73.9532,
@@ -2164,6 +2619,8 @@
   {
     "id": "kaafi",
     "name": "Kaafi",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80386,
     "lng": -73.94872,
@@ -2174,6 +2631,8 @@
   {
     "id": "il-caffe-latte",
     "name": "Il Caffe Latte",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.8044,
     "lng": -73.94842,
@@ -2184,6 +2643,8 @@
   {
     "id": "morningside-cafe",
     "name": "Morningside Cafe",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["wifi"],
     "lat": 40.80242,
     "lng": -73.95907,
@@ -2194,6 +2655,8 @@
   {
     "id": "morningside-heights",
     "name": "Morningside Heights",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["quiet"],
     "lat": 40.80612,
     "lng": -73.96492,
@@ -2204,6 +2667,8 @@
   {
     "id": "harry-belafonte-library",
     "name": "Harry Belafonte Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["quiet"],
     "lat": 40.80298,
     "lng": -73.95353,
@@ -2214,6 +2679,8 @@
   {
     "id": "george-bruce-library",
     "name": "George Bruce Library",
+    "handResearched": false,
+    "handVerified": false,
     "categories": ["quiet"],
     "lat": 40.81378,
     "lng": -73.95708,

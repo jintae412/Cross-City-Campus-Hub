@@ -373,6 +373,23 @@ button {
   color: var(--muted);
 }
 
+.pin-checked {
+  font-size: 0.78rem;
+  color: #3F6B3E;
+}
+
+.map-empty {
+  margin: 0.5rem 0 0;
+  padding: 0.7rem 0.9rem;
+  background: #fff9ea;
+  border: 1px dashed rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+}
+
+.map-empty[hidden] {
+  display: none;
+}
+
 .map-legend-simple .swatch {
   display: inline-block;
   width: 10px;
@@ -407,6 +424,53 @@ button {
 .wx-day-col:focus-visible {
   outline: 2px solid var(--ox);
   outline-offset: 2px;
+}
+
+/* Days 8–14 are fetched with the rest and revealed by the toggle, never refetched. */
+.wx-day-col.wx-extended {
+  display: none;
+}
+
+.wx-row.wx-show-extended .wx-day-col.wx-extended {
+  display: block;
+}
+
+.wx-more {
+  background: none;
+  border: none;
+  border-left: 1px dotted rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font: inherit;
+  color: var(--ox);
+  padding: 0.5rem 0.4rem 0.5rem 0.9rem;
+  margin-left: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.wx-more:hover {
+  background: rgba(138, 50, 48, 0.08);
+  border-radius: 4px;
+}
+
+.wx-more:focus-visible {
+  outline: 2px solid var(--ox);
+  outline-offset: 2px;
+}
+
+.wx-more-chev {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.wx-more-label {
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 .wx-day {

@@ -1,5 +1,41 @@
 # Columbia Map Pin Expansion — Status & Resume Notes
 
+## Every pin carries `"handResearched"` — and it is NOT shown on the site (2026-07-28)
+
+`true` = a person built the pin from an official source; `false` = it came through the OSM
+suggestions queue. **Columbia: 57 of 234. NYU: 41 of 855** — exactly the hand-researched baselines
+described further down this file.
+
+Set by matching each live pin's name against its `-map-suggestions.json` queue. That rule alone
+mismarked the 9 pins that were hand-researched *first* and later re-suggested by the queue (the
+8 Columbia collisions listed below, plus NYU's Bobst); those were corrected by id.
+
+Its only job is selecting rows for `docs/recommended-to-verify.csv` (see `scripts/verify_pins.py`)
+— the 98 pins worth confirming in person first, since they're the ones trips get planned around.
+
+## `"handVerified"` — the flag the site actually shows (2026-07-28)
+
+Separate flag, stronger claim: **someone confirmed this place exists and is where we say.**
+Currently `false` on all 1,089 pins, because nobody has done that yet.
+
+This started as a single `verified` flag doing both jobs, which conflated
+researched-from-an-official-list with confirmed-by-a-human-standing-there and let the UI assert the
+second while only the first was true. Splitting them fixed it:
+
+- `handResearched` — provenance. Not rendered. Picks the checklist.
+- `handVerified` — the actual claim. Drives the "Hand-checked spots only" filter.
+
+**The filter deliberately shows an empty map today**, with a message saying so and pointing at the
+checklist. That's the honest state, not a bug — and it's a progress bar: the map fills in as the
+verification pass lands. Popups badge "Checked in person" only when true; unverified pins say
+nothing rather than repeating a disclaimer 1,089 times.
+
+`scripts/verify_pins.py --import-results` is the only thing that should set this flag — it reads
+the CHECKED column so the JSON and the reviewed sheet can't drift apart. Don't hand-edit it.
+
+---
+
+
 Working notes for the in-progress pin-depth expansion (per Matt's feedback: categories should
 be comprehensive, not token single pins — see [[feedback_map_pin_depth]] in Claude's memory).
 Read this file first when picking this back up.

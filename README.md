@@ -105,6 +105,7 @@ Pins live in `data/universities/<id>-map.json`, one entry each:
 {
   "id": "some-cafe",
   "name": "Some Café",
+  "handResearched": true,
   "categories": ["wifi", "power"],
   "lat": 40.80712, "lng": -73.96341,
   "hours": "Mo-Fr 07:00-19:00; Sa,Su 08:00-18:00",
@@ -122,10 +123,17 @@ Pins live in `data/universities/<id>-map.json`, one entry each:
 - **`hours`** — if you write it in the format above (`Mo-Fr 07:00-19:00; Sa,Su 08:00-18:00`, 24-hour
   clock), the "Open now only" filter can use it. Anything else, including plain English, still
   displays fine — the pin just won't respond to that filter rather than guessing.
+- **`handResearched`** — `true` if a person built this pin from an official source, `false` if it
+  came in through the bulk OpenStreetMap import. **Nothing on the site shows this**; it only decides
+  which pins land on the verification checklist below.
+- **`handVerified`** — `true` only once someone has confirmed in person that the place exists and
+  is where we say. This is what the "Hand-checked spots only" filter shows. Don't set it by hand
+  in this file — it comes from the checklist (see below), so the flag and the record agree.
+- **`contactUrl`** — optional, becomes a "More info" link. Must start with `https://`, `http://`
+  or `tel:` — anything else is dropped rather than rendered.
 - **`capacity`** — optional, only meaningful for food and meeting spots. Leave it out unless you've
-  actually checked; the group-size filter deliberately hides unknown-capacity places rather than
-  claiming a fit nobody confirmed.
-- **`contactUrl`** — optional, becomes a "More info" link.
+  actually checked. Nothing displays it right now beyond the popup; the group-size filter that used
+  it is parked until there's enough capacity data for it to be useful.
 
 `quiet` means **indoor** quiet spots only — parks don't count, however peaceful. Use `meet` or
 `sit-no-id` for those.
@@ -161,6 +169,49 @@ existing one — it prints the old and new text before it does.
 `data/universities/<id>-map-suggestions.json`. Those are factual records rather than drafted prose,
 but they still land in a queue and get merged deliberately, not automatically. See
 [`docs/intent/map-expansion-status.md`](docs/intent/map-expansion-status.md).
+
+## Verifying pins in person
+
+**No pin on this map has been confirmed by a person on the ground yet.** All 1,089 came from
+OpenStreetMap or from official university lists — real sources, but none of them a guarantee that a
+café is still open or that a room is where the map says.
+
+The map has a **"Hand-checked spots only"** filter for exactly this. Right now it hides every pin
+and explains why, because zero have been checked. That's the honest starting state — as spots get
+confirmed they start appearing there, and the filter becomes the "things we can actually plan
+around" view.
+
+Working through it:
+
+```bash
+python3 scripts/verify_pins.py --export           # writes docs/recommended-to-verify.csv
+# open it in Google Sheets, split the rows, fill CHECKED with y or n, save back as CSV
+python3 scripts/verify_pins.py --import-results   # feeds the answers into the map
+```
+
+The checklist holds the 98 pins worth confirming first — the hand-researched ones a trip actually
+gets planned around. Each row has a Google Maps link to the exact coordinates so you can check the
+location without leaving the sheet.
+
+Import as often as you like; only `y` and `n` rows are read, so a half-finished pass is safe and
+`?` or a note to yourself is left alone. Exporting refuses to overwrite a checklist that has
+entries filled in, so a stray `--export` can't discard the work.
+
+## Refreshing demographics and majors
+
+These come from the federal College Scorecard, but that API needs a key, and a key can't live in a
+public website's JavaScript without handing it to every visitor. So the refresh runs on your machine
+instead and the result gets committed as data:
+
+```bash
+export DATA_GOV_API_KEY=...        # free, one-time: https://api.data.gov/signup
+python3 scripts/refresh_scorecard.py --university columbia            # shows what would change
+python3 scripts/refresh_scorecard.py --university columbia --write    # applies it
+```
+
+The first run for a school prints matching schools and their ids — add the right one to
+`data/universities/<id>.json` as `"scorecardId": 190150` and re-run. Graduate enrolment isn't a
+Scorecard figure, so the script never touches it.
 
 ## Checking your work
 
