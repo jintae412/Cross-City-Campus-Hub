@@ -208,12 +208,18 @@ loadEvents();
 function loadUniversity(id, containerId) {
   var container = document.getElementById(containerId);
 
-  fetch('data/universities/' + id + '.json')
-    .then(function (res) {
+  Promise.all([
+    fetch('data/universities/' + id + '.json').then(function (res) {
       if (!res.ok) { throw new Error('University data request failed'); }
       return res.json();
-    })
-    .then(function (uni) { renderUniversity(container, uni); })
+    }),
+    // The AI holding file. A campus that has none is the normal case, so a missing or broken
+    // one degrades to "no drafted entries" rather than failing the whole page.
+    fetch('data/universities/' + id + '-content-suggestions.json')
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .catch(function () { return null; })
+  ])
+    .then(function (both) { renderUniversity(container, both[0], both[1]); })
     .catch(function () {
       // Also catches a render that threw on missing fields, which is the likelier failure once
       // someone hand-adds a university — so the message names the file rather than blaming the network.
@@ -223,21 +229,71 @@ function loadUniversity(id, containerId) {
     });
 }
 
-function renderUniversity(container, uni) {
+// Entries a person has already accepted are spliced into the live file by review_content.py but
+// left in the queue marked reviewed, so they'd otherwise render twice — once plain, once badged.
+// The key check is the same one that script dedupes on, and also covers an entry copied across
+// by hand without the flag being flipped.
+function pendingSuggestions(suggestions, section, live) {
+  var queued = suggestions && suggestions[section] ? suggestions[section] : [];
+  return queued.filter(function (entry) {
+    if (entry.reviewed === true) { return false; }
+    return !live.some(function (item) {
+      return section === 'calendar'
+        ? item.date === entry.date && item.label === entry.label
+        : item === entry.text;
+    });
+  });
+}
+
+// Nothing here has been read by a person yet, so the badge says so on every single entry rather
+// than once at the top of the card — a note above a list gets scrolled past and then quoted at
+// someone as fact. The source travels in the tooltip so it's checkable without leaving the page.
+function aiBadge(entry) {
+  var tip = 'Drafted by AI from a public web page and not yet checked by a person.'
+    + (entry.source ? ' Source: ' + entry.source : '');
+  return ' <span class="ai-unchecked" title="' + escapeHtml(tip) + '">AI &middot; unchecked</span>';
+}
+
+// Undated entries sort last: "date unknown" belongs at the bottom of a calendar, not at the top
+// where an empty date column reads as a rendering bug.
+function byDate(a, b) {
+  if (!a.date) { return b.date ? 1 : 0; }
+  if (!b.date) { return -1; }
+  return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
+}
+
+function renderUniversity(container, uni, suggestions) {
+  var aiCalendar = pendingSuggestions(suggestions, 'calendar', uni.calendar);
+  var aiTraditions = pendingSuggestions(suggestions, 'traditions', uni.traditions);
+  aiCalendar.forEach(function (ev) { ev.aiUnchecked = true; });
+
   var majorsHtml = uni.majors.map(function (m) {
     return '<div class="major"><span class="major-name">' + escapeHtml(m.label) + '</span>'
       + '<span class="major-pct">' + escapeHtml(m.pct) + '%</span></div>'
       + '<div class="bar-track"><div class="bar-fill" style="width:' + Math.min(Number(m.pct) * 3, 100) + '%"></div></div>';
   }).join('');
 
-  var calendarHtml = uni.calendar.map(function (ev) {
+  // Merged and re-sorted rather than appended in a block: a September AI date listed under
+  // December's hand-checked one is worse than useless for planning a trip.
+  var calendarHtml = uni.calendar.concat(aiCalendar).sort(byDate).map(function (ev) {
     var dateLabel = ev.date
       ? new Date(ev.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
       : 'TBD';
-    var flag = ev.verified === false ? ' <span class="unverified">(unconfirmed)</span>' : '';
+    var flag = ev.aiUnchecked ? aiBadge(ev)
+      : ev.verified === false ? ' <span class="unverified">(unconfirmed)</span>' : '';
     return '<div class="cal-item"><span class="cal-item-date">' + escapeHtml(dateLabel) + '</span>'
       + '<span class="cal-item-label">' + escapeHtml(ev.label) + flag + '</span></div>';
   }).join('');
+
+  var calendarNote = aiCalendar.length
+    ? '<p class="source-note">' + aiCalendar.length + ' of these were drafted by AI from the '
+      + 'university&rsquo;s own pages and <strong>nobody has checked them yet</strong> &mdash; '
+      + 'hover one for its source, and confirm before planning around it.</p>'
+    : '';
+
+  var traditionsHtml = uni.traditions.map(escapeHtml)
+    .concat(aiTraditions.map(function (t) { return escapeHtml(t.text) + aiBadge(t); }))
+    .join(', ');
 
   container.innerHTML = '<div class="row-top">'
     + '<div>'
@@ -252,11 +308,12 @@ function renderUniversity(container, uni) {
     + majorsHtml
     + '<p class="source-note">' + escapeHtml(uni.majorsNote) + '</p>'
     + '<p class="cap-label" style="margin-top:1.6rem">Traditions</p>'
-    + '<p class="trad-prose">' + uni.traditions.map(escapeHtml).join(', ') + '</p>'
+    + '<p class="trad-prose">' + traditionsHtml + '</p>'
     + '</div>'
     + '<div class="card">'
     + '<p class="cap-label">Calendar</p>'
     + calendarHtml
+    + calendarNote
     + '</div>'
     + '</div>';
 }

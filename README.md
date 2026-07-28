@@ -274,8 +274,18 @@ in it, so you can't accidentally wipe the team's work.
 ## Reviewing AI-drafted content
 
 Some content — the culture blurb, traditions, academic calendar dates — can be drafted with AI help.
-**None of it ever goes live on its own.** It lands in a holding file and waits for a person to check
-it. This is deliberate: the AI drafting happens on your computer, never on the live website.
+It lands in a holding file, `data/universities/<name>-content-suggestions.json`, and waits there for
+a person to check it.
+
+**Drafted entries do show on the site while they wait**, each one carrying an `AI · UNCHECKED` badge
+(hover it for the source link). That's a deliberate trade: a plausible-looking date nobody has
+confirmed is on the page, so the badge is the only thing standing between it and someone planning a
+trip around it. Reviewing them (below) is what makes the badge go away — accepted entries move into
+the live file and render plainly. If you'd rather an entry not show at all, delete it from the
+holding file.
+
+Culture blurbs are the exception: they stay hidden until accepted, because there's one blurb per
+campus and a badged draft would have to replace the real one rather than sit next to it.
 
 The drafting instructions live in
 [`scripts/authoring-prompt.md`](scripts/authoring-prompt.md). Here's the review half.

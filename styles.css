@@ -315,6 +315,25 @@ button {
   color: var(--muted);
 }
 
+/* Louder than .unverified on purpose: "a person wrote this but couldn't confirm the date" and
+   "no person has looked at this at all" are different claims, and the second one needs to be
+   readable at a glance rather than blending into the row. */
+.ai-unchecked {
+  display: inline-block;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0.05rem 0.35rem;
+  margin-left: 0.35rem;
+  border: 1px solid rgba(156, 64, 56, 0.45);
+  border-radius: 3px;
+  color: #9C4038;
+  background: rgba(156, 64, 56, 0.06);
+  cursor: help;
+  vertical-align: 0.05em;
+}
+
 .map-section {
   margin-top: 2rem;
 }
