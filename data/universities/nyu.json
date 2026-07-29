@@ -1,6 +1,7 @@
 {
   "id": "nyu",
   "name": "New York University",
+  "unitid": "193900",
   "culture": "NYU keeps no walled campus — Washington Square Park serves as its true quad, and student life is woven into Greenwich Village itself, so knowing the neighborhood matters as much as knowing any building.",
   "demographics": {
     "undergrad": 28663,
@@ -10,26 +11,436 @@
     "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count: NYU Common Data Set 2024-2025 (NYU Office of Institutional Research), confirmed directly."
   },
   "majors": [
-    { "label": "Visual & Performing Arts", "pct": 16.1 },
-    { "label": "Social Sciences", "pct": 12.2 },
-    { "label": "Business, Management & Marketing", "pct": 12.2 },
-    { "label": "Computer & Information Sciences", "pct": 10.1 },
-    { "label": "Humanities", "pct": 8.5 },
-    { "label": "Health Professions", "pct": 7.6 },
-    { "label": "Psychology", "pct": 6.6 },
-    { "label": "Communication", "pct": 4.7 },
-    { "label": "Biological Sciences", "pct": 4.4 },
-    { "label": "Mathematics & Statistics", "pct": 3.9 }
+    {
+      "label": "Visual & Performing Arts",
+      "pct": 16.1,
+      "concentrations": [
+        {
+          "label": "Cinematography and Film/Video Production",
+          "pct": 34.2,
+          "degrees": 397
+        },
+        {
+          "label": "Drama and Dramatics/Theatre Arts, General",
+          "pct": 29.5,
+          "degrees": 342
+        },
+        {
+          "label": "Visual and Performing Arts, Other",
+          "pct": 9.8,
+          "degrees": 114
+        },
+        {
+          "label": "Playwriting and Screenwriting",
+          "pct": 5.9,
+          "degrees": 68
+        },
+        {
+          "label": "Music Performance, General",
+          "pct": 5.5,
+          "degrees": 64
+        },
+        {
+          "label": "Fine/Studio Arts, General",
+          "pct": 4.0,
+          "degrees": 46
+        },
+        {
+          "label": "6 smaller programs",
+          "degrees": 129,
+          "pct": 11.1
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Social Sciences",
+      "pct": 12.2,
+      "concentrations": [
+        {
+          "label": "Econometrics and Quantitative Economics",
+          "pct": 48.9,
+          "degrees": 464
+        },
+        {
+          "label": "Political Science and Government, General",
+          "pct": 17.1,
+          "degrees": 162
+        },
+        {
+          "label": "Social Sciences, Other",
+          "pct": 8.4,
+          "degrees": 80
+        },
+        {
+          "label": "International Relations and Affairs",
+          "pct": 8.3,
+          "degrees": 79
+        },
+        {
+          "label": "Social Sciences, General",
+          "pct": 5.3,
+          "degrees": 50
+        },
+        {
+          "label": "Sociology, General",
+          "pct": 4.8,
+          "degrees": 46
+        },
+        {
+          "label": "4 smaller programs",
+          "degrees": 68,
+          "pct": 7.2
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Business, Management & Marketing",
+      "pct": 12.2,
+      "concentrations": [
+        {
+          "label": "Business/Commerce, General",
+          "pct": 47.9,
+          "degrees": 414
+        },
+        {
+          "label": "Management Science",
+          "pct": 24.3,
+          "degrees": 210
+        },
+        {
+          "label": "Business, Management, Marketing, and Related Support Services, Other",
+          "pct": 12.3,
+          "degrees": 106
+        },
+        {
+          "label": "Real Estate",
+          "pct": 7.5,
+          "degrees": 65
+        },
+        {
+          "label": "Hotel/Motel Administration/Management",
+          "pct": 2.1,
+          "degrees": 18
+        },
+        {
+          "label": "Business Statistics",
+          "pct": 1.7,
+          "degrees": 15
+        },
+        {
+          "label": "4 smaller programs",
+          "degrees": 36,
+          "pct": 4.2
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Computer & Information Sciences",
+      "pct": 10.1,
+      "concentrations": [
+        {
+          "label": "Computer and Information Sciences, General",
+          "pct": 66.4,
+          "degrees": 389
+        },
+        {
+          "label": "Information Technology",
+          "pct": 15.4,
+          "degrees": 90
+        },
+        {
+          "label": "Computer Software and Media Applications, Other",
+          "pct": 8.5,
+          "degrees": 50
+        },
+        {
+          "label": "Web Page, Digital/Multimedia and Information Resources Design",
+          "pct": 5.3,
+          "degrees": 31
+        },
+        {
+          "label": "Computer and Information Sciences,  Other",
+          "pct": 3.1,
+          "degrees": 18
+        },
+        {
+          "label": "Computer and Information Sciences and Support Services, Other",
+          "pct": 1.4,
+          "degrees": 8
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Humanities",
+      "pct": 8.5,
+      "concentrations": [
+        {
+          "label": "Liberal Arts and Sciences/Liberal Studies",
+          "pct": 97.9,
+          "degrees": 524
+        },
+        {
+          "label": "Humanities/Humanistic Studies",
+          "pct": 2.1,
+          "degrees": 11
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Health Professions",
+      "pct": 7.6,
+      "concentrations": [
+        {
+          "label": "Registered Nursing/Registered Nurse",
+          "pct": 84.0,
+          "degrees": 437
+        },
+        {
+          "label": "Public Health, General",
+          "pct": 9.6,
+          "degrees": 50
+        },
+        {
+          "label": "Audiology/Audiologist and Speech-Language Pathology/Pathologist",
+          "pct": 3.7,
+          "degrees": 19
+        },
+        {
+          "label": "Dental Hygiene/Hygienist",
+          "pct": 2.1,
+          "degrees": 11
+        },
+        {
+          "label": "Communication Sciences and Disorders, General",
+          "pct": 0.4,
+          "degrees": 2
+        },
+        {
+          "label": "International Public Health/International Health",
+          "pct": 0.2,
+          "degrees": 1
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Psychology",
+      "pct": 6.6,
+      "concentrations": [
+        {
+          "label": "Research and Experimental Psychology, Other",
+          "pct": 100.0,
+          "degrees": 438
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Communication",
+      "pct": 4.7,
+      "concentrations": [
+        {
+          "label": "Digital Communication and Media/Multimedia",
+          "pct": 100.0,
+          "degrees": 379
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Biological Sciences",
+      "pct": 4.4,
+      "concentrations": [
+        {
+          "label": "Biology/Biological Sciences, General",
+          "pct": 47.8,
+          "degrees": 117
+        },
+        {
+          "label": "Neuroscience",
+          "pct": 21.2,
+          "degrees": 52
+        },
+        {
+          "label": "Ecology",
+          "pct": 13.1,
+          "degrees": 32
+        },
+        {
+          "label": "Biochemistry and Molecular Biology",
+          "pct": 12.2,
+          "degrees": 30
+        },
+        {
+          "label": "Biochemistry",
+          "pct": 5.7,
+          "degrees": 14
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Mathematics & Statistics",
+      "pct": 3.9,
+      "concentrations": [
+        {
+          "label": "Mathematics and Statistics, Other",
+          "pct": 39.0,
+          "degrees": 159
+        },
+        {
+          "label": "Mathematics, General",
+          "pct": 25.0,
+          "degrees": 102
+        },
+        {
+          "label": "Statistics, General",
+          "pct": 22.8,
+          "degrees": 93
+        },
+        {
+          "label": "Applied Mathematics, General",
+          "pct": 13.2,
+          "degrees": 54
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    }
   ],
   "majorsNote": "Categories are broad federal program classifications (College Scorecard / CIP 2-digit), not individual major names.",
-  "traditions": ["Under the Arch (graduation portrait tradition)", "Strawberry Festival"],
+  "traditions": [
+    "Under the Arch (graduation portrait tradition)",
+    "Strawberry Festival"
+  ],
   "calendar": [
-    { "date": "2026-09-02", "label": "Fall Classes Begin", "verified": true },
-    { "date": "2026-10-12", "label": "Fall Break", "verified": true },
-    { "date": "2026-11-26", "label": "Thanksgiving Recess Begins", "verified": true },
-    { "date": "2026-11-27", "label": "Thanksgiving Recess (cont.)", "verified": true },
-    { "date": "2026-12-14", "label": "Fall Classes End", "verified": true },
-    { "date": "2026-12-16", "label": "Final Exams Begin", "verified": true },
-    { "date": null, "label": "Move-In (exact date not yet confirmed — check NYU Housing)", "verified": false }
-  ]
+    {
+      "date": "2026-09-02",
+      "label": "Fall Classes Begin",
+      "verified": true
+    },
+    {
+      "date": "2026-10-12",
+      "label": "Fall Break",
+      "verified": true
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Thanksgiving Recess Begins",
+      "verified": true
+    },
+    {
+      "date": "2026-11-27",
+      "label": "Thanksgiving Recess (cont.)",
+      "verified": true
+    },
+    {
+      "date": "2026-12-14",
+      "label": "Fall Classes End",
+      "verified": true
+    },
+    {
+      "date": "2026-12-16",
+      "label": "Final Exams Begin",
+      "verified": true
+    },
+    {
+      "date": null,
+      "label": "Move-In (exact date not yet confirmed — check NYU Housing)",
+      "verified": false
+    }
+  ],
+  "christianOrgs": [
+    {
+      "name": "The Catholic Center at NYU",
+      "blurb": "The hub for Catholic life at NYU: daily Mass and the sacraments, student Bible studies, retreats, service projects and social events, plus study and fellowship space that stays open late. Runs separate programming for undergraduates, graduate students and alumni.",
+      "site": "https://nyucatholic.org/",
+      "instagram": "@nyucatholic",
+      "where": "238 Thompson St, New York, NY 10012 — Mon–Fri 11am–9pm, Sat–Sun 1–9pm",
+      "verified": true,
+      "source": "https://nyucatholic.org/"
+    },
+    {
+      "name": "InterVarsity Christian Fellowship",
+      "blurb": "The All-University InterVarsity chapter — an interdenominational evangelical fellowship with weekly large-group meetings and small-group Bible studies.",
+      "site": "https://engage.nyu.edu/organization/intervarsity-christian-fellowship-all-university",
+      "verified": false,
+      "source": "https://engage.nyu.edu/organization/intervarsity-christian-fellowship-all-university"
+    },
+    {
+      "name": "Graduate Christian Fellowship",
+      "blurb": "An All-University fellowship for graduate and professional students, rather than the undergraduate-focused groups most of this list covers.",
+      "site": "https://engage.nyu.edu/organization/graduate-christian-fellowship-all-university",
+      "verified": false,
+      "source": "https://engage.nyu.edu/organization/graduate-christian-fellowship-all-university"
+    },
+    {
+      "name": "NYU Cru",
+      "blurb": "NYU's chapter of Cru, an interdenominational campus ministry running weekly meetings, small groups and summer missions.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    },
+    {
+      "name": "Asian American Christian Fellowship (AACF)",
+      "blurb": "An InterVarsity fellowship centred on the Asian American Christian community at NYU.",
+      "site": "https://www.facebook.com/groups/nyu.aacf/",
+      "verified": false,
+      "source": "https://www.facebook.com/groups/nyu.aacf/"
+    },
+    {
+      "name": "Encounter Christian Fellowship",
+      "blurb": "A campus fellowship connected to Remnant Church, listed among NYU's religious and spiritual life clubs.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    },
+    {
+      "name": "Every Nation Campus",
+      "blurb": "The NYU chapter of Every Nation's campus ministry, running Bible studies and discipleship groups.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    },
+    {
+      "name": "International Chinese Christian Fellowship",
+      "blurb": "A fellowship for Chinese and Chinese-speaking students, with bilingual Bible study and community events.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    },
+    {
+      "name": "The Navigators",
+      "blurb": "NYU's chapter of The Navigators, a discipleship-focused campus ministry built around one-to-one and small-group Bible study.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    },
+    {
+      "name": "Compass Koinonia",
+      "blurb": "The NYU counterpart to Columbia's CCK, connected to Compass Fellowship Church.",
+      "verified": false,
+      "source": "https://www.nyu.edu/life/community-flourishing/centers-and-communities/spiritual-life/religious-and-spiritual-life-on-campus/spiritual-life-clubs.html"
+    }
+  ],
+  "christianOrgsNote": "Only the Catholic Center was confirmed on its own site — nyu.edu's club directory could not be opened when this list was compiled, so every other entry is a name from search results with no contact details attached, and is marked unconfirmed for that reason. The reliable way in is NYU's Global Spiritual Life office, which convenes the chaplains and advisors behind these clubs: spiritual.life@nyu.edu, +1 212 998 4959, 238 Thompson St, 4th Floor. Club officers turn over every year, so ask them for a current contact rather than trusting a handle found online.",
+  "startingAnRso": {
+    "intro": "All-University clubs at NYU are registered with the Center for Student Life (CSL) and approved by the Student Activities Board (SAB). A new group is not recognized straight away: it first applies to the New Club Development (NCD) program, completes SAB and CSL training, and puts on a showcase event, and recognition follows from finishing that program. Applications go through NYU Engage and have historically opened in September, with interviews for qualified applicants after the deadline.",
+    "requirements": [
+      "An application to the New Club Development (NCD) program, submitted through NYU Engage — SAB does not recognize All-University clubs outside this program.",
+      "At least two club officers: a President and a Treasurer.",
+      "A written constitution setting out the club's structure and how it operates.",
+      "An interview with SAB after the application deadline, for applicants who qualify.",
+      "Completion of the NCD training run by SAB and CSL, covering leadership development through to budgeting and club finances.",
+      "A showcase event, to establish the club's presence on campus.",
+      "At least four members of the executive board complete Student Leader Orientation (SLO) in their first semester in office.",
+      "Annual re-recognition: the constitution is resubmitted through NYU Engage every year to keep the club active."
+    ],
+    "links": [
+      { "label": "NYU — Clubs and Organizations", "url": "https://www.nyu.edu/students/getting-involved/clubs-and-organizations.html" },
+      { "label": "NYU Student Activities Board (SAB)", "url": "https://www.nyu.edu/students/getting-involved/clubs-and-organizations/student-activities-board.html" },
+      { "label": "NYU Engage", "url": "https://engage.nyu.edu/" },
+      { "label": "Global Spiritual Life", "url": "https://www.nyu.edu/spiritual-life" }
+    ],
+    "note": "Assembled from NYU's public SAB and Center for Student Life pages. The authoritative policies and the current NCD timeline live in the SAB Club Officer Handbook, which needs an NYU Home login — check the deadline there before relying on the September window. Individual schools run their own separate processes: Tandon, for example, registers clubs through its own student activities office rather than SAB."
+  }
 }

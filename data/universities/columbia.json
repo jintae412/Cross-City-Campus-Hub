@@ -1,6 +1,7 @@
 {
   "id": "columbia",
   "name": "Columbia University",
+  "unitid": "190150",
   "culture": "Columbia blends Ivy League rigor with the density of Morningside Heights — expect serious academic culture and a campus that spills naturally into the surrounding neighborhood rather than sitting apart from it.",
   "demographics": {
     "undergrad": 8973,
@@ -10,22 +11,339 @@
     "source": "Undergrad/demographics: U.S. Dept. of Education College Scorecard. Graduate count: Columbia University Office of Planning & Institutional Research, Fall 2024."
   },
   "majors": [
-    { "label": "Social Sciences", "pct": 26.9 },
-    { "label": "Computer & Information Sciences", "pct": 16.0 },
-    { "label": "Engineering", "pct": 12.1 },
-    { "label": "Biological Sciences", "pct": 7.2 },
-    { "label": "English Language & Literature", "pct": 5.1 },
-    { "label": "Visual & Performing Arts", "pct": 5.1 },
-    { "label": "Multi/Interdisciplinary Studies", "pct": 4.9 },
-    { "label": "Psychology", "pct": 4.7 },
-    { "label": "Mathematics & Statistics", "pct": 4.5 },
-    { "label": "History", "pct": 3.8 }
+    {
+      "label": "Social Sciences",
+      "pct": 26.9,
+      "concentrations": [
+        {
+          "label": "Econometrics and Quantitative Economics",
+          "pct": 46.5,
+          "degrees": 301
+        },
+        {
+          "label": "Political Science and Government, General",
+          "pct": 32.5,
+          "degrees": 210
+        },
+        {
+          "label": "Sociology, General",
+          "pct": 8.3,
+          "degrees": 54
+        },
+        {
+          "label": "Social Sciences, Other",
+          "pct": 4.3,
+          "degrees": 28
+        },
+        {
+          "label": "Anthropology, General",
+          "pct": 3.9,
+          "degrees": 25
+        },
+        {
+          "label": "Economics, General",
+          "pct": 2.6,
+          "degrees": 17
+        },
+        {
+          "label": "1 smaller program",
+          "degrees": 12,
+          "pct": 1.9
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Computer & Information Sciences",
+      "pct": 16.0,
+      "concentrations": [
+        {
+          "label": "Computer Science",
+          "pct": 96.7,
+          "degrees": 353
+        },
+        {
+          "label": "Information Science/Studies",
+          "pct": 3.3,
+          "degrees": 12
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Engineering",
+      "pct": 12.1,
+      "concentrations": [
+        {
+          "label": "Mechanical Engineering",
+          "pct": 24.4,
+          "degrees": 75
+        },
+        {
+          "label": "Bioengineering and Biomedical Engineering",
+          "pct": 17.5,
+          "degrees": 54
+        },
+        {
+          "label": "Operations Research",
+          "pct": 16.2,
+          "degrees": 50
+        },
+        {
+          "label": "Electrical and Electronics Engineering",
+          "pct": 10.1,
+          "degrees": 31
+        },
+        {
+          "label": "Computer Engineering, General",
+          "pct": 9.1,
+          "degrees": 28
+        },
+        {
+          "label": "Civil Engineering, General",
+          "pct": 8.8,
+          "degrees": 27
+        },
+        {
+          "label": "4 smaller programs",
+          "degrees": 43,
+          "pct": 14.0
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Biological Sciences",
+      "pct": 7.2,
+      "concentrations": [
+        {
+          "label": "Neuroscience",
+          "pct": 52.1,
+          "degrees": 88
+        },
+        {
+          "label": "Biology/Biological Sciences, General",
+          "pct": 31.4,
+          "degrees": 53
+        },
+        {
+          "label": "Biochemistry",
+          "pct": 12.4,
+          "degrees": 21
+        },
+        {
+          "label": "Evolutionary Biology",
+          "pct": 3.6,
+          "degrees": 6
+        },
+        {
+          "label": "Biophysics",
+          "pct": 0.6,
+          "degrees": 1
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "English Language & Literature",
+      "pct": 5.1,
+      "concentrations": [
+        {
+          "label": "English Language and Literature, General",
+          "pct": 75.5,
+          "degrees": 74
+        },
+        {
+          "label": "Creative Writing",
+          "pct": 24.5,
+          "degrees": 24
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Visual & Performing Arts",
+      "pct": 5.1,
+      "concentrations": [
+        {
+          "label": "Visual and Performing Arts, Other",
+          "pct": 54.5,
+          "degrees": 55
+        },
+        {
+          "label": "Art History, Criticism and Conservation",
+          "pct": 25.7,
+          "degrees": 26
+        },
+        {
+          "label": "Music, General",
+          "pct": 11.9,
+          "degrees": 12
+        },
+        {
+          "label": "Drama and Dramatics/Theatre Arts, General",
+          "pct": 7.9,
+          "degrees": 8
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Multi/Interdisciplinary Studies",
+      "pct": 4.9,
+      "concentrations": [
+        {
+          "label": "Sustainability Studies",
+          "pct": 64.0,
+          "degrees": 55
+        },
+        {
+          "label": "Mathematics and Computer Science",
+          "pct": 26.7,
+          "degrees": 23
+        },
+        {
+          "label": "Data Science, General",
+          "pct": 7.0,
+          "degrees": 6
+        },
+        {
+          "label": "Cognitive Science, General",
+          "pct": 2.3,
+          "degrees": 2
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Psychology",
+      "pct": 4.7,
+      "concentrations": [
+        {
+          "label": "Research and Experimental Psychology, Other",
+          "pct": 100.0,
+          "degrees": 124
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "Mathematics & Statistics",
+      "pct": 4.5,
+      "concentrations": [
+        {
+          "label": "Applied Mathematics, General",
+          "pct": 49.6,
+          "degrees": 56
+        },
+        {
+          "label": "Mathematics, General",
+          "pct": 27.4,
+          "degrees": 31
+        },
+        {
+          "label": "Statistics, General",
+          "pct": 23.0,
+          "degrees": 26
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    },
+    {
+      "label": "History",
+      "pct": 3.8,
+      "concentrations": [
+        {
+          "label": "History, General",
+          "pct": 100.0,
+          "degrees": 118
+        }
+      ],
+      "concentrationsSource": "U.S. Dept. of Education, IPEDS Completions 2022-23 (bachelor's degrees, first majors)"
+    }
   ],
   "majorsNote": "Categories are broad federal program classifications (College Scorecard / CIP 2-digit), not individual major names — \"Social Sciences\" combines economics, political science, sociology, and similar fields.",
-  "traditions": ["Orgo Night", "Primal Scream", "Yule Log Ceremony"],
+  "traditions": [
+    "Orgo Night",
+    "Primal Scream",
+    "Yule Log Ceremony"
+  ],
   "calendar": [
-    { "date": "2026-11-26", "label": "Thanksgiving Recess Begins", "verified": true },
-    { "date": "2026-11-27", "label": "Thanksgiving Recess (cont.)", "verified": true },
-    { "date": null, "label": "Move-In (exact date not yet confirmed — check Columbia Housing)", "verified": false }
-  ]
+    {
+      "date": "2026-11-26",
+      "label": "Thanksgiving Recess Begins",
+      "verified": true
+    },
+    {
+      "date": "2026-11-27",
+      "label": "Thanksgiving Recess (cont.)",
+      "verified": true
+    },
+    {
+      "date": null,
+      "label": "Move-In (exact date not yet confirmed — check Columbia Housing)",
+      "verified": false
+    }
+  ],
+  "christianOrgs": [
+    {
+      "name": "Columbia Catholic Ministry",
+      "blurb": "Students from Columbia College, Columbia Engineering, Barnard and General Studies who form a close-knit fellowship built around integrating the Catholic faith into daily life. Runs out of the Thomas Merton Institute on 114th Street with weekly Mass, student-led events and access to priests and missionaries.",
+      "email": "catholics@columbia.edu",
+      "site": "https://columbia-catholic.org/",
+      "instagram": "@columbiacatholics",
+      "where": "Thomas Merton Institute, 405 W 114th St, New York, NY 10025",
+      "verified": true,
+      "source": "https://www.cc-seas.columbia.edu/student-group/columbia-catholic-ministry"
+    },
+    {
+      "name": "Columbia Christian Fellowship International (CCFI)",
+      "blurb": "A multilingual InterVarsity chapter for international students and scholars, built around reconciliation across ethnic, cultural and language backgrounds. Meets for Bible study, open discussion of faith questions and community service.",
+      "site": "https://intervarsity.org/connect/columbia-christian-fellowship-international",
+      "where": "Columbia University Irving Medical Center, and The Arbor in Riverdale",
+      "verified": true,
+      "source": "https://intervarsity.org/connect/columbia-christian-fellowship-international"
+    },
+    {
+      "name": "Compass Christian Koinonia (CCK)",
+      "blurb": "An undergraduate fellowship connected to Compass Fellowship Church, meeting for weekly worship and small-group Bible study.",
+      "email": "compasskoinonia@gmail.com",
+      "verified": false,
+      "source": "https://www.cc-seas.columbia.edu/student-group/compass-christian-koinonia-cck"
+    },
+    {
+      "name": "InterVarsity Christian Fellowship (IVCF)",
+      "blurb": "The Morningside campus InterVarsity chapter — an interdenominational fellowship open to the whole campus community.",
+      "verified": false,
+      "source": "https://religiouslife.columbia.edu/content/student-organizations"
+    },
+    {
+      "name": "Columbia SOON Movement",
+      "blurb": "A campus Christian fellowship listed among Columbia's recognized religious student organizations.",
+      "verified": false,
+      "source": "https://religiouslife.columbia.edu/content/student-organizations"
+    }
+  ],
+  "christianOrgsNote": "Columbia Catholic Ministry and CCFI were confirmed on the pages linked above. The rest came from search results rather than a directory page we could open, so treat the names as a starting point and the missing contacts as genuinely missing — check Columbia Religious Life's student organizations list before reaching out. Columbia recognizes new groups only once a year, so this roster changes slowly.",
+  "startingAnRso": {
+    "intro": "Religious and spiritual groups at Columbia are recognized through the Student Governing Board (SGB), one of the boards advised by Undergraduate Student Life. Recognition happens once a year: in the 2026 cycle the application opened 2 February and closed 8 March, governing board interviews ran 1–12 April, decisions were announced 24 April, and newly recognized groups became official in September. The two-semester programming rule below is the part worth planning around — a new group is expected to run unofficially for a full year before it can apply.",
+    "requirements": [
+      "A recommendation for recognition from an Undergraduate Student Life-advised governing board — for religious, spiritual, ideological or activist groups, that board is the Student Governing Board (SGB).",
+      "A mission statement distinct from any currently recognized student group, and a niche on campus that nothing else fills.",
+      "A student group constitution, in compliance with all University and USL policies.",
+      "An executive board made up of at least three-quarters undergraduates at CC, SEAS, Barnard or GS.",
+      "At least 10 members (SGB's minimum).",
+      "At least two semesters of active programming before SGB will consider the group for recognition.",
+      "Autonomy: the group's own members, not outside parties, must control its agenda and decisions.",
+      "Where a national organization's policies conflict with Columbia's rules or the SGB constitution, Columbia's rules take precedence.",
+      "Groups whose primary purpose is lobbying for legislation or campaigning for a candidate for public office are not eligible.",
+      "Apply through the USL New Group Recognition webform during the spring window."
+    ],
+    "links": [
+      { "label": "Columbia College & Engineering — Create a New Student Group", "url": "https://cc-seas.columbia.edu/student-groups/recognition" },
+      { "label": "Student Governing Board (SGB)", "url": "https://sgb.studentgroups.columbia.edu/" },
+      { "label": "Columbia Religious Life — Student Organizations", "url": "https://religiouslife.columbia.edu/content/student-organizations" }
+    ],
+    "note": "Requirements come from the Columbia College/Columbia Engineering recognition page and SGB's own criteria; the dates are the 2026 cycle. Confirm the current window before starting — it opens once a year, and missing it costs twelve months. Graduate and mixed-school groups apply to the Interschool Governing Board (IGB) instead, and Barnard-serving groups to GBB."
+  }
 }

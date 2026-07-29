@@ -70,6 +70,7 @@ If it prints `OK`, you're fine. If it prints an error, it tells you which line h
 | `data/universities/<name>.json` | One university's text — culture, majors, calendar |
 | `data/universities/<name>-map.json` | One university's map pins |
 | `docs/recommended-to-verify.csv` | The checklist of pins to confirm in person |
+| `docs/rental-calls.csv` | The call list for group bookings and how many fit |
 | `scripts/` | Tools you run by hand. **None of these are part of the live site.** |
 
 ---
@@ -88,6 +89,7 @@ be filled in** — if one is missing, that university's page shows an error inst
 {
   "id": "fordham",
   "name": "Fordham University",
+  "unitid": "191515",
   "culture": "Two or three sentences on what campus life actually feels like.",
   "demographics": {
     "undergrad": 9000, "graduate": 6000,
@@ -104,6 +106,11 @@ be filled in** — if one is missing, that university's page shows an error inst
 }
 ```
 
+**`unitid`** is the university's IPEDS UnitID — the federal government's ID for the institution.
+Look it up at [nces.ed.gov/collegenavigator](https://nces.ed.gov/collegenavigator/) (it's in the
+page's address once you've found the school). It's only used by the majors breakdown tool below;
+a school without one still works, it just won't get the click-in breakdowns.
+
 Two useful tricks in the calendar section:
 
 - Writing `"date": null` means **"we know this happens, we don't know when yet."** The entry still
@@ -111,6 +118,55 @@ Two useful tricks in the calendar section:
 - Writing `"verified": false` puts a small **"(unconfirmed)"** note beside it on the page. Use it
   whenever you couldn't confirm something on the university's official site. Saying "we're not sure"
   is always better than presenting a guess as fact.
+
+### Two optional sections
+
+`christianOrgs` and `startingAnRso` are the exceptions to "every field has to be filled in" — leave
+either one out and the page renders exactly as it did before, minus that card. Both are per-campus
+on purpose: the boards, the membership minimums and the application windows are different at every
+school, so a shared list would be wrong everywhere.
+
+```json
+{
+  "christianOrgs": [
+    {
+      "name": "Columbia Catholic Ministry",
+      "blurb": "Two or three sentences on what the group actually does.",
+      "email": "catholics@columbia.edu",
+      "site": "https://columbia-catholic.org/",
+      "instagram": "@columbiacatholics",
+      "phone": "+1 212 555 0100",
+      "where": "Thomas Merton Institute, 405 W 114th St",
+      "verified": true,
+      "source": "https://the-page-you-read-this-on"
+    }
+  ],
+  "christianOrgsNote": "How far the list was checked, and where to look for the current one.",
+  "startingAnRso": {
+    "intro": "Which board handles this, and when the application window opens.",
+    "requirements": ["One requirement per line, in the university's own terms."],
+    "links": [{ "label": "Official recognition page", "url": "https://..." }],
+    "note": "Where these came from and what to re-check before relying on them."
+  }
+}
+```
+
+Every contact field except `name`, `blurb`, `verified` and `source` is optional, and only the ones
+you fill in get a row — a group you could only find a website for shows one line, not five empty
+ones. `where` is plain text; the rest become links.
+
+**`verified` is the field that matters most here.** `false` puts the same "(unconfirmed)" note
+beside the group's name that an unconfirmed calendar date gets. Use it for anything you didn't read
+on an official page yourself. A wrong date is an inconvenience; a wrong email address sends
+someone's introduction into a void and they never find out it went nowhere. Club officers also turn
+over every year, so contacts go stale faster than anything else on this site — when in doubt, list
+the campus chaplaincy or spiritual life office, which doesn't.
+
+`christianOrgsNote` is required once `christianOrgs` exists, and `scripts/test-orgs.js` will fail
+without it. It's where you say how far you actually got: which entries you confirmed, which you
+didn't, and which official directory to check for the current roster.
+
+To check the rendering after editing any of this: `node scripts/test-orgs.js`.
 
 **Step 2 — Add it to the list.** Open `data/universities/index.json` and add a line for your school.
 `mapCenter` is the point the map opens on — usually the middle of campus — written as
@@ -195,6 +251,38 @@ actually checked how many people fit. Nothing filters on it at the moment.
 **`handResearched`** and **`handVerified`** — these two look similar but mean different things, and
 the difference matters. See the next section.
 
+## Breaking the majors down into concentrations
+
+The "Top Majors" bars are broad federal categories — "Social Sciences 26.9%" doesn't tell you
+whether that means economics or anthropology. Each bar can carry a click-to-expand drawer showing
+the individual programs inside it. At Columbia, Social Sciences turns out to be 46.5% economics and
+32.5% political science; NYU's Visual & Performing Arts is a third film production.
+
+Unlike the venue capacities above, this one is a genuine lookup: the breakdown is published in the
+federal IPEDS Completions file, just not in the College Scorecard summary the bars come from. So a
+script does the whole job.
+
+```bash
+python3 scripts/major_concentrations.py            # show what it would write
+python3 scripts/major_concentrations.py --write    # write it into the university files
+```
+
+It downloads about 10MB from nces.ed.gov each run and needs no key or signup. Every university that
+has a `unitid` gets its categories filled in; run it again when a new year's data is published (bump
+`YEAR` at the top of the script).
+
+The numbers are bachelor's degrees only, first majors only — so a double major isn't counted twice —
+and each percentage is a share **of its own category**, not of the university. The bar above the
+drawer already carries the share of the whole, and the two datasets are different vintages, so
+adding them together would invent a precision neither one has. The drawer says which it is on
+screen, and the source line names the file and the year.
+
+Categories are matched to federal CIP families by the `CIP_FAMILIES` table at the top of the
+script. If you add a university whose major labels differ from the ones already in use, add them
+there too, otherwise those categories quietly stay plain bars with no drawer.
+
+To check the majors display still works after editing it: `node scripts/test-majors.js`.
+
 ## Verifying pins in person
 
 **No pin on this map has been confirmed by a person yet.** All 1,089 of them came from either
@@ -270,6 +358,82 @@ import, and a `?` or a note to yourself is left alone.
 
 One safety net: running `--export` again will **refuse** to overwrite a checklist that has answers
 in it, so you can't accidentally wipe the team's work.
+
+## Finding places that will host a group
+
+Two questions come up for every trip: **will this restaurant book a group, and how many of us fit?**
+Neither can be looked up. OpenStreetMap doesn't publish either one — of the 1,606 food places within
+a 15-minute walk of NYU, two have any capacity tag and one of those is wrong, and only 24 are mapped
+as building outlines rather than a single dot, so there's no floor area to work from. The only place
+those two answers exist is with the manager, on the phone.
+
+So this is a phone pass. The script's job is just to make the calls quick: it gathers the phone
+number, email, website and reservation policy for our `group-food` pins and sorts the list so the
+places most likely to say yes are at the top — sit-down restaurants before counter-service, ones
+that already take reservations before ones that don't.
+
+**Step 1 — Build the call list:**
+
+```bash
+python3 scripts/rental_calls.py --export
+```
+
+This writes `docs/rental-calls.csv` — the 40 best candidates per campus, all with phone numbers.
+Want more or fewer, use `--limit 60`.
+
+Adding `--check-sites` also reads each venue's own website and marks the ones that advertise
+private events, quoting the sentence it found so you can see what the mark is based on. Those get
+sorted to the top — on the current list, 28 of the 80 venues say on their own site that they host
+groups, so that's 28 calls that start from yes. It's slower (it fetches ~80 websites, honouring
+each site's robots.txt) and it never fills in a capacity. See below for why.
+
+### Why capacity can't be looked up, only asked
+
+It's a fair question whether photos or reviews could save the phone calls. Both were checked:
+
+- **The venue's own website** answers *whether* they host groups about a third of the time, which
+  is what `--check-sites` uses. It almost never gives a number — of 20 sites read, **zero** stated
+  a capacity. The only two numbers on any page were a catering tray's "serves 12–14 guests" and a
+  booking form's "8+ People" dropdown, both of which a number-scraper would have filed as capacity.
+- **Photos** show one corner of one room, are undated, and have no scale. Worse, they answer the
+  wrong question: what matters is how many people the place will seat *as one group*, which is a
+  policy, not a physical fact. A 120-seat restaurant that caps parties at 12 is perfectly ordinary,
+  and no photograph can show that.
+- **Reviews** are the one genuine outside signal — "we had a birthday dinner for 25 here" proves a
+  group that size fit. But Google and Yelp both forbid scraping them, and the official API returns
+  five reviews per place, which will almost never be the five that mention a group.
+
+Restaurants publish an enquiry form instead of a number on purpose, because the real answer depends
+on the date, the room and the spend. Hence the phone.
+
+**Step 2 — Open it in Google Sheets**, freeze the top two rows, and split the list between people.
+Row 2 has the four questions to ask, in order.
+
+**Step 3 — Fill in three columns as you call:**
+
+- **`RENTAL`** — `y` if they'll host a private or reserved group, `partial` if it's a big table but
+  no private space, `n` if it's walk-ins only.
+- **`MAX GROUP`** — the largest group they'll actually seat together. **Not** the fire-code
+  occupancy of the room: what matters is the number of chairs they'll give us.
+- **`NOTES`** — minimum spend, how far ahead to book, anything else worth knowing.
+
+**Leave the row blank if nobody picked up.** A guess typed in here ends up on the live map looking
+exactly like a confirmed number.
+
+**Step 4 — Download the sheet back over `docs/rental-calls.csv`** (File → Download →
+Comma-separated values), same as the verification checklist.
+
+**Step 5 — Feed the answers into the map:**
+
+```bash
+python3 scripts/rental_calls.py --import-results
+```
+
+`MAX GROUP` becomes each pin's `capacity`, and `RENTAL` becomes a line in the pin's popup. Blank
+rows are skipped, so a half-worked sheet is safe to import and safe to import again later. As with
+the verification checklist, `--export` refuses to overwrite a list that already has answers in it.
+
+To check the script still works after editing it: `python3 scripts/test_rental_calls.py`.
 
 ## Reviewing AI-drafted content
 
@@ -355,11 +519,13 @@ After editing data files:
 python3 -m json.tool data/universities/columbia.json > /dev/null && echo "OK"
 ```
 
-There are also two built-in self-tests for the code itself. You'd only run these if you changed how
-the site works, but they're harmless any time:
+There are also built-in self-tests for the code itself. You'd only run these if you changed how the
+site works, but they're harmless any time:
 
 ```bash
 node scripts/test-hours.js                        # opening-hours reading
+node scripts/test-majors.js                       # the majors bars and breakdowns
+node scripts/test-orgs.js                         # student groups and the new-club card
 python3 scripts/review_content.py --self-check    # the review-and-merge tool
 ```
 

@@ -283,6 +283,54 @@ button {
   border-radius: 2px;
 }
 
+/* The breakdown drawer under a major. Indented and lighter than the bar above it so an open
+   drawer still reads as belonging to its category rather than as more top-level majors. */
+.conc-wrap {
+  margin: 0.5rem 0 0.9rem 0.9rem;
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+  padding-left: 0.8rem;
+}
+
+.conc-wrap > summary {
+  font-size: 0.8rem;
+  color: var(--muted);
+  cursor: pointer;
+  list-style-position: outside;
+}
+
+.conc-wrap > summary:hover {
+  color: var(--ink);
+}
+
+.conc-wrap[open] > summary {
+  margin-bottom: 0.6rem;
+}
+
+.conc {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.conc-name {
+  flex: 1;
+  font-size: 0.84rem;
+}
+
+.conc-pct {
+  font-size: 0.76rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Thinner than the parent bar, and these are already scaled 1:1 against the category rather
+   than the 3x the top-level bars use, so the two scales can't be mistaken for each other. */
+.conc-track {
+  height: 2px;
+  opacity: 0.75;
+}
+
 .trad-prose {
   font-size: 0.94rem;
   line-height: 1.65;
@@ -332,6 +380,45 @@ button {
   background: rgba(156, 64, 56, 0.06);
   cursor: help;
   vertical-align: 0.05em;
+}
+
+.orgs-card,
+.rso-card {
+  margin-top: 1.5rem;
+}
+
+/* Separated by a rule rather than whitespace: the blurb and the contact list belong to the group
+   above them, and with only a gap between entries a reader scanning fast attaches the wrong
+   email to the wrong ministry. */
+.org + .org {
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+.org-name {
+  font-weight: 600;
+  font-size: 0.98rem;
+  margin: 0 0 0.35rem;
+}
+
+.rso-card .org-name {
+  margin-top: 1.1rem;
+}
+
+.org .blurb {
+  margin-bottom: 0.5rem;
+}
+
+.req-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.req-list li + li {
+  margin-top: 0.4rem;
 }
 
 .map-section {

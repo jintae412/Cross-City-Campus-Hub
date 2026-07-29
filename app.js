@@ -262,16 +262,103 @@ function byDate(a, b) {
   return a.date < b.date ? -1 : a.date > b.date ? 1 : 0;
 }
 
+// One "Top Majors" bar, plus the breakdown drawer underneath it when the category has one.
+//
+// "Where applicable" is the whole rule: a category with no breakdown stays a plain bar rather than
+// becoming a control that opens onto nothing. <details> does the expanding instead of a click
+// handler, so it works from the keyboard, from a screen reader and in print without any JS.
+function majorHtml(m) {
+  var bar = '<div class="major"><span class="major-name">' + escapeHtml(m.label) + '</span>'
+    + '<span class="major-pct">' + escapeHtml(m.pct) + '%</span></div>'
+    + '<div class="bar-track"><div class="bar-fill" style="width:'
+    + Math.min(Number(m.pct) * 3, 100) + '%"></div></div>';
+  if (!m.concentrations || !m.concentrations.length) return bar;
+
+  var rows = m.concentrations.map(function (c) {
+    return '<div class="conc"><span class="conc-name">' + escapeHtml(c.label) + '</span>'
+      + '<span class="conc-pct">' + escapeHtml(c.pct) + '%</span></div>'
+      + '<div class="bar-track conc-track"><div class="bar-fill" style="width:'
+      + Math.min(Number(c.pct), 100) + '%"></div></div>';
+  }).join('');
+
+  // Shares are of the category, not of the university. Said here rather than in the note at the
+  // bottom of the section, because that distinction only confuses at the moment you read a 46.5%.
+  return bar + '<details class="conc-wrap"><summary>What&rsquo;s inside this category</summary>'
+    + rows
+    + '<p class="source-note">Share of ' + escapeHtml(String(m.label).toLowerCase())
+    + ' degrees. Source: ' + escapeHtml(m.concentrationsSource || '') + '</p></details>';
+}
+
+// One Christian group: name, blurb, and however many ways to reach it we actually found.
+//
+// Only the contact fields that exist get a row, so a group we could only turn up a website for
+// doesn't render three empty bullets. `verified: false` carries the same meaning as it does in the
+// calendar — a person wrote this but couldn't confirm it on an official page — and matters more
+// here than anywhere else on the site: a stale email address sends someone's introduction into a
+// void, and they have no way of knowing it went nowhere.
+function orgHtml(o) {
+  var rows = [
+    ['Email', o.email, 'mailto:' + o.email],
+    ['Website', o.site, o.site],
+    ['Instagram', o.instagram, 'https://www.instagram.com/' + String(o.instagram).replace(/^@/, '')],
+    ['Phone', o.phone, 'tel:' + String(o.phone).replace(/[^+\d]/g, '')],
+    ['Where', o.where, null]
+  ].filter(function (r) {
+    // A row with a URL slot is a link or it is nothing: printing "Website: javascript:alert(1)"
+    // as plain text is harmless but useless, and it reads as a broken contact rather than a
+    // rejected one. `where` passes null and stays plain text by design.
+    return r[1] && (r[2] === null || safeUrl(r[2]));
+  }).map(function (r) {
+    var text = escapeHtml(r[1]);
+    return '<li>' + r[0] + ': '
+      + (r[2] === null ? text
+        : '<a href="' + escapeHtml(safeUrl(r[2])) + '" target="_blank" rel="noopener">' + text + '</a>')
+      + '</li>';
+  }).join('');
+
+  var flag = o.verified === false ? ' <span class="unverified">(unconfirmed)</span>' : '';
+  var source = safeUrl(o.source);
+
+  return '<div class="org"><p class="org-name">' + escapeHtml(o.name) + flag + '</p>'
+    + '<p class="blurb">' + escapeHtml(o.blurb) + '</p>'
+    + (rows ? '<ul class="link-list">' + rows + '</ul>' : '')
+    + (source ? '<p class="source-note"><a href="' + escapeHtml(source)
+      + '" target="_blank" rel="noopener">Source</a></p>' : '')
+    + '</div>';
+}
+
+// The "how do we start one of these" card. Requirements are per-campus rather than shared: the
+// boards, the membership minimums and the application windows are all different at each school,
+// and a merged list would be wrong at both.
+function startingHtml(s) {
+  if (!s) { return ''; }
+
+  var reqs = s.requirements.map(function (r) {
+    return '<li>' + escapeHtml(r) + '</li>';
+  }).join('');
+
+  var links = (s.links || []).map(function (l) {
+    var href = safeUrl(l.url);
+    if (!href) { return ''; }
+    return '<li><a href="' + escapeHtml(href) + '" target="_blank" rel="noopener">'
+      + escapeHtml(l.label) + '</a></li>';
+  }).join('');
+
+  return '<div class="card rso-card"><p class="cap-label">Starting a New Club</p>'
+    + '<p class="blurb">' + escapeHtml(s.intro) + '</p>'
+    + '<p class="org-name">What the university asks for</p>'
+    + '<ul class="req-list">' + reqs + '</ul>'
+    + (links ? '<p class="org-name">Official pages</p><ul class="link-list">' + links + '</ul>' : '')
+    + (s.note ? '<p class="source-note">' + escapeHtml(s.note) + '</p>' : '')
+    + '</div>';
+}
+
 function renderUniversity(container, uni, suggestions) {
   var aiCalendar = pendingSuggestions(suggestions, 'calendar', uni.calendar);
   var aiTraditions = pendingSuggestions(suggestions, 'traditions', uni.traditions);
   aiCalendar.forEach(function (ev) { ev.aiUnchecked = true; });
 
-  var majorsHtml = uni.majors.map(function (m) {
-    return '<div class="major"><span class="major-name">' + escapeHtml(m.label) + '</span>'
-      + '<span class="major-pct">' + escapeHtml(m.pct) + '%</span></div>'
-      + '<div class="bar-track"><div class="bar-fill" style="width:' + Math.min(Number(m.pct) * 3, 100) + '%"></div></div>';
-  }).join('');
+  var majorsHtml = uni.majors.map(majorHtml).join('');
 
   // Merged and re-sorted rather than appended in a block: a September AI date listed under
   // December's hand-checked one is worse than useless for planning a trip.
@@ -289,6 +376,16 @@ function renderUniversity(container, uni, suggestions) {
     ? '<p class="source-note">' + aiCalendar.length + ' of these were drafted by AI from the '
       + 'university&rsquo;s own pages and <strong>nobody has checked them yet</strong> &mdash; '
       + 'hover one for its source, and confirm before planning around it.</p>'
+    : '';
+
+  // Both new sections are optional: a campus JSON without them renders exactly as it did before,
+  // so adding a school stays a matter of the required fields in the README and nothing more.
+  var orgs = (uni.christianOrgs || []).map(orgHtml).join('');
+  var orgsCard = orgs
+    ? '<div class="card orgs-card"><p class="cap-label">Christian Groups on Campus</p>'
+      + orgs
+      + (uni.christianOrgsNote ? '<p class="source-note">' + escapeHtml(uni.christianOrgsNote) + '</p>' : '')
+      + '</div>'
     : '';
 
   var traditionsHtml = uni.traditions.map(escapeHtml)
@@ -315,7 +412,9 @@ function renderUniversity(container, uni, suggestions) {
     + calendarHtml
     + calendarNote
     + '</div>'
-    + '</div>';
+    + '</div>'
+    + orgsCard
+    + startingHtml(uni.startingAnRso);
 }
 
 // Driven off the markup rather than a hardcoded list, so adding a campus stays a matter of
@@ -346,9 +445,11 @@ function escapeHtml(value) {
 }
 
 // Same reasoning for links: an OSM `website` tag holding a javascript: URL would become a
-// clickable script. Anything that isn't a plain web or phone link is dropped rather than rendered.
+// clickable script. Anything that isn't a plain web, mail or phone link is dropped rather than
+// rendered. `mailto:` is on the list for the student-group contacts, and is safe for the same
+// reason `tel:` is — it hands the string to a mail client, it never executes.
 function safeUrl(url) {
-  return /^(https?:|tel:)/i.test(String(url == null ? '' : url)) ? String(url) : null;
+  return /^(https?:|mailto:|tel:)/i.test(String(url == null ? '' : url)) ? String(url) : null;
 }
 
 var MAP_CATEGORY_LABELS = {
@@ -487,6 +588,8 @@ function buildUniversityMap(id, center) {
             + statusHtml
             + '<br>' + escapeHtml(pin.hours)
             + (pin.capacity ? '<br>Fits up to ' + escapeHtml(pin.capacity) : '')
+            // Only appears once someone has phoned the place — see scripts/rental_calls.py.
+            + (pin.rental ? '<br>' + escapeHtml(pin.rental) : '')
             // Only the positive claim gets a badge. Every pin is unverified today, so an
             // "unverified" line on all 1,089 would be noise repeating what the note already says.
             + (pin.handVerified === true
@@ -629,3 +732,12 @@ document.querySelectorAll('[data-role="nav"]').forEach(function (btn) {
     initUniversityMap(target);
   });
 });
+
+// Exported only so scripts/test-majors.js can check the majors markup in node, the same way
+// hours.js is exported for scripts/test-hours.js. The browser ignores this.
+if (typeof module !== 'undefined') {
+  module.exports = {
+    majorHtml: majorHtml, escapeHtml: escapeHtml, safeUrl: safeUrl,
+    orgHtml: orgHtml, startingHtml: startingHtml
+  };
+}
